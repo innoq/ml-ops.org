@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-# Phase Zero: “What is the business problem that we are trying to solve here?”
+# “What is the business problem that we are trying to solve here?”
 
 The most important phase in any software project is to understand the business problem and create requirements.
 ML-based software is no different here.

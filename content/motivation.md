@@ -3,7 +3,7 @@ title: "MLOps: Motivation"
 layout: page
 ---
 
-# Why you might want to use Machine Learning 
+# Why you Might Want to use Machine Learning 
 
 According to [Statista Digital Economy Compass 2019](https://cdn.statcdn.com/download/pdf/DigitalEconomyCompass2019.pdf), two major trends will disrupt the economy and our lives:
  - **Data-driven** world, due to the exponentially-growing amount of digitally-collected data.
@@ -43,7 +43,7 @@ Practically, the ML model can enrich our software by providing the following fea
  * *Fraud and Anomaly Detection*, to identify an action or transaction being a fraud or suspicious
  * *Information Extraction and Annotation*, to identify important information in a text, such as people's names, job descriptions, companies, and locations.
 
-# Deployment gap 
+# Deployment Gap 
 
 More and more enterprises are experimenting with ML models.
 Getting a model into the real world involves more than just building it.
@@ -68,7 +68,7 @@ According to the report *"The main challenges people face when developing ML cap
 
 
 
-# Scenarios of change that need to be managed
+# Scenarios of Change That Need to be Managed
 
 The reason for the previously described deployment gap is that the development of the machine learning-based applications is fundamentally different from traditional software.
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.

@@ -3,7 +3,7 @@ title: "End-to-end Machine Learning Workflow"
 layout: page
 ---
 
-# An Overview of the End-to-end Machine Learning Workflow
+# An Overview of the End-to-End Machine Learning Workflow
 
 In this section, we provide a high-level overview of a typical workflow for machine learning-based software development.
 Generally, the goal of a machine learning project is to build a statistical model by using collected data and applying machine learning algorithms.
