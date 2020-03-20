@@ -60,7 +60,7 @@ Although AI budgets are on the rise, only [22 percent of companies](https://desi
 ![ML-deployment-gap](../img/ML-deployment_Gap.jpg)
 
 
-<img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="200"/>
+<img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="800"/>
 
 [Figure Source](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
 
