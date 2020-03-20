@@ -74,7 +74,7 @@ The reason for the previously described deployment gap is that the development o
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
 This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, or data change or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
 
-![Three levels of change](img/ThreeLevelsOfChange.jpg)
+![Three levels of change](../img/ThreeLevelsOfChange.jpg)
 
 
 In the following, we list some scenarios of possible changes in machine learning applications:
@@ -117,7 +117,7 @@ MLOps, like DevOps, emerges from the understanding that separating the ML model 
 
 Previously, before 2000, if businesses needed to implement machine learning solutions, they would use the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. With the emergence of containerization technology, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 
-![the evolution of the mlops](img/mlops-evolution.jpg)
+![the evolution of the mlops](../img/mlops-evolution.jpg)
 
 
 
