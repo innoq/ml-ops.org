@@ -1,6 +1,11 @@
 ---
-title: servicemesh.es | Service Mesh Comparison
+title: "ML Ops: Machine Learning Operations"
 layout: page
 ---
 
-{% include head.html %}
+## Hullu!
+
+Yadda yadda
+
+* lorem 
+* ipsum

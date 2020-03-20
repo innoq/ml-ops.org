@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-  {% include head.html %}
-
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/innoq-style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  
+    <meta name="publication_date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
+    <meta name="date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
+  
+    <meta name="title" content="Machine Learning Operations">
+    <meta name="description" content="Machine Learning Operations">
+  
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@INNOQ">
+    <meta name="twitter:creator" content="@INNOQ">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="Machine Learning Operations">
+    <meta name="twitter:image" content="https://servicemesh.es/img/table_preview.png?v=BGmQMWez4Q">
+  
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="Machine Learning Operations">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://servicemesh.es/">
+  </head>
   <body>
     <main role="main">
       {% include page-header.html %}
       <hr class="claim-header__divider">
-      {% include implementations.html %}
-      {% include mesh-interface.html %}
-      <hr class="claim-header__divider">
-      {% include how-to-choose.html %}
-      <hr class="claim-header__divider">
-      {% include comparison.html %}
-      {% include alternatives.html %}
+      <article class="page-layout-md--default">
+        {{ content }}
+      </article>
       {% include page-footer.html %}
     </main>
 
     <script src="https://assets.innoq.com/chenin.js"></script>
     <script>
-      new Chenin({siteId: 4, hashMode: false})
+      new Chenin({siteId: 7, hashMode: false})
     </script>
   </body>
 </html>
