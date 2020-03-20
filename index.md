@@ -14,7 +14,7 @@ You will learn why you might want to use Machine Learning and about various scen
 
 This part is devoted to one of the most important phase in any software project such as understanding the business problem and requirements for the ML-based software.
 
-## [End-to-End Complete ML Workflow Lifecycle](content/end-to-end-ml-workflow.md) 
+## [End-to-End ML Workflow Lifecycle](content/end-to-end-ml-workflow.md) 
 
 We provide here a high-level overview of a typical workflow for machine learning-based software development.
 
@@ -25,7 +25,7 @@ You will learn about three core elements of ML-based software Data, ML models, a
    * Machine Learning Pipelines and ML workflows.
    * Model Serving Patterns and Deployment Strategies
 
-## [MLOps principles]() 
+## [MLOps Principles]() 
 
 In this part, we describe best practices and tools to test, deploy, manage, and monitor ML models in real-world production.
 
