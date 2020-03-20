@@ -37,7 +37,7 @@ The central part of the canvas is the *Value Proposition* building block, which 
 
 The remaining canvas is divided into three broad categories: *Learning, Prediction,* and *Evaluation*. The Learning category is responsible to specify how the ML model will be learned. The Prediction part describes how the prediction is performed. Finally, the Evaluation category contains methods and metrics for the ML model and the system evaluation. The following machine learning canvas is an example provided by [Louis Dorard](https://www.louisdorard.com/): 
 
-<img src="../img/machine-learning-canvas.jpeg" alt="Machine Learning Canvas" width="900"/>
+<img src="../img/machine-learning-canvas.jpg" alt="Machine Learning Canvas" width="900"/>
 
 In total, the Machine Learning Canvas is structured as ten compound blocks, each of which is focused on one aspect of the future ML application:
 
