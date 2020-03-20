@@ -5,6 +5,12 @@ layout: page
 
 This site provides the description of the practices and the current state in MLOps: the quickly evolving field of machine learning, software engineering and operations.
 
+<a href="content/motivation.md">
+  <h1>
+    Motivation for MLOps
+  </h1>
+</a>
+
 [Motivation for MLOps](content/motivation.md)
 
 You will learn why you might want to use Machine Learning and about various scenarios of change that need to be managed and the iterative nature of ML-based software development. Finally, we provide the MLOps definition and show the evolution of MLOps.
