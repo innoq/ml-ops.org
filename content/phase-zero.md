@@ -53,12 +53,12 @@ This is one of the crucial blocks in the whole canvas. Here we should answer thr
 ### Data Sources
 In this block, we clarify all available and possible data sources to be used for ML task. As example, we might consider using:
 
-1. Internal/external databases.
-2. REST APIs to gather data.
-3. Static files.
-4. Web scraping.
-5. Output of other (ML) systems.
-6. Open source data sets.
+ + Internal/external databases.
+ + REST APIs to gather data.
+ + Static files.
+ + Web scraping.
+ + Output of other (ML) systems.
+ + Open source data sets.
 
 Furthermore, we should clarify the *hidden costs* of machine learning application, such as:
 
