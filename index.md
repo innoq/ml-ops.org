@@ -6,7 +6,7 @@ layout: page
 This site provides the description of the practices and the current state in MLOps: the quickly evolving field of machine learning, software engineering and operations.
 
 <h1>
-  <a href="content/motivation.md">
+  <a href="content/motivation.html">
     Motivation for MLOps
   </a>
 </h1>
