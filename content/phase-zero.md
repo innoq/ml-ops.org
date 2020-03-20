@@ -24,7 +24,7 @@ Each prediction task of the entire process needs to be decomposed into its const
 
 The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided below:
 
-<img src="../img/AI-Canvas.png" alt="AI Canvas by Agrawal et.al" width="900"/>
+<img src="../img/AI-Canvas.jpg" alt="AI Canvas by Agrawal et.al" width="900"/>
 
 [Figure Source](https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai)
 
