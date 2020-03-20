@@ -18,23 +18,23 @@ This part is devoted to one of the most important phase in any software project 
 
 We provide here a high-level overview of a typical workflow for machine learning-based software development.
 
-## [Three levels of ML-based software](coming soon)
+## [Three Levels of ML-based Software (coming soon) ]()
 
 You will learn about three core elements of ML-based software Data, ML models, and Code. In particular, we will talk about 
    * Data Engineering Pipelines
    * Machine Learning Pipelines and ML workflows.
    * Model Serving Patterns and Deployment Strategies
 
-## [MLOps Principles](coming soon) 
+## [MLOps Principles (coming soon)]() 
 
 In this part, we describe best practices and tools to test, deploy, manage, and monitor ML models in real-world production.
 
 
-## [State-of-MLOps (Tools & Frameworks)](coming soon) 
+## [State-of-MLOps (Tools & Frameworks)(coming soon)]() 
 
 This part presents an overview of software tools and frameworks that manage ML artifacts and cover the whole machine learning cycle.
 
-## [Use-cases and Demos](coming soon) 
+## [Use-cases and Demos (coming soon)]()
 
 ## [References](content/references.md)
 
