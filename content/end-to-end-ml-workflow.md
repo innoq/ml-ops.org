@@ -16,7 +16,8 @@ Corresponding to these artifacts, the typical machine learning workflow consists
 
 The Figure below shows the core steps involved in a typical ML workflow.
 
-![mlops overview](../img/MLOps.jpg)
+<img src="../img/MLOps.jpg" alt="MLOps Overview" width="900"/>
+
 
 ### Data Engineering
 
@@ -52,7 +53,6 @@ This stage includes the following operations:
 1. *Model Serving* - The process of addressing the ML model artifact in a production environment.
 2. *Model Performance Monitoring* - The process of observing the ML model performance based on live and previously unseen data, such as prediction or recommendation. In particular, we are interested in ML-specific signals, such as prediction deviation from a previous model performance. These signals might be used as triggers for model re-training.
 3. *Model Performance Logging* - Every inference request results in the log-record.
-
 
 In this section, we overviewed the main steps of a typical workflow for machine learning-based software development.
 

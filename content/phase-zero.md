@@ -24,7 +24,7 @@ Each prediction task of the entire process needs to be decomposed into its const
 
 The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided below:
 
-![AI Canvas by Agrawal et.al](../img/AI-Canvas.png)
+<img src="../img/AI-Canvas.png" alt="AI Canvas by Agrawal et.al" width="900"/>
 
 [Figure Source](https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai)
 
@@ -37,7 +37,7 @@ The central part of the canvas is the *Value Proposition* building block, which 
 
 The remaining canvas is divided into three broad categories: *Learning, Prediction,* and *Evaluation*. The Learning category is responsible to specify how the ML model will be learned. The Prediction part describes how the prediction is performed. Finally, the Evaluation category contains methods and metrics for the ML model and the system evaluation. The following machine learning canvas is an example provided by [Louis Dorard](https://www.louisdorard.com/): 
 
-![Machine Learning Canvas](../img/machine-learning-canvas.jpeg)
+<img src="../img/machine-learning-canvas.jpeg" alt="Machine Learning Canvas" width="900"/>
 
 In total, the Machine Learning Canvas is structured as ten compound blocks, each of which is focused on one aspect of the future ML application:
 
@@ -148,7 +148,6 @@ After deployment, the ML model should be evaluated and here we would need to spe
     + e.g. A/B Testing
  + How do we evaluate the value creation? 
     + e.g users spent less time on inbox.
-
 
 
 The effort to fill out these canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for teh ML-software. Such discussion might result in decision not to implement AI/ML at all.
