@@ -32,8 +32,7 @@ The Data Engineering pipeline includes a sequence of operations on the available
 2. *Data Ingestion* - Collecting data by using various tools and frameworks, such as Spark, HDFS, CSV, etc. This step might also include synthetic data generation or data enrichment.
 2. *Exploration and Validation* - Includes data profiling to obtain information about the content and structure of the data. The output of this step is a set of metadata, such as max, min, avg of values. Data validation operations are user-defined error detection functions, which scan the dataset in order to spot some errors.
 3. *Data Wrangling (Cleaning)* - The process of re-formatting particular attributes and correcting errors in data, such as missing values imputation.
-
-6. *Data Splitting* - Splitting the data into training, validation, and test datasets to be used during the core machine learning stages to produce the ML model.
+4. *Data Splitting* - Splitting the data into training, validation, and test datasets to be used during the core machine learning stages to produce the ML model.
 
 ### Model Engineering
 The core of the ML workflow is the phase of writing and executing machine learning algorithms to obtain an ML model. The Model Engineering pipeline includes a number of operations that leads to a final model:
