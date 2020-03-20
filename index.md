@@ -9,7 +9,7 @@ This site provides the description of the practices and the current state in MLO
 
 You will learn why you might want to use Machine Learning and about various scenarios of change that need to be managed and the iterative nature of ML-based software development. Finally, we provide the MLOps definition and show the evolution of MLOps.
    
-[Implementing ML: Phase Zero](content/phase-zero.md)
+[Implementing ML: Phase Zero]()
 
 This part is devoted to one of the most important phase in any software project such as understanding the business problem and requirements for the ML-based software.
 
