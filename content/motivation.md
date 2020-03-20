@@ -57,10 +57,7 @@ Because bridging the gap between ML model building and practical deployments is 
 There’s a fundamental difference between building a Jupyter notebook model and experimenting with it, and deploying a ML model into a production system that generates business value.
 Although AI budgets are on the rise, only [22 percent of companies](https://designingforanalytics.com/resources/failure-rates-for-analytics-bi-iot-and-big-data-projects-85-yikes/) that use machine learning have successfully deployed a ML model into production.
 
-![ML-deployment-gap](../img/ML-deployment_Gap.jpg)
-
-
-<img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="800"/>
+<img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="900"/>
 
 [Figure Source](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
 
@@ -77,8 +74,7 @@ The reason for the previously described deployment gap is that the development o
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
 This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, or data change or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
 
-![Three levels of change](../img/ThreeLevelsOfChange.jpg)
-
+<img src="../img/ThreeLevelsOfChange.jpg" alt="Three levels of change" width="900"/>
 
 In the following, we list some scenarios of possible changes in machine learning applications:
 
@@ -120,7 +116,8 @@ MLOps, like DevOps, emerges from the understanding that separating the ML model 
 
 Previously, before 2000, if businesses needed to implement machine learning solutions, they would use the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. With the emergence of containerization technology, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 
-![the evolution of the mlops](../img/mlops-evolution.jpg)
+
+<img src="../img/mlops-evolution.jpg" alt="The Evolution of MLOps" width="900"/>
 
 
 
