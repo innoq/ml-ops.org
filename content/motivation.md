@@ -25,8 +25,6 @@ Another type of problems, suitable for ML, are multi-parameters problems.
 For example, we apply machine learning approaches to generate a *stock prices* prediction, which is a foundation for a *stock trading* decisions.
 Some problems can be too complex to be solved traditionally, and a probabilistic (stochastic) solution, implemented by using machine learning, might be the right way to pursue (e.g. spam filter, product recommendation, or fraud detection).  
 
-[//]: # "see Burkov 1.3 Defining the Goal of a Machine Learning Project"
-
 Every machine learning pipeline is a set of operations, which are executed to produce a model.
 A ML model is roughly defined as a mathematical representation of a real-world process.
 We might think about ML model as a function that takes some input data and produces an output (classification, sentiment, recommendation, or clusters).
@@ -59,7 +57,7 @@ Because bridging the gap between ML model building and practical deployments is 
 There’s a fundamental difference between building a Jupyter notebook model and experimenting with it, and deploying a ML model into a production system that generates business value.
 Although AI budgets are on the rise, only [22 percent of companies](https://designingforanalytics.com/resources/failure-rates-for-analytics-bi-iot-and-big-data-projects-85-yikes/) that use machine learning have successfully deployed a ML model into production.
 
-![ML-deployment-gap](images/ML-deployment_Gap.jpg)
+![ML-deployment-gap](img/ML-deployment_Gap.jpg)
 
 [Figure Source](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
 
@@ -76,7 +74,7 @@ The reason for the previously described deployment gap is that the development o
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
 This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, or data change or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
 
-![Three levels of change](images/ThreeLevelsOfChange.jpg)
+![Three levels of change](img/ThreeLevelsOfChange.jpg)
 
 
 In the following, we list some scenarios of possible changes in machine learning applications:
@@ -111,7 +109,7 @@ Finally, we are set up to define the term **MLOps**:
 
 The term MLOps is defined as *“the extension of the DevOps methodology to include Machine Learning and Data Science assets as first class citizens within the DevOps ecology”* [Source: MLOps SIG](https://lists.cd.foundation/g/sig-mlops).
 
-Alternatively, we can use the definition of  **Machine learning engineering (MLE)**, where *MLE is the use of scientific principles, tools, and techniques of machine learning and traditional software engineering to design and build complex computing systems. MLE encompasses all stages from data collection, to model building, to make the model available for use by the product or the consumers."* (by A.Burkov).
+Alternatively, we can use the definition of  **Machine Learning Engineering (MLE)**, where *MLE is the use of scientific principles, tools, and techniques of machine learning and traditional software engineering to design and build complex computing systems. MLE encompasses all stages from data collection, to model building, to make the model available for use by the product or the consumers."* (by A.Burkov).
 
 MLOps, like DevOps, emerges from the understanding that separating the ML model development — from the process that delivers it — ML operations — lowers quality, transparency, and agility of the whole intelligent software.
 
@@ -119,7 +117,7 @@ MLOps, like DevOps, emerges from the understanding that separating the ML model 
 
 Previously, before 2000, if businesses needed to implement machine learning solutions, they would use the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. With the emergence of containerization technology, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 
-![the evolution of the mlops](images/mlops-evolution.jpg)
+![the evolution of the mlops](img/mlops-evolution.jpg)
 
 
 
