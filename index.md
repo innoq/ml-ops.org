@@ -40,7 +40,7 @@ You will learn about three core elements of ML-based software Data, ML models, a
 
 ## [MLOps Principles (coming soon)]() 
 
-In this part, we describe best practices and tools to test, deploy, manage, and monitor ML models in production.
+In this part, we describe principles and established practices to test, deploy, manage, and monitor ML models in production.
 
 
 ## [State-of-MLOps (Tools & Frameworks)(coming soon)]() 
