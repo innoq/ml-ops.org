@@ -133,3 +133,7 @@ layout: page
 9. [Designing great data products. The Drivetrain Approach: A four-step process for building data products.](https://www.oreilly.com/radar/drivetrain-approach-data-products/)
 10. [The New Business of AI (and How It’s Different From Traditional Software)](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software/)
 11. [The idea maze for AI startups](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze)
+12. [The Enterprise AI Challenge: Common Misconceptions](https://www.forbes.com/sites/forbestechcouncil/2020/01/15/the-enterprise-ai-challenge-common-misconceptions/#37ca1e5c5696)
+13. [Misconception 1 (of 5): Enterprise AI Is Primarily About The Technology](https://www.forbes.com/sites/forbestechcouncil/2020/01/31/misconception-1-of-5-enterprise-ai-is-primarily-about-the-technology/#151e6711180e)
+14. [Misconception 2 (of 5): Automated Machine Learning Will Unlock Enterprise AI](https://www.forbes.com/sites/forbestechcouncil/2020/02/27/misconception-2-of-5-automated-machine-learning-will-unlock-enterprise-ai/#7f618ff97ace)
+
