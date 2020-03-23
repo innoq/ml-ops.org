@@ -59,6 +59,7 @@ In this block, we clarify all available and possible data sources to be used for
  + Web scraping.
  + Output of other (ML) systems.
  + Open source data sets.
+   + Useful publicly available datasets: [Kaggle Datasets](https://www.kaggle.com/datasets), [Google's Dataset Search](https://datasetsearch.research.google.com/ ), [UCI Repository](https://archive.ics.uci.edu/ml/datasets.php), or [Wikipedia's list of datasets for machine-learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
 
 Furthermore, we should clarify the *hidden costs* of machine learning application, such as:
 

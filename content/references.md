@@ -136,4 +136,6 @@ layout: page
 12. [The Enterprise AI Challenge: Common Misconceptions](https://www.forbes.com/sites/forbestechcouncil/2020/01/15/the-enterprise-ai-challenge-common-misconceptions/#37ca1e5c5696)
 13. [Misconception 1 (of 5): Enterprise AI Is Primarily About The Technology](https://www.forbes.com/sites/forbestechcouncil/2020/01/31/misconception-1-of-5-enterprise-ai-is-primarily-about-the-technology/#151e6711180e)
 14. [Misconception 2 (of 5): Automated Machine Learning Will Unlock Enterprise AI](https://www.forbes.com/sites/forbestechcouncil/2020/02/27/misconception-2-of-5-automated-machine-learning-will-unlock-enterprise-ai/#7f618ff97ace)
+15. [Three Principles for Designing ML-Powered Products](https://spotify.design/articles/2019-12-10/three-principles-for-designing-ml-powered-products/)
+16. [A Step-by-Step Guide to Machine Learning Problem Framing](https://medium.com/thelaunchpad/a-step-by-step-guide-to-machine-learning-problem-framing-6fc17126b981)
 
