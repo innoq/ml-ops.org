@@ -3,7 +3,7 @@ title: "ML Ops: Machine Learning Operations"
 layout: page
 ---
 
-With Machine Learning Model Operationalization Management (MLOps), we believe to provide an end-to-end machine learning development process to design, build and manage reproducible, testable, and evolvable ML-powered products.
+With Machine Learning Model Operationalization Management (MLOps), we believe to provide an end-to-end machine learning development process to design, build and manage reproducible, testable, and evolvable ML-powered software.
 
 According to the [Cognilytica](https://www.cognilytica.com/2020/03/03/ml-model-management-and-operations-2020-mlops/) Report "ML Model Management and Operations 2020", *"the market for MLOps Solutions is growing from a nascent $350M in 2019 to almost $4B by 2025"*.
 
