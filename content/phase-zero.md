@@ -39,7 +39,7 @@ The remaining canvas is divided into three broad categories: *Learning, Predicti
 
 <img src="../img/machine-learning-canvas.jpg" alt="Machine Learning Canvas" width="900"/>
 
-In total, the Machine Learning Canvas is structured as ten compound blocks, each of which is focused on one aspect of the future ML application:
+In total, the Machine Learning Canvas is structured as ten compound blocks, such as *Value Proposition, Data Sources, ML Task, Features (Engineering), Offline Evaluation, Decisions, Making Predictions, Collecting Data, Building Models,* and  *Live Evaluation and Monitoring*. Each of those blocks is focused on one aspect of the future ML application:
 
 ### Value Proposition
 This is one of the crucial blocks in the whole canvas. Here we should answer three important questions:
@@ -48,28 +48,28 @@ This is one of the crucial blocks in the whole canvas. Here we should answer thr
 2. *Why* is it important?
 3. *Who* is the end-user? Can we specify the *persona*?
 
-[*Narrowing the domain*](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze) of the problem could be useful for the next question regarding required data. For example, instead of creating an universal chat-bot, build a bot that helps with scheduling conference-calls. 
+[*Narrowing the domain*](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze) of the problem could be useful for the next question regarding the required data. For example, instead of creating a universal chat-bot, build a bot that helps with scheduling conference-calls. 
 
 ### Data Sources
-In this block, we clarify all available and possible data sources to be used for ML task. As example, we might consider using:
+In this block, we clarify all available and possible data sources to be used for the ML task. As an example, we might consider using:
 
  + Internal/external databases.
  + REST APIs to gather data.
  + Static files.
  + Web scraping.
- + Output of other (ML) systems.
- + Open source data sets.
+ + The output of other (ML) systems.
+ + Open-source data sets.
    + Useful publicly available datasets: [Kaggle Datasets](https://www.kaggle.com/datasets), [Google's Dataset Search](https://datasetsearch.research.google.com/ ), [UCI Repository](https://archive.ics.uci.edu/ml/datasets.php), or [Wikipedia's list of datasets for machine-learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
 
-Furthermore, we should clarify the *hidden costs* of machine learning application, such as:
+Furthermore, we should clarify the *hidden costs* of a machine learning application, such as:
 
  + How expensive could get the storage and processing for rich media like images, sound, or video?
 
 ### ML Task
-After clarifying what data is avaiable, we brainstorm what type of ML should be used. Here are some examples:
+After clarifying what data is available, we brainstorm what type of ML should be used. Here are some examples:
 
- + Supervised or unsupervised learing.
- + If superwised, what type of ML task should be taken: classification, regression, or ranking?
+ + Supervised or unsupervised learning.
+ + If supervised, what type of ML task should be taken: classification, regression, or ranking?
  + If classification, will it be binary- or multiclass classification task.
  + What is the input for a prediction task? 
     + e.g. E-mail text.
@@ -81,18 +81,21 @@ After clarifying what data is avaiable, we brainstorm what type of ML should be 
      
 ### Features (Engineering)
 
-As every ML algorithm requires input data in form of features, we should clarify how should the input data be represented. How do we extract features from raw sources. Consider to include domain experts to specify what data aspects are most important for the particular ML task.
+As every ML algorithm requires input data in the form of features, we should clarify how should the input data be represented. 
+
+ + How do we extract features from raw sources? 
+ + Consider to include domain experts to specify what data aspects are most important for the particular ML task.
 
 ### Offline Evaluation
 
-Before any implementation of the ML model training, we would need to specify and set up the methods and metrics to evaluate the system prior to deployment. Here we would need to specify:
+Before any implementation of the ML model training, we would need to specify and set up the methods and metrics to evaluate the system before deployment. Here we would need to specify:
 
  + What evaluation metrics should be used?
     + Precision, Recall, F-1 measure.
     + Accuracy.
  + What is the meaning of model prediction errors such as *false positives* and *false negatives*?
  + What is our test data?
- + How big should be our test data to be confident that model performs well?
+ + How big should be our test data to be confident that the ML model performs well?
 
 ### Decisions
 
@@ -108,16 +111,16 @@ Such information is required to decide later how to deploy the ML model.
 
 ### Making Predictions
 
-This block includes the information about when we make prediction on new inputs. 
+This block includes information about when we make a prediction on new inputs. 
 
 + When predictions should be available? 
-+ Are predictions made *on the fly* for each data point or on a *batch* of the input data?
++ Are predictions made *on the fly* for each data point or for a *batch* of the input data?
 + How computationally complex could the *model inference* get in the application?
 + Is there *human in the loop* to support in making predictions?
 
 For example:
 
-+ New predictions are made each time when user opens the app, such as recommendations.
++ New predictions are made each time when the user opens the app, such as recommendations.
 + New predictions are made on request.
 + New predictions are made on schedule.
 
@@ -127,16 +130,18 @@ Related to the *Making Predictions*, the *Collecting Data* block gathers the inf
 
  + (If required,) How do we label the new data?
  + How expensive is to collect new data?
- + Is there *human in the loop* for the manual cleaning and labeling of the incoming data?
+ + Is there *human in the loop* for the manual cleaning and labelling of the incoming data?
 
 ### Building Models
-Tightly related to the previous block, the *Building Models* answers questions regarding the updating the ML models, because different ML tasks will require different frequency of model re-training:
+Tightly related to the previous block, the *Building Models* answers questions regarding updating the ML models, because different ML tasks will require different frequency of model re-training:
 
  + How often the model should be retrained?
     + e.g. hourly, weekly, or with every new data point.
- + What is the *hidden costs* for model re-training?
+ + What are the *hidden costs* for model re-training?
     + e.g. do we use cloud resources to perform such tasks? 
  + What is the price policy of the cloud vendor?
+    + e.g. how should we perform hardware cost estimation?
+    + common *Cloud Pricing Calculators* are [Google Cloud Calculator](https://cloud.google.com/products/calculator), [Amazon ML Pricing](https://docs.aws.amazon.com/machine-learning/latest/dg/pricing.html),[ Microsoft Azure Calculator](https://azure.microsoft.com/en-in/pricing/calculator/)
  + How long will take to re-train the model?
  + How do we deal with the scaling issues of cloud operations as they can be more complex and costly?
  + Do we plan for change in the tech stack?
@@ -148,10 +153,10 @@ After deployment, the ML model should be evaluated and here we would need to spe
  + How do we track the system performance?
     + e.g. A/B Testing
  + How do we evaluate the value creation? 
-    + e.g users spent less time on inbox.
+    + e.g users spent less time on the inbox.
 
 
-The effort to fill out these canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for teh ML-software. Such discussion might result in decision not to implement AI/ML at all.
+The effort to fill out this canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for the ML-software. Such discussion might result in a decision not to implement AI/ML at all.
 
 #### Further reading
 
