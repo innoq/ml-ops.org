@@ -66,11 +66,16 @@ Furthermore, we should clarify the *hidden costs* of a machine learning applicat
  + How expensive could get the storage and processing for rich media like images, sound, or video?
 
 ### ML Task
-After clarifying what data is available, we brainstorm what type of ML should be used. Here are some examples:
+After clarifying what data is available, we brainstorm what type of ML should be used. Here are some examples of questions that might clarify the ML Task:
 
- + Supervised or unsupervised learning.
+ + Supervised or unsupervised learning?
+ + Is this anomaly detection?
+ + Is the problem about which option should be taken? (recommendation)
+ + Do we need to predict a continous value? (regression)
+ + Which category need to be predicted? (classification)
+ + Do we need to group our data? (clustering)
  + If supervised, what type of ML task should be taken: classification, regression, or ranking?
- + If classification, will it be binary- or multiclass classification task.
+ + If classification, will it be binary- or multiclass classification task?
  + What is the input for a prediction task? 
     + e.g. E-mail text.
  + What is the output of the prediction task?
@@ -148,7 +153,7 @@ Tightly related to the previous block, the *Building Models* answers questions r
     + e.g. how can we deal with the tech stack evolution as new tools and development workflows are emerging in the modern AI?
 
 ### Live Evaluation and Monitoring
-After deployment, the ML model should be evaluated and here we would need to specify both *model* and *business* metrics, which should correlate.
+After deployment, the ML model should be evaluated and here we would need to specify both *model* and *business* metrics, which should correlate. Generally, the metrics should follow be *S.M.A.R.T* methodology and be: *Specific, Measurable, Achievable, Relevant,* and *Time-bound*. 
 
  + How do we track the system performance?
     + e.g. A/B Testing
