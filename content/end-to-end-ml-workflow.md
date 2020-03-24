@@ -50,7 +50,7 @@ The final stage of the ML workflow is the integration of the previously engineer
 This stage includes the following operations:
 
 1. *Model Serving* - The process of addressing the ML model artifact in a production environment.
-2. *Model Performance Monitoring* - The process of observing the ML model performance based on live and previously unseen data, such as prediction or recommendation. In particular, we are interested in ML-specific signals, such as prediction deviation from a previous model performance. These signals might be used as triggers for model re-training.
+2. *Model Performance Monitoring* - The process of observing the ML model performance based on live and previously unseen data, such as prediction or recommendation. In particular, we are interested in ML-specific signals, such as prediction deviation from previous model performance. These signals might be used as triggers for model re-training.
 3. *Model Performance Logging* - Every inference request results in the log-record.
 
 In this section, we overviewed the main steps of a typical workflow for machine learning-based software development.
