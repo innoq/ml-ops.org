@@ -153,7 +153,7 @@ Tightly related to the previous block, the *Building Models* answers questions r
     + e.g. how can we deal with the tech stack evolution as new tools and development workflows are emerging in the modern AI?
 
 ### Live Evaluation and Monitoring
-After deployment, the ML model should be evaluated and here we would need to specify both *model* and *business* metrics, which should correlate. Generally, the metrics should follow be *S.M.A.R.T* methodology and be: *Specific, Measurable, Achievable, Relevant,* and *Time-bound*. 
+After deployment, the ML model should be evaluated and here we would need to specify both *model* and *business* metrics, which should correlate. Generally, the metrics should follow the *S.M.A.R.T* methodology and be: *Specific, Measurable, Achievable, Relevant,* and *Time-bound*. 
 
  + How do we track the system performance?
     + e.g. A/B Testing
