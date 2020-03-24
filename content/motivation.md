@@ -26,8 +26,8 @@ For example, we apply machine learning approaches to generate a *stock prices* p
 Some problems can be too complex to be solved traditionally, and a probabilistic (stochastic) solution, implemented by using machine learning, might be the right way to pursue (e.g. spam filter, product recommendation, or fraud detection).  
 
 Every machine learning pipeline is a set of operations, which are executed to produce a model.
-A ML model is roughly defined as a mathematical representation of a real-world process.
-We might think about ML model as a function that takes some input data and produces an output (classification, sentiment, recommendation, or clusters).
+An ML model is roughly defined as a mathematical representation of a real-world process.
+We might think about the ML model as a function that takes some input data and produces an output (classification, sentiment, recommendation, or clusters).
 The performance of each model is evaluated by using evaluation metrics, such as *precision & recall*, or *accuracy*.
 
 Placing models into production means making your models available to the software systems.
@@ -35,7 +35,7 @@ Practically, the ML model can enrich our software by providing the following fea
 
  * *Recommendation*, which identifies the relevant product in a large collection based on the product description or user’s previous interactions.
  * *Top-K Items Selection*, which organizes a set of items in a particular order that is suitable for a user (e.g. search result).
- * *Classification*, which assigns the input examples to one of previously defined classes (e.g *"spam"/"not spam"*).
+ * *Classification*, which assigns the input examples to one of the previously defined classes (e.g *"spam"/"not spam"*).
  * *Prediction*, which assigns some most probable value to an entity of interest, such as stock value.
  * *Content Generation*, to produce new content by learning from existing examples, such as finishing a Bach chorale cantata by learning from his former compositions.
  * *Question Answering*, which answers an explicit question for example: “Does this text describe this image?”
@@ -50,19 +50,19 @@ Getting a model into the real world involves more than just building it.
 In order to take full advantage of the built ML model by making it available to our core software system, we would need to incorporate the trained ML model into the core codebase.
 That means, we need to deploy the ML model into production.
 By deploying models, other software systems can supply data to these and get predictions, which are in turn populated back into the software systems.
-Therefore, the full advantage of ML models is only possible through ML model deployment.
+Therefore, the full advantage of ML models is only possible through the ML model deployment.
 
 However, according to a report by Algorithmia ["2020 State of Enterprise Machine Learning"](https://info.algorithmia.com/hubfs/2019/Whitepapers/The-State-of-Enterprise-ML-2020/Algorithmia_2020_State_of_Enterprise_ML.pdf?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&utm_content=80984419&_hsenc=p2ANqtz--sz-e2gfqUeDvVSmjsXfvwOnLHB2ZkSdQsO1IRRAdnBIb0emf-JTh8NnwFxB-FeZberIw7_rI9ERTy8zFW8jvoTzjOfA&_hsmi=80984419), many companies haven't figured out how to achieve their ML/AI goals.
 Because bridging the gap between ML model building and practical deployments is still a challenging task.
-There’s a fundamental difference between building a Jupyter notebook model and experimenting with it, and deploying a ML model into a production system that generates business value.
-Although AI budgets are on the rise, only [22 percent of companies](https://designingforanalytics.com/resources/failure-rates-for-analytics-bi-iot-and-big-data-projects-85-yikes/) that use machine learning have successfully deployed a ML model into production.
+There’s a fundamental difference between building a Jupyter notebook model and experimenting with it and deploying an ML model into a production system that generates business value.
+Although AI budgets are on the rise, only [22 percent of companies](https://designingforanalytics.com/resources/failure-rates-for-analytics-bi-iot-and-big-data-projects-85-yikes/) that use machine learning have successfully deployed an ML model into production.
 
 <img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="900"/>
 
 [Figure Source](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
 
 The ["2020 State of Enterprise Machine Learning"](https://info.algorithmia.com/hubfs/2019/Whitepapers/The-State-of-Enterprise-ML-2020/Algorithmia_2020_State_of_Enterprise_ML.pdf?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&utm_content=80984419&_hsenc=p2ANqtz--sz-e2gfqUeDvVSmjsXfvwOnLHB2ZkSdQsO1IRRAdnBIb0emf-JTh8NnwFxB-FeZberIw7_rI9ERTy8zFW8jvoTzjOfA&_hsmi=80984419) report is based on a survey of nearly 750 people including machine learning practitioners, managers for machine learning projects, and executives at tech firms.
-Half of the respondents answered that their company takes between a week and three months to deploy a ML model.
+Half of the respondents answered that their company takes between a week and three months to deploy an ML model.
 About 18 percent stated that it takes from three months to a year.
 According to the report *"The main challenges people face when developing ML capabilities are scale, version control, model reproducibility, and aligning stakeholders"*.
 
@@ -72,7 +72,7 @@ According to the report *"The main challenges people face when developing ML cap
 
 The reason for the previously described deployment gap is that the development of the machine learning-based applications is fundamentally different from traditional software.
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
-This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, or data change or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
+This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, data change, or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
 
 <img src="../img/ThreeLevelsOfChange.jpg" alt="Three levels of change" width="900"/>
 
@@ -84,7 +84,7 @@ In the following, we list some scenarios of possible changes in machine learning
  * After serving the model to the end-users, we might recognize that the assumptions we made for training the model are wrong, so we have to change our model.
  * Sometimes the business objective might change while project development and we decide to change the machine learning algorithm to train the model.
 
-Additionally, there are three common issues that influence the value of ML models once they’re in production. 
+Additionally, three common issues influence the value of ML models once they’re in production.
 
 The first is ***data quality***: since ML models are build on data, they are sensitive to the semantics, amount and completeness of incoming data.
 
@@ -106,7 +106,7 @@ We established the challenges of getting the ML models into production.
 
 Finally, we are set up to define the term **MLOps**:
 
-The term MLOps is defined as *“the extension of the DevOps methodology to include Machine Learning and Data Science assets as first class citizens within the DevOps ecology”* [Source: MLOps SIG](https://lists.cd.foundation/g/sig-mlops).
+The term MLOps is defined as *“the extension of the DevOps methodology to include Machine Learning and Data Science assets as first-class citizens within the DevOps ecology”* [Source: MLOps SIG](https://lists.cd.foundation/g/sig-mlops).
 
 Alternatively, we can use the definition of  **Machine Learning Engineering (MLE)**, where *MLE is the use of scientific principles, tools, and techniques of machine learning and traditional software engineering to design and build complex computing systems. MLE encompasses all stages from data collection, to model building, to make the model available for use by the product or the consumers."* (by A.Burkov).
 
@@ -114,7 +114,7 @@ MLOps, like DevOps, emerges from the understanding that separating the ML model 
 
 # The Evolution of the MLOps
 
-Previously, before 2000, if businesses needed to implement machine learning solutions, they would use the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. With the emergence of containerization technology, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
+Previously, before 2000, when businesses needed to implement machine learning solutions, they would use the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. With the emergence of containerization technology, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 
 
 <img src="../img/mlops-evolution.jpg" alt="The Evolution of MLOps" width="900"/>
