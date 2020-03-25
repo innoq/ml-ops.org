@@ -9,18 +9,20 @@ layout: page
 The most important phase in any software project is to understand the business problem and create requirements.
 ML-based software is no different here.
 The initial step includes a thorough study of business problems and requirements. 
-These requirements are translated into the model objectives and the model outputs, possible errors and minimum success for launching need to be specified. The most useful question to continue working on the AI/ML solution is ***"how costly are wrong predictions?"*** Answering that question will define the feasibility of the ML project.
+These requirements are translated into the model objectives and the model outputs. Possible errors and minimum success for launching need to be specified. The most useful question to continue working on the AI/ML solution is ***"how costly are wrong predictions?"*** Answering that question will define the feasibility of the ML project.
 
-Concretely, in asking *how to implement AI/ML*, we follow the next guideline:
+<img src="../img/workflow-decomposition.jpg" alt="The Workflow Decomposition" width="900"/>
 
-1. Should identify the concrete ***process*** that might be powered by AI/ML. 
+To anwer the question *"how to implement AI/ML"*, we follow the next steps:
+
+1. Identify the concrete ***process*** that might be powered by AI/ML (see the Figure above). 
 2. Decompose that process into a directed graph of ***tasks***.
 3. Identify where humans can be removed from the task, meaning, what task can be replaced by a prediction element such as ML model?
-4. Estimating the ROI for implementing an AI/ML tool to perform each task.
-5. Rank-order the AI/ML in terms of ROI
+4. Estime the ROI for implementing an AI/ML tool to perform each task.
+5. Rank-order the AI/ML implementation for each ***task*** in terms of ROI.
 6. Start from the top of the list and implement the AI/ML.
 
-Each prediction task of the entire process needs to be decomposed into its constituent elements in order to see where prediction (ML model) can be introduced. One convenient way to achieve such decomposition is to use the *AI Canvas*, which assists and helps to structure the breakdown process. It also helps to articulate exactly what is needed to predict, how we react on errors made by the prediction algorithm, and what are the outcome possibilities.
+Each prediction task of the entire process needs to be decomposed into its constituent elements in order to see where prediction (ML model) can be introduced. One convenient way to achieve such decomposition is to use the *AI Canvas*, which assists and helps to structure the breakdown process. It also helps to articulate exactly what is needed to predict and how we react on errors made by the prediction algorithm.
 
 The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided below:
 
