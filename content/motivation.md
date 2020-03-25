@@ -6,24 +6,24 @@ layout: page
 # Why you Might Want to use Machine Learning 
 
 According to [Statista Digital Economy Compass 2019](https://cdn.statcdn.com/download/pdf/DigitalEconomyCompass2019.pdf), two major trends will disrupt the economy and our lives:
- - **Data-driven** world, due to the exponentially-growing amount of digitally-collected data.
+ - **Data-driven** world, which is linked to the exponentially-growing amount of digitally-collected data.
  - The increasing importance of **Artificial Intelligence / Machine Learning / Data Science**, which derives insights from this tremendous amount of data.
 
 For the sake of consistency, we will use the term *machine learning (ML)*, however, the concepts and definitions apply to both *artificial intelligence* and *data science* fields.
 
 Every machine learning pipeline is a set of operations, which are executed to produce a model.
 An ML model is roughly defined as a mathematical representation of a real-world process.
-We might think about the ML model as a function that takes some input data and produces an output (classification, sentiment, recommendation, or clusters).
+We might think of the ML model as a function that takes some input data and produces an output (classification, sentiment, recommendation, or clusters).
 The performance of each model is evaluated by using evaluation metrics, such as *precision & recall*, or *accuracy*.
 
 Being a powerful tool, machine learning can solve many practical problems.
-Like with any other software tools, we would need to identify the "right" nail (use-case or problem) to use this "hammer" (machine learning algorithms).
+Similar to any other software tools, we would need to identify the "right" nail (use-case or problem) to use this "hammer" (machine learning algorithms).
 
 We are interested in including machine learning into software systems because ML might solve some problems, which can be too complex to be solved traditionally. 
 For such problems, a probabilistic (stochastic) solution that is implemented by using machine learning, might be the right way to pursue.
 For example, *Perceptive problems* in conversational UIs can be solved with techniques such as *speech recognition* or *sentiment analysis*.
 Machine learning (deep learning) appears to be the most appropriate one because such problems have a large number of elements with different representations. 
-Another type of problems, suitable for ML, are multi-parameters problems.
+Another type of problems that suitable for ML, are multi-parameters problems.
 For example, we apply machine learning approaches to generate a *stock prices* prediction, which is a foundation for a *stock trading* decisions.
 
 Placing models into production means making your models available to the software systems.
@@ -59,7 +59,7 @@ Although AI budgets are on the rise, only [22 percent of companies](https://desi
 [Figure Source](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
 
 The ["2020 State of Enterprise Machine Learning"](https://info.algorithmia.com/hubfs/2019/Whitepapers/The-State-of-Enterprise-ML-2020/Algorithmia_2020_State_of_Enterprise_ML.pdf?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&utm_content=80984419&_hsenc=p2ANqtz--sz-e2gfqUeDvVSmjsXfvwOnLHB2ZkSdQsO1IRRAdnBIb0emf-JTh8NnwFxB-FeZberIw7_rI9ERTy8zFW8jvoTzjOfA&_hsmi=80984419) report is based on a survey of nearly 750 people including machine learning practitioners, managers for machine learning projects, and executives at tech firms.
-Half of the respondents answered that their company takes between a week and three months to deploy an ML model.
+Half of the respondents answered that it takes their company between a week and three months to deploy an ML model.
 About 18 percent stated that it takes from three months to a year.
 According to the report *"The main challenges people face when developing ML capabilities are scale, version control, model reproducibility, and aligning stakeholders"*.
 
@@ -67,7 +67,7 @@ According to the report *"The main challenges people face when developing ML cap
 
 # Scenarios of Change That Need to be Managed
 
-The reason for the previously described deployment gap is that the development of the machine learning-based applications is fundamentally different from traditional software.
+The reason for the previously described deployment gap is that the development of the machine learning-based applications is fundamentally different from the development of the traditional software.
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
 This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, data change, or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
 
@@ -85,9 +85,9 @@ Additionally, three common issues influence the value of ML models once they’r
 
 The first is ***data quality***: since ML models are built on data, they are sensitive to the semantics, amount and completeness of incoming data.
 
-The second is ***model decay***: the performance of ML models in production degenerate over time, because of changes in the real-life data that has not been seen during the model training.
+The second is ***model decay***: the performance of ML models in production degenerate over time because of changes in the real-life data that has not been seen during the model training.
 
-The third is ***locality***: when transferring ML models to new business customers, these models, which were pre-trained on different user demographics, might not work correctly according to quality metrics. 
+The third is ***locality***: when transferring ML models to new business customers, these models, which have been pre-trained on different user demographics, might not work correctly according to quality metrics. 
 
 Since ML/AI is expanding into new applications and shaping new industries, building successful ML projects remains a challenging task.
 As shown, there is a need to establish effective practices and processes around designing, building, and deploying ML models into production - MLOps.
@@ -111,7 +111,7 @@ MLOps, like DevOps, emerges from the understanding that separating the ML model 
 
 # The Evolution of the MLOps
 
-In the early 2000s, when businesses needed to implement machine learning solutions, they would use the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. With the emergence of containerization technology, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
+In the early 2000s, when businesses needed to implement machine learning solutions, they used the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. As the containerization technology was emerging, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 
 
 <img src="../img/mlops-evolution.jpg" alt="The Evolution of MLOps" width="900"/>

@@ -8,13 +8,13 @@ With Machine Learning Model Operationalization Management (MLOps), we want to pr
 Being an emerging field, MLOps is rapidly gaining momentum amongst Data Scientists, ML Engineers and AI enthusiasts. Following this trend, the [*Continuous Delivery Foundation SIG MLOps*](https://github.com/cdfoundation/sig-mlops) differentiates the ML models management from traditional software engineering and suggests the following MLOps capabilities:
 
   * MLOps aims to unify the release cycle for machine learning and software application release.
-  * MLOps enables automated testing of machine learning artifacts (e.g. data validation, ML model testing, ML model integration testing)
+  * MLOps enables automated testing of machine learning artifacts (e.g. data validation, ML model testing, and ML model integration testing)
   * MLOps enables the application of agile principles to machine learning projects.
   * MLOps enables supporting machine learning models and datasets to build these models as first-class citizens within CI/CD systems.
   * MLOps reduces technical debt across machine learning models.
   * MLOps must be a language-, framework-, platform-, and infrastructure-agnostic practice. 
 
-This site describes the practices and the current state in MLOps: the quickly evolving field of machine learning, software engineering and operations. Please note, we expect a basic familiarity with machine learning concepts. For more resources to learn about machine learning, please refer to our [References page](content/references.md).
+This site describes the practices and the current state in MLOps as a quickly evolving field of machine learning, software engineering and operations. Please note, we expect a basic familiarity with machine learning concepts. For more resources to learn about machine learning, please refer to our [References page](content/references.md).
 
 
 ## Motivation for MLOps
