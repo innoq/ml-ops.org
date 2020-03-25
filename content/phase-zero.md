@@ -26,7 +26,9 @@ To anwer the question *"how to implement AI/ML"*, we follow the next steps:
 5. Rank-order the AI/ML implementation for each ***task*** in terms of ROI.
 6. Start from the top of the list and structure the AI/ML implementation by completing either the *AI Canvas* or the *Machine Learning Canvas*.
 
-The *AI Canvas* assists and helps to structure the breakdown process. It also helps to articulate exactly what is needed to predict and how we react on errors made by the prediction algorithm.
+The *AI Canvas* or its alternative, the *Machine Learning Canvas*, assist and help to structure the breakdown process. They also help to articulate exactly what is needed to predict and how we react on errors made by the prediction algorithm.
+
+## AI Canvas
 
 The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided in the Figure below:
 
