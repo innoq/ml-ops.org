@@ -14,7 +14,7 @@ Being an emerging field, MLOps is rapidly gaining momentum amongst Data Scientis
   * MLOps reduces technical debt across machine learning models.
   * MLOps must be a language-, framework-, platform-, and infrastructure-agnostic practice. 
 
-This site describes the practices and the current state in MLOps as a quickly evolving field of machine learning, software engineering and operations. Please note, we expect a basic familiarity with machine learning concepts. For more resources to learn about machine learning, please refer to our [References page](content/references.md).
+This site describes the practices and the current state in MLOps as a quickly evolving field of machine learning, software engineering, and operations. Please note, we expect a basic familiarity with machine learning concepts. For more resources to learn about machine learning, please refer to our [References page](content/references.md).
 
 
 ## Motivation for MLOps
@@ -43,7 +43,7 @@ In this part, we describe principles and established practices to test, deploy, 
 
 ## [State of MLOps (Tools & Frameworks)(coming soon)]() 
 
-This part presents an overview of software tools and frameworks that manage ML artifacts and cover the whole machine learning cycle.
+This part presents an overview of software tools and frameworks that manage ML artifacts, and cover the whole machine learning cycle.
 
 ## [Use-cases and Demos (coming soon)]()
 

@@ -9,7 +9,7 @@ According to [Statista Digital Economy Compass 2019](https://cdn.statcdn.com/dow
  - **Data-driven** world, which is linked to the exponentially-growing amount of digitally-collected data.
  - The increasing importance of **Artificial Intelligence / Machine Learning / Data Science**, which derives insights from this tremendous amount of data.
 
-For the sake of consistency, we will use the term *machine learning (ML)*, however, the concepts and definitions apply to both *artificial intelligence* and *data science* fields.
+For the sake of consistency, we will use the term *machine learning (ML)*, however, the concepts apply to both *artificial intelligence* and *data science* fields.
 
 Every machine learning pipeline is a set of operations, which are executed to produce a model.
 An ML model is roughly defined as a mathematical representation of a real-world process.
@@ -51,7 +51,7 @@ Therefore, the full advantage of ML models is only possible through the ML model
 
 However, according to a report by Algorithmia ["2020 State of Enterprise Machine Learning"](https://info.algorithmia.com/hubfs/2019/Whitepapers/The-State-of-Enterprise-ML-2020/Algorithmia_2020_State_of_Enterprise_ML.pdf?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&utm_content=80984419&_hsenc=p2ANqtz--sz-e2gfqUeDvVSmjsXfvwOnLHB2ZkSdQsO1IRRAdnBIb0emf-JTh8NnwFxB-FeZberIw7_rI9ERTy8zFW8jvoTzjOfA&_hsmi=80984419), many companies haven't figured out how to achieve their ML/AI goals.
 Because bridging the gap between ML model building and practical deployments is still a challenging task.
-There’s a fundamental difference between building a Jupyter notebook model and experimenting with it and deploying an ML model into a production system that generates business value.
+There’s a fundamental difference between building a ML model in the Jupyter notebook model and deploying an ML model into a production system that generates business value.
 Although AI budgets are on the rise, only [22 percent of companies](https://designingforanalytics.com/resources/failure-rates-for-analytics-bi-iot-and-big-data-projects-85-yikes/) that use machine learning have successfully deployed an ML model into production.
 
 <img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="900"/>
