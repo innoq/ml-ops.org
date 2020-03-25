@@ -11,6 +11,10 @@ ML-based software is no different here.
 The initial step includes a thorough study of business problems and requirements. 
 These requirements are translated into the model objectives and the model outputs. Possible errors and minimum success for launching need to be specified. The most useful question to continue working on the AI/ML solution is ***"how costly are wrong predictions?"*** Answering that question will define the feasibility of the ML project.
 
+## Work Flow Decomposition
+
+Each task of the entire business process needs to be decomposed into its constituent elements in order to see where prediction (ML model) can be introduced.
+
 <img src="../img/workflow-decomposition.jpg" alt="The Workflow Decomposition" width="900"/>
 
 To anwer the question *"how to implement AI/ML"*, we follow the next steps:
@@ -20,11 +24,11 @@ To anwer the question *"how to implement AI/ML"*, we follow the next steps:
 3. Identify where humans can be removed from the task, meaning, what task can be replaced by a prediction element such as ML model?
 4. Estime the ROI for implementing an AI/ML tool to perform each task.
 5. Rank-order the AI/ML implementation for each ***task*** in terms of ROI.
-6. Start from the top of the list and implement the AI/ML.
+6. Start from the top of the list and structure the AI/ML implementation by completing either the *AI Canvas* or the *Machine Learning Canvas*.
 
-Each prediction task of the entire process needs to be decomposed into its constituent elements in order to see where prediction (ML model) can be introduced. One convenient way to achieve such decomposition is to use the *AI Canvas*, which assists and helps to structure the breakdown process. It also helps to articulate exactly what is needed to predict and how we react on errors made by the prediction algorithm.
+The *AI Canvas* assists and helps to structure the breakdown process. It also helps to articulate exactly what is needed to predict and how we react on errors made by the prediction algorithm.
 
-The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided below:
+The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided in the Figure below:
 
 <img src="../img/AI-Canvas.jpg" alt="AI Canvas by Agrawal et.al" width="900"/>
 
@@ -33,7 +37,7 @@ The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Mac
 
 ## Machine Learning Canvas
 
-While the above AI canvas represents a high-level structure of the ML/AI implementation, at some point we would like to specify both the vision for the ML system and the specifics of the system. To achieve those goals there is another variant of the *Machine Learning Canvas*, as suggested by [Louis Dorard](https://www.louisdorard.com/). This canvas structures the ML project and helps to specify the core requirements to realise the project. Initially, we identify the objective by answering a question *what do we want to achieve for the end-users of the predictive system?* Next, we connect the business goal to the ML task. 
+While the above AI canvas represents a high-level structure of the ML/AI implementation, at some point we would like to specify both the vision for the ML system and the specifics of the system. To achieve those goals there is another tool, the *Machine Learning Canvas*, as suggested by [Louis Dorard](https://www.louisdorard.com/). This canvas structures the ML project and helps to specify the core requirements to realise the project. Initially, we identify the objective by answering a question *what do we want to achieve for the end-users of the predictive system?* Next, we connect the business goal to the ML task. 
 
 The central part of the canvas is the *Value Proposition* building block, which describes products or services that create some value for customers. Typically, we answer the following questions: *What* problems are we trying to solve? *Why* is it important? *Who* is the end-user of our system? What value does the ML project deliver to the end-user? How will they use your outputs/predictions? 
 
@@ -44,7 +48,7 @@ The remaining canvas is divided into three broad categories: *Learning, Predicti
 In total, the Machine Learning Canvas is structured as ten compound blocks, such as *Value Proposition, Data Sources, ML Task, Features (Engineering), Offline Evaluation, Decisions, Making Predictions, Collecting Data, Building Models,* and  *Live Evaluation and Monitoring*. Each of those blocks is focused on one aspect of the future ML application:
 
 ### Value Proposition
-This is one of the crucial blocks in the whole canvas. Here we should answer three important questions:
+This is the crucial blocks in the whole canvas. Here we should answer three important questions:
 
 1. *What* is the problem? What objective are we serving? What are we trying to do for the end-user? 
 2. *Why* is it important?
@@ -63,9 +67,9 @@ In this block, we clarify all available and possible data sources to be used for
  + Open-source data sets.
    + Useful publicly available datasets: [Kaggle Datasets](https://www.kaggle.com/datasets), [Google's Dataset Search](https://datasetsearch.research.google.com/ ), [UCI Repository](https://archive.ics.uci.edu/ml/datasets.php), or [Wikipedia's list of datasets for machine-learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
 
-Furthermore, we should clarify the *hidden costs* of a machine learning application, such as:
+Furthermore, we should clarify the *hidden costs* of a machine learning application.
 
- + How expensive could get the storage and processing for rich media like images, sound, or video?
+ + How expensive could get the data storage?
 
 ### ML Task
 After clarifying what data is available, we brainstorm what type of ML should be used. Here are some examples of questions that might clarify the ML Task:
@@ -82,9 +86,9 @@ After clarifying what data is available, we brainstorm what type of ML should be
     + e.g. E-mail text.
  + What is the output of the prediction task?
     + e.g. "spam" and "regular"
- + How complex is our ML model could get?
+ + What is the degree of complexity our ML Model could assume?
     + e.g. is our model a combination of other ML models? Do we employ ensemble learning? How many hidden layers included in the deep learning model?
- + What is the complexity costs, such as training and inference time, for the above models?
+ + What are the complexity costs, such as training and inference time, for the above models?
      
 ### Features (Engineering)
 
@@ -102,54 +106,51 @@ Before any implementation of the ML model training, we would need to specify and
     + Accuracy.
  + What is the meaning of model prediction errors such as *false positives* and *false negatives*?
  + What is our test data?
- + How big should be our test data to be confident that the ML model performs well?
+ + How much test data do we need to be confident that the ML model performs well?
 
 ### Decisions
 
-After specification the ML task, Feature engineering, and the evaluation details, the next is to specify: 
+After completing the ML task, Feature engineering, and the evaluation details, the next is to specify: 
 
 + How are prediction used to make decisions?
-+ How the end-user interacts with the model predictions?
-    + e.g. What happens if the incoming e-mail is classified as "spam"?
++ How does the end-user or the system interacts with the model predictions?
+    + e.g. What happens if the user gets a list of product recommendations? What happens if the incoming e-mail is classified as "spam"?
 + Are there *hidden costs* in decision making, such as *human in the loop*?
 
-Such information is required to decide later how to deploy the ML model.
-
+Such information is required to later decide on how to deploy the ML model.
 
 ### Making Predictions
 
 This block includes information about when we make a prediction on new inputs. 
 
-+ When predictions should be available? 
++ When should predictions be available? 
+   + New predictions are made each time when the user opens the app, such as recommendations.
+   + New predictions are made on request.
+   + New predictions are made on schedule.
 + Are predictions made *on the fly* for each data point or for a *batch* of the input data?
 + How computationally complex could the *model inference* get in the application?
-+ Is there *human in the loop* to support in making predictions?
-
-For example:
-
-+ New predictions are made each time when the user opens the app, such as recommendations.
-+ New predictions are made on request.
-+ New predictions are made on schedule.
++ Is there a *human in the loop* to support in making predictions?
 
 ### Collecting Data
 
-Related to the *Making Predictions*, the *Collecting Data* block gathers the information about the new data that should be collected in order to re-train the ML model. In this way, we specify how we prevent the *ML model decay* phenomena. Further questions to answer in this block are:
+Related to the *Making Predictions*, the *Collecting Data* block gathers information about new data that should be collected in order to re-train the ML model. In this way, we specify how we prevent the *ML model decay* phenomenon. Further questions to answer in this block are:
 
- + (If required,) How do we label the new data?
- + How expensive is to collect new data?
+ + How do we label the new data?
+ + How expensive is it to collect new data?
+ + How expensive is it to process rich media like images, sound, or video?
  + Is there *human in the loop* for the manual cleaning and labelling of the incoming data?
 
 ### Building Models
-Tightly related to the previous block, the *Building Models* answers questions regarding updating the ML models, because different ML tasks will require different frequency of model re-training:
+Tightly related to the previous block, the *Building Models* answers questions regarding updating the ML models, because different ML tasks require different frequencies of model re-training:
 
  + How often the model should be retrained?
     + e.g. hourly, weekly, or with every new data point.
  + What are the *hidden costs* for model re-training?
     + e.g. do we use cloud resources to perform such tasks? 
- + What is the price policy of the cloud vendor?
-    + e.g. how should we perform hardware cost estimation?
+    + what is the price policy of the cloud vendor?
+    + how should we perform hardware cost estimation?
     + common *Cloud Pricing Calculators* are [Google Cloud Calculator](https://cloud.google.com/products/calculator), [Amazon ML Pricing](https://docs.aws.amazon.com/machine-learning/latest/dg/pricing.html),[ Microsoft Azure Calculator](https://azure.microsoft.com/en-in/pricing/calculator/)
- + How long will take to re-train the model?
+ + How long will it take to re-train the model?
  + How do we deal with the scaling issues of cloud operations as they can be more complex and costly?
  + Do we plan for change in the tech stack?
     + e.g. how can we deal with the tech stack evolution as new tools and development workflows are emerging in the modern AI?
