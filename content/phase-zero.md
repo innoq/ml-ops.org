@@ -166,7 +166,10 @@ After deployment, the ML model should be evaluated and here we would need to spe
     + e.g users spent less time on the inbox.
 
 
-The deliverable in this stage is the completed Machine Learning Canvas. The effort to fill out this canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for the ML-software. Such a discussion might result in a decision not to implement AI/ML at all.
+The deliverable in this stage is the completed Machine Learning Canvas. The effort to fill out this canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for the ML-software. Such a discussion might result in a decision not to implement AI/ML at all. Another question would be *when to deploy ML/AI?* The following Figure shows the trade-off of early vs. late ML model deployment.
+
+
+<img src="../img/When-to-deploy-ai.jpg" alt="When to Deploy AI?" width="900"/>
 
 #### Further reading
 
