@@ -39,7 +39,7 @@ Practically, by deploying the ML model, we can provide the following functionali
  * *Fraud and Anomaly Detection*, to identify an action or transaction being a fraud or suspicious
  * *Information Extraction and Annotation*, to identify important information in a text, such as people's names, job descriptions, companies, and locations.
 
-The following Table summarizes the ML/AI capabilities:
+In the following Table, we summarize the ML/AI capabilities:
 
  <img src="../img/Ai-capabilities.jpg " alt="ML Capabilities" width="900"/>
 
