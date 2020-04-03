@@ -51,5 +51,3 @@ This part presents an overview of software tools and frameworks that manage ML a
 Get a curated list of references ranging from the core MLOps to the Economics of ML/AI. [more...](content/references.md)
 
 ## [MLOps Team](content/ml-ops-team.md)
-
-[(test)](content/test.md)
