@@ -52,4 +52,4 @@ Get a curated list of references ranging from the core MLOps to the Economics of
 
 ## [MLOps Team](content/ml-ops-team.md)
 
-(test)(content/test.md)
+[(test)](content/test.md)
