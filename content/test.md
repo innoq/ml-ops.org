@@ -140,5 +140,46 @@ layout: page
     </tbody>
   </table>
 </div>
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+<div class="tg-wrap"><table class="tg">
+  <tr>
+    <th class="tg-nrix" colspan="4">Machine Learning Model Serving Taxonomy</th>
+  </tr>
+  <tr>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix" colspan="3">ML Model Artifact</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">Serving &amp; Versioning</td>
+    <td class="tg-nrix">Together with the consuming application</td>
+    <td class="tg-nrix" colspan="2">Independent from the consuming application</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">Compile/Runtime Availability</td>
+    <td class="tg-nrix">Build &amp; Runtime available</td>
+    <td class="tg-nrix">Available remotely trough REST API / RPC</td>
+    <td class="tg-nrix">Available at the runtime scope</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="2">Serving Patterns</td>
+    <td class="tg-nrix">Model-as-Dependency</td>
+    <td class="tg-nrix">Model-as-Service</td>
+    <td class="tg-nrix">Precompute<br>Model-as-Data (Model on Demand)</td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" colspan="2">Hybrid Model Serving (Federated Learning)</td>
+    <td class="tg-nrix"></td>
+  </tr>
+</table></div>
+
 </body>
 </html>
+
+
