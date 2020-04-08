@@ -141,43 +141,42 @@ layout: page
   </table>
 </div>
 
-
-<style type="text/css" >
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
-<div class="tg-wrap"><table class="tg">
-  <tr>
-    <th class="tg-nrix" colspan="4">Machine Learning Model Serving Taxonomy</th>
-  </tr>
-  <tr>
-    <td class="tg-nrix"></td>
-    <td class="tg-nrix" colspan="3">ML Model Artifact</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">Serving &amp; Versioning</td>
-    <td class="tg-nrix">Together with the consuming application</td>
-    <td class="tg-nrix" colspan="2">Independent from the consuming application</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix">Compile/Runtime Availability</td>
-    <td class="tg-nrix">Build &amp; Runtime available</td>
-    <td class="tg-nrix">Available remotely trough REST API / RPC</td>
-    <td class="tg-nrix">Available at the runtime scope</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix" rowspan="2">Serving Patterns</td>
-    <td class="tg-nrix">Model-as-Dependency</td>
-    <td class="tg-nrix">Model-as-Service</td>
-    <td class="tg-nrix">Precompute<br>Model-as-Data (Model on Demand)</td>
-  </tr>
-  <tr>
-    <td class="tg-nrix" colspan="2">Hybrid Model Serving (Federated Learning)</td>
-    <td class="tg-nrix"></td>
-  </tr>
-</table></div>
+<div>
+    <table class="table table-striped" border="1">
+      <thead>
+        <tr>
+        <th class="table-head" scope="col" colspan=4> Machine Learning Model Serving Taxonomy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td/>
+        <td scope="row" colspan=3><b>ML Model Artifact</b></td>
+      </tr>
+      <tr>
+        <td scope="row"><b>Service & Versioning</b></td>
+        <td ><b>together with the consuming application</b></td>
+        <td colspan=2><b>independent from the consuming application</b></td>
+      </tr>
+      <tr>
+        <td scope="row"><b>Compile/ Runtime availabilty</b></td>
+        <td><b>build & runtime availabe</b></td>
+        <td><b>available remotely through REST API/RPC"<b></td>
+        <td><b>available at the runtime scope<b></td>
+      </tr>
+      <tr>
+        <td scope="row"rowspan=2><b>Serving Patterns<b></td>
+        <td><b>Model-as-Dependency<b></td>
+        <td><b>Model-as-Service<b></td>
+        <td><b>precompute Model-as-Data (Model on Demand)<b></td>
+      </tr>
+      <tr>
+        <td scope="row"colspan=2><b>Hybrid Model Serving (Federated Learning)<b></td>
+        <td/>
+      </tr>
+      </tbody>
+    </table>
+  </div>
 
 </body>
 </html>
