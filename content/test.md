@@ -141,7 +141,9 @@ layout: page
   </table>
 </div>
 
-<div>
+Test test test
+
+ <div>
     <table class="table table-striped" border="1">
       <thead>
         <tr>
@@ -174,9 +176,9 @@ layout: page
         <td scope="row"colspan=2><b>Hybrid Model Serving (Federated Learning)<b></td>
         <td/>
       </tr>
-      </tbody>
-    </table>
-  </div>
+    </tbody>
+  </table>
+</div>
 
 </body>
 </html>
