@@ -143,42 +143,42 @@ layout: page
 
 Test test test
 
- <div>
-    <table class="table table-striped" border="1">
+<div class="page-layout-xl--default">
+      <table class="table table-striped" border="1">
       <thead>
         <tr>
-        <th class="table-head" scope="col" colspan=4> Machine Learning Model Serving Taxonomy</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-      <td/>
-        <td scope="row" colspan=3><b>ML Model Artifact</b></td>
-      </tr>
-      <tr>
-        <td scope="row"><b>Service & Versioning</b></td>
-        <td ><b>together with the consuming application</b></td>
-        <td colspan=2><b>independent from the consuming application</b></td>
-      </tr>
-      <tr>
-        <td scope="row"><b>Compile/ Runtime availabilty</b></td>
-        <td><b>build & runtime availabe</b></td>
-        <td><b>available remotely through REST API/RPC"<b></td>
-        <td><b>available at the runtime scope<b></td>
-      </tr>
-      <tr>
-        <td scope="row"rowspan=2><b>Serving Patterns<b></td>
-        <td><b>Model-as-Dependency<b></td>
-        <td><b>Model-as-Service<b></td>
-        <td><b>precompute Model-as-Data (Model on Demand)<b></td>
-      </tr>
-      <tr>
-        <td scope="row"colspan=2><b>Hybrid Model Serving (Federated Learning)<b></td>
-        <td/>
-      </tr>
-    </tbody>
-  </table>
-</div>
+          <th class="table-head" scope="col" colspan="4"> Machine Learning Model Serving Taxonomy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;</td>
+          <td scope="row" colspan="3"><b>ML Model Artifact</b></td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Service & Versioning</b></td>
+          <td ><b>together with the consuming application</b></td>
+          <td colspan="2"><b>independent from the consuming application</b></td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Compile/ Runtime availabilty</b></td>
+          <td><b>build & runtime availabe</b></td>
+          <td><b>available remotely through REST API/RPC</b></td>
+          <td><b>available at the runtime scope</b></td>
+        </tr>
+        <tr>
+          <td scope="row" rowspan="2"><b>Serving Patterns</b></td>
+          <td><b>Model-as-Dependency</b></td>
+          <td><b>Model-as-Service</b></td>
+          <td><b>precompute Model-as-Data (Model on Demand)</b></td>
+        </tr>
+        <tr>
+          <td scope="row" colspan="2"><b>Hybrid Model Serving (Federated Learning)</b></td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
 </body>
 </html>

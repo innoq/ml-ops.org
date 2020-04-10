@@ -66,8 +66,8 @@ layout: page
 38. [Demystifying AI Infrastructure](https://gradientflow.com/2020/04/03/demystifying-ai-infrastructure/#more-3609)
 39. [Monitoring Machine Learning Models in Production](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
 40. [Organizing machine learning projects: project management guidelines.](https://www.jeremyjordan.me/ml-projects-guide/)
-
-
+41. [The Checklist for Machine Learning Projects (from Aurélien Géron,"Hands-On Machine Learning with Scikit-Learn and TensorFlow")](https://github.com/visenger/handson-ml/blob/master/ml-project-checklist.md)
+42. [Data Project Checklist by Jeremy Howard](https://www.fast.ai/2020/01/07/data-questionnaire/)
 
 
 # Papers
@@ -98,6 +98,7 @@ layout: page
 7. *MLPM: Machine Learning Package Manager.* Xiaozhe Yao.
 7. *Common Problems with Creating Machine Learning Pipelines from Existing Code.* Katie O’Leary, Makoto Uchida.
 7. [Overton: A Data System for Monitoring and Improving Machine-Learned Products, Apple.](https://arxiv.org/pdf/1909.05372.pdf)
+7. [Reliance on Metrics is a Fundamental Challenge for AI](https://arxiv.org/pdf/2002.08512.pdf)
 
 
 # Talks
@@ -129,6 +130,8 @@ layout: page
 7. [Federated Learning for Mobile Keyboard Prediction](https://arxiv.org/pdf/1811.03604.pdf)
 8. [Federated Learning. Building better products with on-device data and privacy on default](https://federated.withgoogle.com/)
 9. [Federated Learning: Collaborative Machine Learning without Centralized Training Data](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) 
+10.[Book: Molnar, Christoph. "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019](https://christophm.github.io/interpretable-ml-book/)
+
 
 
 # Software Engineering
