@@ -59,11 +59,13 @@ This is the crucial blocks in the whole canvas. Here we should answer three impo
 [*Narrowing the domain*](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze) of the problem could be useful for the next question regarding the required data. For example, instead of creating a universal chat-bot, build a bot that helps with scheduling conference-calls. 
 
 ### Data Sources
-In this block, we clarify all available and possible data sources to be used for the ML task. As an example, we might consider using:
+Data is essential for training ML models. In this block, we clarify all available and possible data sources to be used for the ML task. As an example, we might consider using:
 
  + Internal/external databases.
+ + Data marts, OLAP cubes, data warehouses, OLTP systems.
+ + Hadoop clusters, 
  + REST APIs to gather data.
- + Static files.
+ + Static files, spreadsheets.
  + Web scraping.
  + The output of other (ML) systems.
  + Open-source data sets.
@@ -72,6 +74,8 @@ In this block, we clarify all available and possible data sources to be used for
 Furthermore, we should clarify the *hidden costs* of a machine learning application.
 
  + How expensive could get the data storage?
+ + Should we purchase external data?
+ + What data assess tools and processes are available to make data accessible from other systems?
 
 ### ML Task
 After clarifying what data is available, we brainstorm what type of ML should be used. Here are some examples of questions that might clarify the ML Task:
@@ -166,7 +170,13 @@ After deployment, the ML model should be evaluated and here we would need to spe
     + e.g users spent less time on the inbox.
 
 
-The deliverable in this stage is the completed Machine Learning Canvas. The effort to fill out this canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for the ML-software. Such a discussion might result in a decision not to implement AI/ML at all. Another question would be *when to deploy ML/AI?* The following Figure shows the trade-off of early vs. late ML model deployment.
+The deliverable in this stage is the completed Machine Learning Canvas. The effort to fill out this canvas might initiate an existential discussion regarding the *real objective* and *hidden costs* for the ML-software. Such a discussion might result in a decision not to implement AI/ML at all. Possible reasons can be as follows: 
+
+ + The solution to our problem does not tolerate wrong predictions.
+ + Implementing AI/ML would generate a low ROI.
+ + The maintenance of the ML/AI project is not guaranteed.
+
+Another question would be *when to deploy ML/AI?* The following Figure shows the trade-off of early vs. late ML model deployment.
 
 
 <img src="../img/When-to-deploy-ai.jpg" alt="When to Deploy AI?" width="900"/>
