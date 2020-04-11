@@ -286,6 +286,8 @@ This type of file contains multidimensional arrays of data.
 The Core ML framework has native support for Objective-C and Swift programming languages.
 Applications trained in other ML frameworks, such as TensorFlow, Scikit-Learn, and other frameworks need to use tools like such as coremltools and Tensorflow converter to translate their ML model files to the .mlmodel format for use on iOS.
 
+The following Table summarizes the ML model serialization formats:
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -459,7 +461,7 @@ Model serving is a way to integrate the ML model in a software system.
 We distinguish between five patterns to put the ML model in production: ***Model-as-Service***, ***Model-as-Dependency***, ***Precompute***, ***Model-on-Demand***, and ***Hybrid-Serving***.
 Please note that the above-described model serialization formats might be used for any of the model serving patterns.
 
-The following taxonomy shows these these approaches:
+The following taxonomy shows these approaches:
 
 <html lang="en" dir="ltr">
   <head>
@@ -483,20 +485,20 @@ The following taxonomy shows these these approaches:
         </tr>
         <tr>
           <td scope="row"><b>Service & Versioning</b></td>
-          <td ><b>together with the consuming application</b></td>
-          <td colspan="2"><b>independent from the consuming application</b></td>
+          <td ><b>Together with the consuming application</b></td>
+          <td colspan="2"><b>Independent from the consuming application</b></td>
         </tr>
         <tr>
           <td scope="row"><b>Compile/ Runtime availabilty</b></td>
-          <td><b>build & runtime availabe</b></td>
-          <td><b>available remotely through REST API/RPC</b></td>
-          <td><b>available at the runtime scope</b></td>
+          <td><b>Build & runtime availabe</b></td>
+          <td><b>Available remotely through REST API/RPC</b></td>
+          <td><b>Available at the runtime scope</b></td>
         </tr>
         <tr>
           <td scope="row" rowspan="2"><b>Serving Patterns</b></td>
-          <td><b>Model-as-Dependency</b></td>
-          <td><b>Model-as-Service</b></td>
-          <td><b>precompute Model-as-Data (Model on Demand)</b></td>
+          <td><b>"Model-as-Dependency"</b></td>
+          <td><b>"Model-as-Service"</b></td>
+          <td><b>"Precompute" and "Model on Demand"</b></td>
         </tr>
         <tr>
           <td scope="row" colspan="2"><b>Hybrid Model Serving (Federated Learning)</b></td>
