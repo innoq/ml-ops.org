@@ -24,7 +24,7 @@ Being an important step, data engineering is reported as heavily time-consuming.
 We might spend the majority of time on a machine learning project constructing data sets, cleaning, and transforming data.
 
 The data engineering pipeline includes a sequence of operations on the available data.
-The final goal of these operations is to create training and testing datasets for the ML algorithms:
+The final goal of these operations is to create training and testing datasets for the ML algorithms. In the following, we describe each stage of the data engineering pipeline such as *Data Ingestion*, *Exploration and Validation*, *Data Wrangling (Cleaning)*, and *Data Splitting*.
 
 ### Data Ingestion
 
@@ -85,14 +85,11 @@ We recommend writing scripts or functions for all data transformations in the da
 
 *Data Splitting* - Splitting the data into training (80 %), validation, and test datasets to be used during the core machine learning stages to produce the ML model.
 
-##### Further reading
-[Book: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/app02.html#project_checklist_appendix)
 
 ## Model: Machine Learning Pipelines
 
 The core of the ML workflow is the phase of writing and executing machine learning algorithms to obtain an ML model.
-The model engineering pipeline is usually utilized by a data science team and includes a number of operations that lead to a final model.
-We recommend automating these steps as much as possible.
+The model engineering pipeline is usually utilized by a data science team and includes a number of operations that lead to a final model. These operations include *Model Training*, *Model Evaluation*, *Model Testing*, and *Model Packaging*. We recommend automating these steps as much as possible.
 
 ### Model Training
 
@@ -107,9 +104,7 @@ The following list is adopted from ["Hands-On Machine Learning with Scikit-Learn
      - Add transformations of features (e.g., log(x), sqrt(x), x2, etc.)
      - Aggregate features into promising new features
      - Feature scaling: Standardize or normalize features
-     - New features should be added quickly to get fast from a feature idea to the feature running in production.
-
-Further reading ["Feature Engineering for Machine Learning. Principles and Techniques for Data Scientists" by Alice Zheng, Amanda Casari]()
+     - New features should be added quickly to get fast from a feature idea to the feature running in production. Further reading ["Feature Engineering for Machine Learning. Principles and Techniques for Data Scientists" by Alice Zheng, Amanda Casari](http://shop.oreilly.com/product/0636920049081.do)
 
    - *Model Engineering* might be an iterative process and include the following workflow:
       - Every ML model specification (code that creates an ML model) should go through a code review and be versioned.
@@ -134,12 +129,8 @@ Further reading ["Feature Engineering for Machine Learning. Principles and Techn
 ### Model Packaging
 *Model Packaging* - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model to be consumed by the business application. We cover the ML model packaging in the part 'ML Model serialization formats' below.
 
-##### Further reading
 
-- [Book: Hands-on Machine Learning](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/app02.html#project_checklist_appendix)
-- [Feature Engineering: Best Resources to Learn Feature Engineering for Machine Learning](https://www.trainindata.com/post/data-processing)
-
-### Different forms of ML workflows
+#### Different forms of ML workflows
 
 Operating an ML model might assume several architectural solutions.
 In the following, we discuss four architectural patterns which are classified along two dimensions:
@@ -172,7 +163,9 @@ After identifying these two dimensions, we can classify the operationalization o
 
 [Picture source](https://www.quora.com/How-do-you-take-a-machine-learning-model-to-production)
 
-#### Forecast
+In the following, we present a description of the model architectural patterns such as *Forecast*, *Web-Service*, *Online Learning*, and *AutoML*. 
+
+##### Forecast
 
 This type of machine learning workflow is widely spread in academic research or data science education (e.g., Kaggle or DataCamp).
 This form is used to experiment with ML algorithms and data as it is the easiest way to create a machine learning system.
@@ -180,9 +173,9 @@ Usually, we take an available dataset, train the ML model, then run this model o
 This way, we output a forecast.
 This ML workflow is not very useful and, therefore, not common in an industry setting for production systems (e.g. mobile applications).
 
-#### Web-Service
+##### Web-Service
 
-The most commonly described deployment architecture for ML models is a web service.
+The most commonly described deployment architecture for ML models is a web service (microservise).
 The web service takes input data and outputs a prediction for the input data points.
 The model is trained offline on historical data, but it uses real-live data to make predictions.
 The difference from a forecast (batch predictions) is that the ML model runs near real-time and handles a single record at a time instead of processing all the data at once.
@@ -194,7 +187,7 @@ Please note, we discuss methods for wrapping trained ML models as deployable ser
 
 <img src="../img/model-serving-microservices.jpg" alt="Web Service Pattern" width="900"/>
 
-#### Online Learning
+##### Online Learning
 
 The most dynamic way to embed machine learning into a production system is to implement *online learning*, which is also known as *real-time streaming analytics*.
 Please note that online learning can be a confusing name because the core learning or ML model training is usually not performed on the live system.
@@ -214,7 +207,7 @@ A big difficulty with the online learning system in production is that if bad da
 
 [Figure Source](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/ch01.html)
 
-#### AutoML
+##### AutoML
 
 An even more sophisticated version of online learning is *automated machine learning* or *AutoML*.
 
@@ -238,6 +231,7 @@ There are various formats to distribute ML models.
 In order to achieve a distributable format, the ML model should be present and should be executable as an independent artifact.
 For example, we might want to use a Scikit-learn model in a Spark job.
 This means that the ML models should work outside of the model-training environment.
+In the following, we describe *Language-agnostic* and *Vendor-specific exchange formats* for ML models.
 
 #### Language-agnostic exchange formats
 
@@ -269,7 +263,6 @@ Once the ML model is serialized in the ONNX format, it can be consumed by onnx-e
 Notably that most deep learning tools have ONNX support.
 
 [Source: Open Standard Models](https://github.com/adbreind/open-standard-models-2019)
-
 
 #### Vendor-specific exchange formats
 
@@ -447,6 +440,7 @@ In particular, we are interested in ML-specific signals, such as prediction devi
 These signals might be used as triggers for model re-training.
 3. *Model Performance Logging* - Every inference request results in a log-record.
 
+In the following, we discuss *Model Serving Patterns* and *Model Deployment Strategies*.
 ---
 
 ### Model Serving Patterns
@@ -512,6 +506,7 @@ The following taxonomy shows these approaches:
 </body>
 </html>
 
+Now, we present the serving patterns to productionize the ML model such as ***Model-as-Service***, ***Model-as-Dependency***, ***Precompute***, ***Model-on-Demand***, and ***Hybrid-Serving***.
 
 #### Model-as-Service
 
