@@ -513,8 +513,6 @@ The following taxonomy shows these approaches:
 </html>
 
 
-
-
 #### Model-as-Service
 
 Model-as-Service is a common pattern for wrapping an ML model as an independent service.
@@ -522,7 +520,7 @@ We can wrap the ML model and the interpreter within a dedicated web service that
 
 This pattern can be used for various ML workflows, such as Forecast, Web Service, Online Learning.
 
-![Model as Service Pattern](img/model-as-service.jpg)
+<img src="../img/model-as-service.jpg" alt="Model as Service Pattern" width="900"/>
 
 [Figure Source](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/ch02.html#project_chapter)
 
@@ -543,7 +541,8 @@ For example, the application consumes the ML model like a conventional *jar* dep
 The return value of such method execution is some prediction that is performed by the previously trained ML model.
 The Model-as-Dependency approach is mostly used for implementing the Forecast pattern.
 
-![Model as Dependency](img/model-as-dependency.jpg)
+<img src="../img/model-as-dependency.jpg" alt="Model as Dependency" width="900"/>
+
 
 #### Precompute Serving Pattern
 
@@ -552,7 +551,7 @@ With the *Precompute* serving pattern, we use an already trained ML model and pr
 The resulting predictions are persisted in the database.
 Therefore, for any input request, we query the database to get the prediction result.
 
-![Precompute Serving Pattern](img/precompute-serving-pattern.jpg)
+<img src="../img/precompute-serving-pattern.jpg" alt="Precompute Serving Pattern" width="900"/>
 
 [Further reading: Bringing ML to Production (Slides)](https://www.slideshare.net/mikiobraun/bringing-ml-to-production-what-is-missing-amld-2020)
 
@@ -571,7 +570,8 @@ This process connects to the broker, reads these requests in batch from the queu
 The model serving process runs the prediction generation on the input data and writes the resulted predictions to the output queue.
 Afterwards, the queued prediction results are pushed to the prediction service that initiated the prediction request.
 
-![Model as Data](img/model-on-demand.jpg)
+
+<img src="../img/model-on-demand.jpg" alt="Model on Demand" width="900"/>
 
 Further reading: [Event-driven architecture](https://learning.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html)
 
@@ -600,7 +600,9 @@ With Federated Learning there are other circumstances, the mobile devices are le
 Exactly for this TensorFlow Federated ([TFF](https://medium.com/tensorflow/introducing-tensorflow-federated-a4147aa20041)) has been created.
 TFF is a lightweight form of TensorFlow created for Federated Learning.
 
-![Federated Learning](img/federated-learning.jpg)
+<img src="../img/federated-learning.jpg" alt="Federated Learning" width="900"/>
+
+[Figure Source](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
 
 ### Deployment Strategies
 
@@ -612,11 +614,12 @@ One ubiquitous way is to package the whole ML tech stack (dependencies) and the 
 Then Kubernetes or an alternative (e.g. AWS Fargate) does the orchestration.
 The ML model functionality, such as prediction, is then available through a REST API (e.g. implemented as [Flask application](https://flask.palletsprojects.com/en/1.1.x/))
 
-![Infrastructure for Model Deployment](img/infra-cloud.jpg)
+<img src="../img/infra-cloud.jpg" alt="Docker Infrastructure for Model Deployment" width="900"/>
 
 #### Deploying ML Models as Serverless Functions
 
 In order to deploy an ML model as a serverless function, the application code and dependencies are packaged into .zip files, with a single entry point function.
 This function then could be managed by major cloud providers such as Azure Functions, AWS Lambda, or Google Cloud Functions. However, attention should be paid to possible constraints of the deployed artifacts such as the size of the artifact.
 
-![Infrastructure for Model Deployment](img/infra-lambda.jpg)
+<img src="../img/infra-lambda.jpg" alt="Serverless Infrastructure for Model Deployment" width="900"/>
+
