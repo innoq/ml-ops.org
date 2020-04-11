@@ -29,12 +29,14 @@ This part is devoted to one of the most important phase in any software project 
 
 In this section, we provide a high-level overview of a typical workflow for machine learning-based software development. [more...](content/end-to-end-ml-workflow.md) 
 
-## [Three Levels of ML-based Software (coming soon) ]()
+## Three Levels of ML-based Software
 
 You will learn about three core elements of ML-based software - ***Data, ML models***, and ***Code***. In particular, we will talk about 
    * Data Engineering Pipelines
    * ML Pipelines and ML workflows.
    * Model Serving Patterns and Deployment Strategies
+
+  [more...](content/three-levels-of-ml-software.md)
 
 ## [MLOps Principles (coming soon)]() 
 
