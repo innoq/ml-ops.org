@@ -28,7 +28,7 @@ The final goal of these operations is to create training and testing datasets fo
 
 ### Data Ingestion
 
-*Data Ingestion* - Collecting data by using various tools and frameworks, such as Spark, HDFS, CSV, etc.
+*Data Ingestion* - Collecting data by using various systems, frameworks and formats, such as internal/external databases, data marts, OLAP cubes, data warehouses, OLTP systems, Spark, HDFS etc.
 This step might also include synthetic data generation or data enrichment
 The best practices for this step include the following actions that should be maximally automated:
 
