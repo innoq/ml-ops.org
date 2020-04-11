@@ -26,7 +26,9 @@ We might spend the majority of time on a machine learning project constructing d
 The data engineering pipeline includes a sequence of operations on the available data.
 The final goal of these operations is to create training and testing datasets for the ML algorithms:
 
-1. *Data Ingestion* - Collecting data by using various tools and frameworks, such as Spark, HDFS, CSV, etc.
+### Data Ingestion
+
+*Data Ingestion* - Collecting data by using various tools and frameworks, such as Spark, HDFS, CSV, etc.
 This step might also include synthetic data generation or data enrichment
 The best practices for this step include the following actions that should be maximally automated:
 
@@ -39,7 +41,9 @@ The best practices for this step include the following actions that should be ma
 - Metadata Catalog: Start documenting the metadata of the dataset by recording the basic information about the size, format, aliases, last modified time, and access control lists. ([Further reading](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730?download=true))
 - Test Data: Sample a test set, put it aside, and never look at it to avoid the *"data snooping"* bias. You fell for this if you are selecting a particular kind of ML model by using the test set. This will lead to an ML model selection that is too optimistic and will not perform well in production.
 
-2. *Exploration and Validation* - Includes data profiling to obtain information about the content and structure of the data.
+### Exploration and Validation
+
+*Exploration and Validation* - Includes data profiling to obtain information about the content and structure of the data.
 The output of this step is a set of metadata, such as max, min, avg of values.
 Data validation operations are user-defined error detection functions, which scan the dataset to spot some errors.
 The validation is a process of assessing the quality of the data by running dataset validation routines (error detection methods).
@@ -61,7 +65,9 @@ The best practices for this step include the following actions:
 - Attributes Correlation: Compute and analyze the correlations between attributes.
 - Additional Data: Identify data that would be useful for building the model (go back to “Data Ingestion”).
 
-3. *Data Wrangling (Cleaning)* - Data preparation step where we programmatically wrangle data, e.g., by re-formatting or re-structuring particular attributes that might change the form of the data's schema.
+### Data Wrangling (Cleaning)
+
+*Data Wrangling (Cleaning)* - Data preparation step where we programmatically wrangle data, e.g., by re-formatting or re-structuring particular attributes that might change the form of the data's schema.
 We recommend writing scripts or functions for all data transformations in the data pipeline to re-use all these functionalities on future data.
 
 - Transformations: Identify the promising transformations you may want to apply.
@@ -75,7 +81,9 @@ We recommend writing scripts or functions for all data transformations in the da
   - Filtering datasets by removing sets of records
   - Shifting the granularity of the dataset and the fields associated with records through aggregations and pivots.
 
-1. *Data Splitting* - Splitting the data into training (80 %), validation, and test datasets to be used during the core machine learning stages to produce the ML model.
+### Data Splitting
+
+*Data Splitting* - Splitting the data into training (80 %), validation, and test datasets to be used during the core machine learning stages to produce the ML model.
 
 ##### Further reading
 [Book: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/app02.html#project_checklist_appendix)
@@ -86,7 +94,9 @@ The core of the ML workflow is the phase of writing and executing machine learni
 The model engineering pipeline is usually utilized by a data science team and includes a number of operations that lead to a final model.
 We recommend automating these steps as much as possible.
 
-1. *Model Training* - The process of applying the machine learning algorithm on training data to train an ML model.
+### Model Training
+
+*Model Training* - The process of applying the machine learning algorithm on training data to train an ML model.
 It also includes feature engineering the hyperparameter tuning for the model training activity.
 The following list is adopted from ["Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/app02.html#project_checklist_appendix)
 
@@ -115,9 +125,14 @@ Further reading ["Feature Engineering for Machine Learning. Principles and Techn
       - Consider Ensemble methods such as *majority vote*, *bagging*, *boosting*, or *stacking*.
       Combining ML models should produce better performance than running them individually. (Further reading ["Ensemble Methods: Foundations and Algorithms" by Zhi-Hua Zhou](https://www.amazon.com/exec/obidos/ASIN/1439830037/acmorg-20))
 
-2. *Model Evaluation* - Validate the trained model to ensure it meets original business objectives before serving the ML model in production to the end-user.
-3. *Model Testing* - Once the final ML model is trained, its performance needs to be measured by using the hold-back test dataset to estimate the generalization error by performing the final "Model Acceptance Test".
-4. *Model Packaging* - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model to be consumed by the business application. We cover the ML model packaging in the part 'ML Model serialization formats' below.
+### Model Evaluation
+*Model Evaluation* - Validate the trained model to ensure it meets original business objectives before serving the ML model in production to the end-user.
+
+### Model Testing
+*Model Testing* - Once the final ML model is trained, its performance needs to be measured by using the hold-back test dataset to estimate the generalization error by performing the final "Model Acceptance Test".
+
+### Model Packaging
+*Model Packaging* - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model to be consumed by the business application. We cover the ML model packaging in the part 'ML Model serialization formats' below.
 
 ##### Further reading
 
@@ -140,7 +155,6 @@ There are two ways how we perform ***ML Model Training***:
  1. Offline learning (aka *batch* or *static learning*): The model is trained on a set of already collected data.
  After deploying to the production environment, the ML model remains constant until it re-trained because the model will see a lot of real-live data and becomes *stale*.
  This phenomenon is called *'model decay'* and should be carefully monitored.
-
  2. Online learning (aka *dynamic learning*): The model is regularly being re-trained as new data arrives, e.g. as data streams.
  This is usually the case for ML systems that use time-series data, such as sensor, or stock trading data to accommodate the temporal effects in the ML model.
 
@@ -149,7 +163,6 @@ Here we also distinguish two modes:
 
  1. Batch predictions: The deployed ML model makes a set of predictions based on historical input data.
  This is often sufficient for data that is not time-dependent, or when it is not critical to obtain real-time predictions as output.
-
  2. Real-time predictions (aka on-demand predictions):
  Predictions are generated in real-time using the input data that is available at the time of the request.
 
@@ -178,7 +191,8 @@ The web service uses real-time data to make predictions, but the model remains c
 The figure below illustrates the architecture for wrapping trained models as deployable services.
 Please note, we discuss methods for wrapping trained ML models as deployable services in the Deployment Strategies Section.
 
-![Web Service Pattern](img/model-serving-microservices.jpg)
+
+<img src="../img/model-serving-microservices.jpg" alt="Web Service Pattern" width="900"/>
 
 #### Online Learning
 
@@ -196,7 +210,8 @@ The model would typically run as a service on a Kubernetes cluster or similar.
 
 A big difficulty with the online learning system in production is that if bad data is entering the system, the ML model, as well as the whole system performance, will increasingly decline.
 
-![Online Learning ML System](img/Online learning.jpg)
+<img src="../img/Online learning.jpg" alt="Online Learning ML System" width="900"/>
+
 [Figure Source](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/ch01.html)
 
 #### AutoML
