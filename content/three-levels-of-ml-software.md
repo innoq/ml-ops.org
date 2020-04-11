@@ -541,7 +541,7 @@ For example, the application consumes the ML model like a conventional *jar* dep
 The return value of such method execution is some prediction that is performed by the previously trained ML model.
 The Model-as-Dependency approach is mostly used for implementing the Forecast pattern.
 
-<img src="../img/model-as-dependency.jpg" alt="Model as Dependency" width="900"/>
+<img src="../img/model-as-dependency.jpg" alt="Model as Dependency" width="600"/>
 
 
 #### Precompute Serving Pattern
