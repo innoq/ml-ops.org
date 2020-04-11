@@ -1,4 +1,4 @@
-# Three Levels of Machine Learning-Based Software
+# Three Levels of ML Software
 
 ML/AI is rapidly adopted by new applications and industries.
 As already been mentioned, the goal of a machine learning project is to build a statistical model by using collected data and applying machine learning algorithms.
@@ -29,14 +29,15 @@ The final goal of these operations is to create training and testing datasets fo
 1. *Data Ingestion* - Collecting data by using various tools and frameworks, such as Spark, HDFS, CSV, etc.
 This step might also include synthetic data generation or data enrichment
 The best practices for this step include the following actions that should be maximally automated:
-    - Data Sources Identification: Find the data and document its origin (data provenance).
-    - Space Estimation: Check how much storage space it will take.
-    - Space Location: Create a workspace with enough storage space.
-    - Obtaining Data: Get the data and convert them to a format that can be easily manipulated without changing the data itself.
-    - Back up Data: Always work on a copy of the data and keep the original dataset untouched.
-    - Privacy Compliance: Ensure sensitive information is deleted or protected (e.g., anonymized) to ensure GDPR compliance.
-    - Metadata Catalog: Start documenting the metadata of the dataset by recording the basic information about the size, format, aliases, last modified time, and access control lists. ([Further reading](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730?download=true))
-    - Test Data: Sample a test set, put it aside, and never look at it to avoid the *"data snooping"* bias.
+
+    + Data Sources Identification: Find the data and document its origin (data provenance).
+    + Space Estimation: Check how much storage space it will take.
+    + Space Location: Create a workspace with enough storage space.
+    + Obtaining Data: Get the data and convert them to a format that can be easily manipulated without changing the data itself.
+    + Back up Data: Always work on a copy of the data and keep the original dataset untouched.
+    + Privacy Compliance: Ensure sensitive information is deleted or protected (e.g., anonymized) to ensure GDPR compliance.
+    + Metadata Catalog: Start documenting the metadata of the dataset by recording the basic information about the size, format, aliases, last modified time, and access control lists. ([Further reading](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730?download=true))
+    + Test Data: Sample a test set, put it aside, and never look at it to avoid the *"data snooping"* bias.
     You fell for this if you are selecting a particular kind of ML model by using the test set.
     This will lead to an ML model selection that is too optimistic and will not perform well in production.
 
@@ -92,6 +93,7 @@ It also includes feature engineering the hyperparameter tuning for the model tra
 The following list is adopted from ["Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/app02.html#project_checklist_appendix)
 
    - *Feature engineering* might include:
+
      - Discretize continuous features
      - Decompose features (e.g., categorical, date/time, etc.)
      - Add transformations of features (e.g., log(x), sqrt(x), x2, etc.)
@@ -99,7 +101,7 @@ The following list is adopted from ["Hands-On Machine Learning with Scikit-Learn
      - Feature scaling: Standardize or normalize features
      - New features should be added quickly to get fast from a feature idea to the feature running in production.
 
-   Further reading ["Feature Engineering for Machine Learning. Principles and Techniques for Data Scientists" by Alice Zheng, Amanda Casari]()
+Further reading ["Feature Engineering for Machine Learning. Principles and Techniques for Data Scientists" by Alice Zheng, Amanda Casari]()
 
    - *Model Engineering* might be an iterative process and include the following workflow:
       - Every ML model specification (code that creates an ML model) should go through a code review and be versioned.
@@ -156,6 +158,7 @@ Here we also distinguish two modes:
 After identifying these two dimensions, we can classify the operationalization of machine learning models into four ML architecture patterns:
 
 ![ml workflows](img/model serving patterns.jpg)
+<img src="../img/model serving patterns.jpg" alt="ML Workflows" width="900"/>
 
 [Picture reference](https://www.quora.com/How-do-you-take-a-machine-learning-model-to-production)
 
