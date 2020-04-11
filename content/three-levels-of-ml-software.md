@@ -239,9 +239,7 @@ In order to achieve a distributable format, the ML model should be present and s
 For example, we might want to use a Scikit-learn model in a Spark job.
 This means that the ML models should work outside of the model-training environment.
 
-###### Language-agnostic exchange formats
-
-[Source: Open Standard Models](https://github.com/adbreind/open-standard-models-2019)
+#### Language-agnostic exchange formats
 
 - Amalgamation is the simplest way to export an ML model.
 The model and all necessary code to run are bundled as one package.
@@ -270,7 +268,10 @@ Once the ML model is serialized in the ONNX format, it can be consumed by onnx-e
 [Here](https://github.com/onnx/tutorials#scoring-onnx-models) is the list of tools that can use ONNX format.
 Notably that most deep learning tools have ONNX support.
 
-###### Vendor-specific exchange formats
+[Source: Open Standard Models](https://github.com/adbreind/open-standard-models-2019)
+
+
+#### Vendor-specific exchange formats
 
 - Scikit-Learn saves models as pickled python objects, with a .pkl file extension.
 - H2O allows you to convert the models you have built to either POJO (Plain Old Java Object) or MOJO (Model Object, Optimized).
@@ -286,7 +287,7 @@ This type of file contains multidimensional arrays of data.
 The Core ML framework has native support for Objective-C and Swift programming languages.
 Applications trained in other ML frameworks, such as TensorFlow, Scikit-Learn, and other frameworks need to use tools like such as coremltools and Tensorflow converter to translate their ML model files to the .mlmodel format for use on iOS.
 
-The following Table summarizes the ML model serialization formats:
+The following Table summarizes all ML model serialization formats:
 
 <html lang="en" dir="ltr">
   <head>
