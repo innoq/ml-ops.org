@@ -235,32 +235,10 @@ In the following, we describe *Language-agnostic* and *Vendor-specific exchange 
 
 #### Language-agnostic exchange formats
 
-- Amalgamation is the simplest way to export an ML model.
-The model and all necessary code to run are bundled as one package.
-Usually, it is a single source code file that can be compiled on nearly any platform as a standalone program.
-For example, we can create a standalone version of an ML model by using [SKompiler](https://pypi.org/project/SKompiler/).
-This python package provides a tool for transforming trained Scikit-learn models into other forms, such as SQL queries, Excel formulas, Portable Format for Analytics (PFA) files, or SymPy expressions.
-The last can be translated to code in a variety of languages, such as C, Javascript, Rust, Julia, etc.
-Amalgamation is a straightforward concept, and the exported ML models are portable.
-With some easy ML algorithms, such as logistic regression or decision tree, this format is compact and might have good performance, which is useful for constrained embedded environments.
-However, the ML model code and parameters need to be managed together.
-
-- PMML is a format for model serving based on XML with the file extension .pmml.
-PMML has been standardized by the [Data Mining Group (DMG)](http://dmg.org/dmg-members.html).
-Basically, .ppml [describes a model and pipeline in XML](http://dmg.org/pmml/pmml_examples/).
-The PMML supports not all of the ML algorithms, and its usage in open source-driven tools is limited due to licensing issues.
-
-- PFA ([Portable Format for Analytics](http://dmg.org/pfa/docs/motivation/)) is designed as a replacement for PMML.
-From DMG: *"A PFA document is a string of JSON-formatted text that describes an executable called a scoring engine. Each engine has a well-defined input, a well-defined output, and functions for combining inputs to construct the output in an expression-centric syntax tree".*
-PFA capabilities include (1) control structures, such as conditionals, loops, and user-defined functions, (2) expressed within JSON, and can, therefore, be easily generated and manipulated by other programs, (3) fine-grained function library supporting extensibility callbacks.
-To run ML models as PFA files, we will need a PFA-enabled environment.
-
-- ONNX (Open Neural Network eXchange) is an ML framework independent file format.
-ONNX was created to allow any ML tool to share a single model format.
-This format is supported by many big tech companies such as Microsoft, Facebook, and Amazon.
-Once the ML model is serialized in the ONNX format, it can be consumed by onnx-enabled runtime libraries (also called inference engines) and then make predictions.
-[Here](https://github.com/onnx/tutorials#scoring-onnx-models) is the list of tools that can use ONNX format.
-Notably that most deep learning tools have ONNX support.
+- Amalgamation is the simplest way to export an ML model. The model and all necessary code to run are bundled as one package. Usually, it is a single source code file that can be compiled on nearly any platform as a standalone program. For example, we can create a standalone version of an ML model by using [SKompiler](https://pypi.org/project/SKompiler/). This python package provides a tool for transforming trained Scikit-learn models into other forms, such as SQL queries, Excel formulas, Portable Format for Analytics (PFA) files, or SymPy expressions. The last can be translated to code in a variety of languages, such as C, Javascript, Rust, Julia, etc. Amalgamation is a straightforward concept, and the exported ML models are portable. With some easy ML algorithms, such as logistic regression or decision tree, this format is compact and might have good performance, which is useful for constrained embedded environments. However, the ML model code and parameters need to be managed together.
+- PMML is a format for model serving based on XML with the file extension .pmml. PMML has been standardized by the [Data Mining Group (DMG)](http://dmg.org/dmg-members.html). Basically, .ppml [describes a model and pipeline in XML](http://dmg.org/pmml/pmml_examples/). The PMML supports not all of the ML algorithms, and its usage in open source-driven tools is limited due to licensing issues. 
+- PFA ([Portable Format for Analytics](http://dmg.org/pfa/docs/motivation/)) is designed as a replacement for PMML. From DMG: *"A PFA document is a string of JSON-formatted text that describes an executable called a scoring engine. Each engine has a well-defined input, a well-defined output, and functions for combining inputs to construct the output in an expression-centric syntax tree".* PFA capabilities include (1) control structures, such as conditionals, loops, and user-defined functions, (2) expressed within JSON, and can, therefore, be easily generated and manipulated by other programs, (3) fine-grained function library supporting extensibility callbacks. To run ML models as PFA files, we will need a PFA-enabled environment.
+- ONNX (Open Neural Network eXchange) is an ML framework independent file format. ONNX was created to allow any ML tool to share a single model format. This format is supported by many big tech companies such as Microsoft, Facebook, and Amazon. Once the ML model is serialized in the ONNX format, it can be consumed by onnx-enabled runtime libraries (also called inference engines) and then make predictions. [Here](https://github.com/onnx/tutorials#scoring-onnx-models) you will find the list of tools that can use ONNX format. Notably that most deep learning tools have ONNX support.
 
 [Source: Open Standard Models](https://github.com/adbreind/open-standard-models-2019)
 
@@ -268,17 +246,11 @@ Notably that most deep learning tools have ONNX support.
 
 - Scikit-Learn saves models as pickled python objects, with a .pkl file extension.
 - H2O allows you to convert the models you have built to either POJO (Plain Old Java Object) or MOJO (Model Object, Optimized).
-- SparkML models that can be saved in the MLeap file format and served in real-time using an MLeap model server.
-The MLeap runtime is a JAR that can run in any Java application.
-MLeap supports Spark, Scikit-learn, and Tensorflow for training pipelines and exporting them to an MLeap Bundle.
+- SparkML models that can be saved in the MLeap file format and served in real-time using an MLeap model server. The MLeap runtime is a JAR that can run in any Java application.MLeap supports Spark, Scikit-learn, and Tensorflow for training pipelines and exporting them to an MLeap Bundle. 
 - TensorFlow saves models as .pb files; which is the protocol buffer files extension.
-- PyTorch serves models by using their proprietary Torch Script as a .pt file.
-Their model format can be served from a C-- application.
-- Keras saves a model as a .h5 file, which is known in the scientific community as a data file saved in the Hierarchical Data Format (HDF).
-This type of file contains multidimensional arrays of data.
-- Apple has its proprietary file format with the extension .mlmodel to store models embedded in iOS applications.
-The Core ML framework has native support for Objective-C and Swift programming languages.
-Applications trained in other ML frameworks, such as TensorFlow, Scikit-Learn, and other frameworks need to use tools like such as coremltools and Tensorflow converter to translate their ML model files to the .mlmodel format for use on iOS.
+- PyTorch serves models by using their proprietary Torch Script as a .pt file. Their model format can be served from a C-- application.
+- Keras saves a model as a .h5 file, which is known in the scientific community as a data file saved in the Hierarchical Data Format (HDF). This type of file contains multidimensional arrays of data.
+- Apple has its proprietary file format with the extension .mlmodel to store models embedded in iOS applications. The Core ML framework has native support for Objective-C and Swift programming languages. Applications trained in other ML frameworks, such as TensorFlow, Scikit-Learn, and other frameworks need to use tools like such as coremltools and Tensorflow converter to translate their ML model files to the .mlmodel format for use on iOS.
 
 The following Table summarizes all ML model serialization formats:
 
