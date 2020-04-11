@@ -413,7 +413,7 @@ These signals might be used as triggers for model re-training.
 3. *Model Performance Logging* - Every inference request results in a log-record.
 
 In the following, we discuss *Model Serving Patterns* and *Model Deployment Strategies*.
----
+
 
 ### Model Serving Patterns
 
@@ -456,7 +456,7 @@ The following taxonomy shows these approaches:
           <td colspan="2"><b>Independent from the consuming application</b></td>
         </tr>
         <tr>
-          <td scope="row"><b>Compile/ Runtime availabilty</b></td>
+          <td scope="row"><b>Compile/ Runtime Availabilty</b></td>
           <td><b>Build & runtime availabe</b></td>
           <td><b>Available remotely through REST API/RPC</b></td>
           <td><b>Available at the runtime scope</b></td>
@@ -490,15 +490,6 @@ This pattern can be used for various ML workflows, such as Forecast, Web Service
 <img src="../img/model-as-service.jpg" alt="Model as Service Pattern" width="900"/>
 
 [Figure Source](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781492032632/ch02.html#project_chapter)
-
-As of now, there is no standard, open solution to ML model deployment.
-As ML model inference being considered *stateless*, *lightweight*, and *idempotent*, containerization becomes the de-facto standard for delivery.
-This means we deploy a container that wraps an ML model inference code.
-For on-premise, cloud, or hybrid deployments, Docker is considered to be de-facto standard containerization technology.
-
-Various cloud vendors already provide machine-learning platforms, and you can deploy your model with their services.
-Examples are Amazon AWS Sagemaker, Google Cloud AI Platform, Azure Machine Learning Studio, and IBM Watson Machine Learning, to name a few.
-Commercial cloud services also provide containerization of ML models such as AWS Lambda and Google App Engine servlet host.
 
 #### Model-as-Dependency
 
@@ -577,6 +568,11 @@ In the following, we discuss common ways for wrapping trained models as deployab
 
 #### Deploying ML Models as Docker Containers
 
+As of now, there is no standard, open solution to ML model deployment.
+As ML model inference being considered *stateless*, *lightweight*, and *idempotent*, containerization becomes the de-facto standard for delivery.
+This means we deploy a container that wraps an ML model inference code.
+For on-premise, cloud, or hybrid deployments, Docker is considered to be de-facto standard containerization technology.
+
 One ubiquitous way is to package the whole ML tech stack (dependencies) and the code for ML model prediction into a Docker container.
 Then Kubernetes or an alternative (e.g. AWS Fargate) does the orchestration.
 The ML model functionality, such as prediction, is then available through a REST API (e.g. implemented as [Flask application](https://flask.palletsprojects.com/en/1.1.x/))
@@ -584,6 +580,10 @@ The ML model functionality, such as prediction, is then available through a REST
 <img src="../img/infra-cloud.jpg" alt="Docker Infrastructure for Model Deployment" width="900"/>
 
 #### Deploying ML Models as Serverless Functions
+
+Various cloud vendors already provide machine-learning platforms, and you can deploy your model with their services.
+Examples are Amazon AWS Sagemaker, Google Cloud AI Platform, Azure Machine Learning Studio, and IBM Watson Machine Learning, to name a few.
+Commercial cloud services also provide containerization of ML models such as AWS Lambda and Google App Engine servlet host.
 
 In order to deploy an ML model as a serverless function, the application code and dependencies are packaged into .zip files, with a single entry point function.
 This function then could be managed by major cloud providers such as Azure Functions, AWS Lambda, or Google Cloud Functions. However, attention should be paid to possible constraints of the deployed artifacts such as the size of the artifact.
