@@ -30,16 +30,14 @@ The final goal of these operations is to create training and testing datasets fo
 This step might also include synthetic data generation or data enrichment
 The best practices for this step include the following actions that should be maximally automated:
 
-    + Data Sources Identification: Find the data and document its origin (data provenance).
-    + Space Estimation: Check how much storage space it will take.
-    + Space Location: Create a workspace with enough storage space.
-    + Obtaining Data: Get the data and convert them to a format that can be easily manipulated without changing the data itself.
-    + Back up Data: Always work on a copy of the data and keep the original dataset untouched.
-    + Privacy Compliance: Ensure sensitive information is deleted or protected (e.g., anonymized) to ensure GDPR compliance.
-    + Metadata Catalog: Start documenting the metadata of the dataset by recording the basic information about the size, format, aliases, last modified time, and access control lists. ([Further reading](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730?download=true))
-    + Test Data: Sample a test set, put it aside, and never look at it to avoid the *"data snooping"* bias.
-    You fell for this if you are selecting a particular kind of ML model by using the test set.
-    This will lead to an ML model selection that is too optimistic and will not perform well in production.
+- Data Sources Identification: Find the data and document its origin (data provenance).
+- Space Estimation: Check how much storage space it will take.
+- Space Location: Create a workspace with enough storage space.
+- Obtaining Data: Get the data and convert them to a format that can be easily manipulated without changing the data itself.
+- Back up Data: Always work on a copy of the data and keep the original dataset untouched.
+- Privacy Compliance: Ensure sensitive information is deleted or protected (e.g., anonymized) to ensure GDPR compliance.
+- Metadata Catalog: Start documenting the metadata of the dataset by recording the basic information about the size, format, aliases, last modified time, and access control lists. ([Further reading](https://dl.acm.org/doi/pdf/10.1145/2882903.2903730?download=true))
+- Test Data: Sample a test set, put it aside, and never look at it to avoid the *"data snooping"* bias. You fell for this if you are selecting a particular kind of ML model by using the test set. This will lead to an ML model selection that is too optimistic and will not perform well in production.
 
 2. *Exploration and Validation* - Includes data profiling to obtain information about the content and structure of the data.
 The output of this step is a set of metadata, such as max, min, avg of values.
@@ -157,10 +155,9 @@ Here we also distinguish two modes:
 
 After identifying these two dimensions, we can classify the operationalization of machine learning models into four ML architecture patterns:
 
-![ml workflows](img/model serving patterns.jpg)
 <img src="../img/model serving patterns.jpg" alt="ML Workflows" width="900"/>
 
-[Picture reference](https://www.quora.com/How-do-you-take-a-machine-learning-model-to-production)
+[Picture source](https://www.quora.com/How-do-you-take-a-machine-learning-model-to-production)
 
 #### Forecast
 
