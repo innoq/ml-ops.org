@@ -41,7 +41,7 @@ Practically, by deploying the ML model, we can provide the following functionali
 
 In the following Table, we summarize the ML/AI capabilities:
 
- <img src="../img/Ai-capabilities.jpg " alt="ML Capabilities" width="900"/>
+ <img src="../img/Ai-capabilities.jpg " alt="ML Capabilities" width="800"/>
 
 [Table Source: "The AI Organization" by David Carmona](https://learning.oreilly.com/library/view/the-ai-organization/9781492057369/)
 
