@@ -60,7 +60,7 @@ Because bridging the gap between ML model building and practical deployments is 
 There’s a fundamental difference between building a ML model in the Jupyter notebook model and deploying an ML model into a production system that generates business value.
 Although AI budgets are on the rise, only [22 percent of companies](https://designingforanalytics.com/resources/failure-rates-for-analytics-bi-iot-and-big-data-projects-85-yikes/) that use machine learning have successfully deployed an ML model into production.
 
-<img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="900"/>
+<img src="../img/ML-deployment_Gap.jpg " alt="ML Deployment Gap" width="800"/>
 
 [Figure Source](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
 
@@ -70,14 +70,13 @@ About 18 percent stated that it takes from three months to a year.
 According to the report *"The main challenges people face when developing ML capabilities are scale, version control, model reproducibility, and aligning stakeholders"*.
 
 
-
 # Scenarios of Change That Need to be Managed
 
 The reason for the previously described deployment gap is that the development of the machine learning-based applications is fundamentally different from the development of the traditional software.
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
 This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, data change, or model change. This is also known as [*"Changing Anything Changes Everything"* principle](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf). 
 
-<img src="../img/ThreeLevelsOfChange.jpg" alt="Three levels of change" width="900"/>
+<img src="../img/ThreeLevelsOfChange.jpg" alt="Three levels of change" width="800"/>
 
 In the following, we list some scenarios of possible changes in machine learning applications:
 
@@ -98,8 +97,7 @@ The third is ***locality***: when transferring ML models to new business custome
 Since ML/AI is expanding into new applications and shaping new industries, building successful ML projects remains a challenging task.
 As shown, there is a need to establish effective practices and processes around designing, building, and deploying ML models into production - MLOps.
 
-#### Further reading:
- + [Why is DevOps for Machine Learning so Different?](https://hackernoon.com/why-is-devops-for-machine-learning-so-different-384z32f1)
+Further reading: [Why is DevOps for Machine Learning so Different?](https://hackernoon.com/why-is-devops-for-machine-learning-so-different-384z32f1)
 
 
 # MLOps Definition
@@ -120,7 +118,7 @@ MLOps, like DevOps, emerges from the understanding that separating the ML model 
 In the early 2000s, when businesses needed to implement machine learning solutions, they used the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. As the containerization technology was emerging, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 
 
-<img src="../img/mlops-evolution.jpg" alt="The Evolution of MLOps" width="900"/>
+<img src="../img/mlops-evolution.jpg" alt="The Evolution of MLOps" width="800"/>
 
 
 

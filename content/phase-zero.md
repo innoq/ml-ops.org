@@ -15,7 +15,7 @@ These requirements are translated into the model objectives and the model output
 
 Each task of the entire business process needs to be decomposed into its constituent elements in order to see where prediction (ML model) can be introduced.
 
-<img src="../img/workflow-decomposition.jpg" alt="The Workflow Decomposition" width="900"/>
+<img src="../img/workflow-decomposition.jpg" alt="The Workflow Decomposition" width="800"/>
 
 To anwer the question *"how to implement AI/ML"*, we follow the next steps:
 
@@ -32,7 +32,7 @@ The *AI Canvas* or its alternative, the *Machine Learning Canvas*, assist and he
 
 The *AI Canvas* was proposed by A. Agrawal et. al in their book *"Prediction Machines. The Simple Economics of Artificial Intelligence." 2018*, and "is an aid for contemplating, building, and assessing AI tools". The example of such canvas and the description of each component is provided in the Figure below:
 
-<img src="../img/AI-Canvas.jpg" alt="AI Canvas by Agrawal et.al" width="900"/>
+<img src="../img/AI-Canvas.jpg" alt="AI Canvas by Agrawal et.al" width="800"/>
 
 [Figure Source](https://hbr.org/2018/04/a-simple-tool-to-start-making-decisions-with-the-help-of-ai)
 
@@ -45,7 +45,7 @@ The central part of the canvas is the *Value Proposition* building block, which 
 
 The remaining canvas is divided into three broad categories: *Learning, Prediction,* and *Evaluation*. The Learning category is responsible to specify how the ML model will be learned. The Prediction part describes how the prediction is performed. Finally, the Evaluation category contains methods and metrics for the ML model and the system evaluation. The following machine learning canvas is an example provided by [Louis Dorard](https://www.louisdorard.com/): 
 
-<img src="../img/machine-learning-canvas.jpg" alt="Machine Learning Canvas" width="900"/>
+<img src="../img/machine-learning-canvas.jpg" alt="Machine Learning Canvas" width="800"/>
 
 In total, the Machine Learning Canvas is structured as ten compound blocks, such as *Value Proposition, Data Sources, ML Task, Features (Engineering), Offline Evaluation, Decisions, Making Predictions, Collecting Data, Building Models,* and  *Live Evaluation and Monitoring*. Each of those blocks is focused on one aspect of the future ML application:
 
@@ -139,7 +139,7 @@ This block includes information about when we make a prediction on new inputs.
 
 ### Collecting Data
 
-Related to the *Making Predictions*, the *Collecting Data* block gathers information about new data that should be collected in order to re-train the ML model. In this way, we specify how we prevent the *ML model decay* phenomenon. Further questions to answer in this block are:
+Related to the *Making Predictions*, the *Collecting Data* block gathers information about ***new data*** that should be collected in order to re-train the ML model. In this way, we specify how we prevent the *ML model decay* phenomenon. Further questions to answer in this block are:
 
  + How do we label the new data?
  + How expensive is it to collect new data?
@@ -178,10 +178,9 @@ The deliverable in this stage is the completed Machine Learning Canvas. The effo
 
 Another question would be *when to deploy ML/AI?* The following Figure shows the trade-off of early vs. late ML model deployment.
 
+<img src="../img/When-to-deploy-ai.jpg" alt="When to Deploy AI?" width="800"/>
 
-<img src="../img/When-to-deploy-ai.jpg" alt="When to Deploy AI?" width="900"/>
-
-#### Further reading
+##### Further reading
 
  + ["What is THE main reason most ML projects fail?"](https://towardsdatascience.com/what-is-the-main-reason-most-ml-projects-fail-515d409a161f)
  + [The New Business of AI (and How It’s Different From Traditional Software)](https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software/)

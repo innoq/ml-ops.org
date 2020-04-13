@@ -161,7 +161,7 @@ After identifying these two dimensions, we can classify the operationalization o
 
 <img src="../img/model serving patterns.jpg" alt="ML Workflows" width="800"/>
 
-[Picture source](https://www.quora.com/How-do-you-take-a-machine-learning-model-to-production)
+[Figure source](https://www.quora.com/How-do-you-take-a-machine-learning-model-to-production)
 
 In the following, we present a description of the model architectural patterns such as *Forecast*, *Web-Service*, *Online Learning*, and *AutoML*. 
 
@@ -183,7 +183,6 @@ The web service uses real-time data to make predictions, but the model remains c
 
 The figure below illustrates the architecture for wrapping trained models as deployable services.
 Please note, we discuss methods for wrapping trained ML models as deployable services in the Deployment Strategies Section.
-
 
 <img src="../img/model-serving-microservices.jpg" alt="Web Service Pattern" width="800"/>
 

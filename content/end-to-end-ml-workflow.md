@@ -16,7 +16,7 @@ Corresponding to these artifacts, the typical machine learning workflow consists
 
 The Figure below shows the core steps involved in a typical ML workflow.
 
-<img src="../img/MLOps.jpg" alt="MLOps Overview" width="900"/>
+<img src="../img/MLOps.jpg" alt="MLOps Overview" width="800"/>
 
 
 ### Data Engineering
@@ -36,6 +36,7 @@ The Data Engineering pipeline includes a sequence of operations on the available
 5. *Data Splitting* - Splitting the data into training, validation, and test datasets to be used during the core machine learning stages to produce the ML model.
 
 ### Model Engineering
+
 The core of the ML workflow is the phase of writing and executing machine learning algorithms to obtain an ML model. The Model Engineering pipeline includes a number of operations that lead to a final model:
 1. *Model Training* - The process of applying the machine learning algorithm on training data to train an ML model. It also includes feature engineering and the hyperparameter tuning for the model training activity.
 2. *Model Evaluation* - Validating the trained model to ensure it meets original codified objectives before serving the ML model in production to the end-user.
