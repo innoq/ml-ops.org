@@ -3,6 +3,9 @@ title: "ML Ops: Machine Learning Operations"
 layout: page
 ---
 
+<img src="../img/mlops-loop-banner.jpg " alt="MLOps Loop" width="800"/>
+
+
 With Machine Learning Model Operationalization Management (MLOps), we want to provide an end-to-end machine learning development process to design, build and manage reproducible, testable, and evolvable ML-powered software.
 
 Being an emerging field, MLOps is rapidly gaining momentum amongst Data Scientists, ML Engineers and AI enthusiasts. Following this trend, the [*Continuous Delivery Foundation SIG MLOps*](https://github.com/cdfoundation/sig-mlops) differentiates the ML models management from traditional software engineering and suggests the following MLOps capabilities:
