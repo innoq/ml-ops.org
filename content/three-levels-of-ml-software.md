@@ -2,7 +2,7 @@
 
 ML/AI is rapidly adopted by new applications and industries.
 As already been mentioned, the goal of a machine learning project is to build a statistical model by using collected data and applying machine learning algorithms.
-Yet building successful ML-based software projects is still difficult because every ML-based software needs to manage three main artifacts: **Data**, **Model**, and **Code**.
+Yet building successful ML-based software projects is still difficult because every ML-based software needs to manage three main assets: **Data**, **Model**, and **Code**.
 Machine Learning Model Operationalization Management - **MLOps**, as a DevOps extension, establishes effective practices and processes around designing, building, and deploying ML models into production.
 We describe here essential technical methodologies, which are involved in the development of the Machine Learning-based software, namely *Data Engineering*, *ML Model Engineering*, and *Software Release Engineering*.
 
@@ -227,7 +227,7 @@ However, models build with AutoML need to reach the level of accuracy required f
 ### ML Model serialization formats
 
 There are various formats to distribute ML models.
-In order to achieve a distributable format, the ML model should be present and should be executable as an independent artifact.
+In order to achieve a distributable format, the ML model should be present and should be executable as an independent asset.
 For example, we might want to use a Scikit-learn model in a Spark job.
 This means that the ML models should work outside of the model-training environment.
 In the following, we describe *Language-agnostic* and *Vendor-specific exchange formats* for ML models.
@@ -405,7 +405,7 @@ Further reading:
 
 The final stage of delivering an ML project includes the following three steps:
 
-1. *Model Serving* - The process of deploying the ML model artifact in a production environment.
+1. *Model Serving* - The process of deploying the ML model in a production environment.
 2. *Model Performance Monitoring* - The process of observing the ML model performance based on live and previously unseen data, such as prediction or recommendation.
 In particular, we are interested in ML-specific signals, such as prediction deviation from previous model performance.
 These signals might be used as triggers for model re-training.
@@ -447,7 +447,7 @@ The following taxonomy shows these approaches:
       <tbody>
         <tr>
           <td>&nbsp;</td>
-          <td scope="row" colspan="3"><b>ML Model Artifact</b></td>
+          <td scope="row" colspan="3"><b>ML Model</b></td>
         </tr>
         <tr>
           <td scope="row"><b>Service & Versioning</b></td>
@@ -514,15 +514,15 @@ Therefore, for any input request, we query the database to get the prediction re
 
 #### Model-on-Demand
 
-The Model-on-Demand pattern also treats the ML model artifact as a dependency that is available at runtime.
-This ML model artifact, contrary to the Model-as-Dependency pattern, has its own release cycle and is published independently.
+The Model-on-Demand pattern also treats the ML model as a dependency that is available at runtime.
+This ML model, contrary to the Model-as-Dependency pattern, has its own release cycle and is published independently.
 
 The *message-broker* architecture is typically used for such on-demand model serving. 
 The *message-broker* topology architecture pattern contains two main types of architecture components: a *broker* component and an *event processor* component. The broker component is the central part that contains the event channels that are utilised within the event flow. 
 The event channels, which are enclosed in the broker component, are message queues.
 We can imagine such architecture containing *input-* and *output-queues*.
 A message broker allows one process to write *prediction-requests* in an input queue.
-The *event processor* contains the model serving runtime and the ML model artifact.
+The *event processor* contains the model serving runtime and the ML model.
 This process connects to the broker, reads these requests in batch from the queue and sends them to the model to make the predictions.
 The model serving process runs the prediction generation on the input data and writes the resulted predictions to the output queue.
 Afterwards, the queued prediction results are pushed to the prediction service that initiated the prediction request.
