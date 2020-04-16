@@ -3,7 +3,7 @@ title: "ML Ops: Machine Learning Operations"
 layout: page
 ---
 
-<img src="../img/mlops-loop-en.jpg " alt="MLOps Loop" width="800"/>
+<img src="../img/mlops-loop-banner.jpg " alt="MLOps Loop" width="800"/>
 
 
 With Machine Learning Model Operationalization Management (MLOps), we want to provide an end-to-end machine learning development process to design, build and manage reproducible, testable, and evolvable ML-powered software.
