@@ -16,7 +16,7 @@ Corresponding to these artifacts, the typical machine learning workflow consists
 
 The Figure below shows the core steps involved in a typical ML workflow.
 
-<img src="../img/MLOps.jpg" alt="MLOps Overview" width="800"/>
+<img src="../img/ml-engineering.jpg" alt="Machine Learning Engineering" width="800"/>
 
 
 ### Data Engineering
