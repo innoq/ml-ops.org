@@ -107,7 +107,7 @@ We established the challenges of getting the ML models into production.
 
 Finally, we are set up to define the term **MLOps**:
 
-The term MLOps is defined as *“the extension of the DevOps methodology to include Machine Learning and Data Science assets as first-class citizens within the DevOps ecology”* [Source: MLOps SIG](https://lists.cd.foundation/g/sig-mlops).
+The term MLOps is defined as *“the extension of the DevOps methodology to include Machine Learning and Data Science assets as first-class citizens within the DevOps ecology”* [Source: MLOps SIG](https://github.com/cdfoundation/sig-mlops/blob/master/roadmap/2020/MLOpsRoadmap2020.md).
 
 Alternatively, we can use the definition of  **Machine Learning Engineering (MLE)**, where *MLE is the use of scientific principles, tools, and techniques of machine learning and traditional software engineering to design and build complex computing systems. MLE encompasses all stages from data collection, to model building, to make the model available for use by the product or the consumers."* (by A.Burkov).
 
