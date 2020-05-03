@@ -75,10 +75,6 @@ layout: page
 45. [10 Steps to Making Machine Learning Operational. Cloudera White Paper](https://www.cloudera.com/content/dam/www/marketing/resources/whitepapers/10-steps-to-making-ml-operational.pdf)
 46. [AI Infrastructure for Everyone: DeterminedAI](https://determined.ai/)
 
-
-
-
-
 # Papers
 1. [Building a Reproducible Machine Learning Pipeline](https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf)
 2. [A Systems Perspective to Reproducibility in Production Machine Learning Domain](https://openreview.net/pdf?id=Byl4vavigX)
