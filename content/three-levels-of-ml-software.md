@@ -269,7 +269,7 @@ The following Table summarizes all ML model serialization formats:
       <th class="table-head" scope="col">Open-Format</th>
       <th class="table-head" scope="col">Vendor</th>
       <th class="table-head" scope="col">File Extension</th>
-      <th class="table-head" scope="col">Licencse</th>
+      <th class="table-head" scope="col">License</th>
       <th class="table-head" scope="col">ML Tools &amp; Platforms Support</th>
       <th class="table-head" scope="col">Human-readable</th>
       <th class="table-head" scope="col">Compression</th>
