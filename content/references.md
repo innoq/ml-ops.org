@@ -3,7 +3,7 @@ title: "MLOps References"
 layout: page
 ---
 
-# MLOps References
+# Core MLOps
 
 1. [Machine Learning Operations: You Train It, You Run It!](https://ml-ops.org/)
 2. [Book: "ML Ops: Operationalizing Data Science" by David Sweenor, Steven Hillion, Dan Rope, Dev Kannabiran, Thomas Hill, Michael O'Connell](https://learning.oreilly.com/library/view/ml-ops-operationalizing/9781492074663/)
@@ -83,10 +83,14 @@ layout: page
 49. [Template: code and pipeline definition for a machine learning project demonstrating how to automate an end to end ML/AI workflow. ](https://github.com/aronchick/MLOps-pipeline)
 50. [Nitpicking Machine Learning Technical Debt](https://matthewmcateer.me/blog/machine-learning-technical-debt/)
 51. [The Best Tools, Libraries, Frameworks and Methodologies that Machine Learning Teams Actually Use – Things We Learned from 41 ML Startups](https://neptune.ai/blog/tools-libraries-frameworks-methodologies-ml-startups-roundup)
+52. [Software Engineering for AI/ML - An Annotated Bibliography](https://github.com/ckaestne/seaibib)
+53. [Intelligent System. Machine Learning in Practice](https://intelligentsystem.io/)
+54. [CMU 17-445/645: Software Engineering for AI-Enabled Systems (SE4AI)](https://github.com/ckaestne/seai/)
+55. [Machine Learning is Requirements Engineering](https://link.medium.com/l7akzjR826)
 
 
 
-# Papers
+# MLOps Papers
 1. [Building a Reproducible Machine Learning Pipeline](https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf)
 2. [A Systems Perspective to Reproducibility in Production Machine Learning Domain](https://openreview.net/pdf?id=Byl4vavigX)
 3. [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
@@ -119,9 +123,10 @@ layout: page
 7. ["Machine learning testing: Survey, landscapes and horizons." Zhang, Jie M., et al. IEEE Transactions on Software Engineering (2020).](https://arxiv.org/pdf/1906.10742.pdf)
 8. ["Explainable machine learning in deployment." Bhatt, Umang, et al. Proceedings of the Conference on Fairness, Accountability, and Transparency. 2020.](https://dl.acm.org/doi/pdf/10.1145/3351095.3375624)
 9. ["Studying software engineering patterns for designing machine learning systems." Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. In 2019 10th International Workshop on Empirical Software Engineering in Practice (IWESEP)](https://arxiv.org/pdf/1910.04736.pdf)
+10.[Kästner, Christian, and Eunsuk Kang. "Teaching Software Engineering for AI-Enabled Systems." arXiv (2020).](https://arxiv.org/pdf/2001.06691.pdf)
 
-
-# Talks
+<a name="talsk-about-mlops"></a>
+# Talks About MLOps
 1. [DeliveryConf 2020. "Continuous Delivery For Machine Learning: Patterns And Pains" by Emily Gorcenski](https://youtu.be/bFW5mZmj0nQ)
 2. [MLOps Conference: Talks from 2019](https://www.mlopsconf.com?wix-vod-comp-id=comp-k1ry4afh)
 3. [A CI/CD Framework for Production Machine Learning at Massive Scale (using Jenkins X and Seldon Core)](https://youtu.be/68_Phxwaj-k)
@@ -137,6 +142,8 @@ layout: page
 6. [What are Azure Machine Learning pipelines?](https://docs.microsoft.com/en-gb/azure/machine-learning/concept-ml-pipelines)
 7. [Uber ATG’s Machine Learning Infrastructure for Self-Driving Vehicles](https://eng.uber.com/machine-learning-model-life-cycle-version-control/)
 8. [An overview of ML development platforms](https://www.linkedin.com/pulse/overview-ml-development-platforms-louis-dorard/?utm_source=podia&utm_medium=broadcast&utm_campaign=171187)
+
+
 
 # Machine Learning 
 1. Book, Aurélien Géron,"Hands-On Machine Learning with Scikit-Learn and TensorFlow"
@@ -164,7 +171,9 @@ layout: page
 # Software Engineering
 1. [The Twelve Factors](https://12factor.net/)
 2. [Book "Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations", 2018 by Nicole Forsgren et.al](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)
-3. Book "The DevOps Handbook" by Gene Kim, et al.
+3. [Book "The DevOps Handbook" by Gene Kim, et al. 2016](https://itrevolution.com/book/the-devops-handbook/)
+4. [State of DevOps 2019](https://research.google/pubs/pub48455/)
+
 
 # Product Management for ML/AI
 1. [What you need to know about product management for AI. A product manager for AI does everything a traditional PM does, and much more.](https://www.oreilly.com/radar/what-you-need-to-know-about-product-management-for-ai/)
@@ -172,6 +181,7 @@ layout: page
 3. [User Needs + Defining Success](https://pair.withgoogle.com/chapter/user-needs/)
 4. [Building machine learning products: a problem well-defined is a problem half-solved.](https://www.jeremyjordan.me/ml-requirements/)
 5. [Talk: Designing Great ML Experiences (Apple)](https://developer.apple.com/videos/play/wwdc2019/803/) 
+
 
 # The Economics of ML/AI
 1. [Book: "Prediction Machines: The Simple Economics of Artificial Intelligence"](https://www.predictionmachines.ai/)
@@ -197,3 +207,4 @@ layout: page
 18. [How Adopting MLOps can Help Companies With ML Culture?](https://www.analyticsinsight.net/adopting-mlops-can-help-companies-ml-culture/)
 19. [Weaving AI into Your Organization](https://medium.com/firmai/weaving-ai-into-your-organization-2d9643da50e1)
 20. [What to Do When AI Fails](https://www.oreilly.com/radar/what-to-do-when-ai-fails/)
+21. [Introduction to Machine Learning Problem Framing](https://developers.google.com/machine-learning/problem-framing)
