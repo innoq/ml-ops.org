@@ -11,7 +11,7 @@ In the following, we describe a set of important concepts in MLOps such as *Iter
 ## Iterative-Incremental Process in MLOps
 
 
-![Agile ML Workflow](images/mlops-loop-en.jpg)
+<img src="../img/mlops-loop-en.jpg" alt="Agile ML Workflow" width="800"/>
 
 The complete MLOps process includes three phases of *"Designing the ML-powered application", "ML Experimentation and Development", and "ML Operations"*.
 
@@ -39,23 +39,24 @@ This enables fast fixing of errors and learning from mistakes.
 
 To adopt MLOps, we see *three levels of automation*, starting from the initial level with manual model training and deployment, up to running both ML and CI/CD pipelines automatically.
 
-1. Manual process.
-   - This is a typical data science process, which is performed at the beginning of implementing ML.
+1. **Manual process.**
+   This is a typical data science process, which is performed at the beginning of implementing ML.
    This level has an experimental and iterative nature.
    Every step in each pipeline, such as data preparation and validation, model training and testing, are executed manually.
    The common way to process is to use Rapid Application Development (RAD) tools, such as Jupyter Notebooks.
-2. ML pipeline automation
-   - The next level includes the execution of model training automatically.
+2. **ML pipeline automation.**
+   The next level includes the execution of model training automatically.
    We introduce here the continuous training of the model.
    Whenever new data is available, the process of model retraining is triggered.
    This level of automation also includes data and model validation steps.
-3. CI/CD pipeline automation
-   - In the final stage, we introduce a CI/CD system to perform fast and reliable ML model deployments in production.
+3. **CI/CD pipeline automation.**
+   In the final stage, we introduce a CI/CD system to perform fast and reliable ML model deployments in production.
    The core difference from the previous step is that we now automatically build, test, and deploy the Data, ML Model, and the ML training pipeline components.
 
 The following picture shows the automated ML pipeline with CI/CD routines:
 
-![Automated ML Pipeline](images/mlops-phasen.jpg)
+<img src="../img/mlops-phasen.jpg" alt="Automated ML Pipeline" width="800"/>
+
 
 [Figure adopted from "MLOps: Continuous delivery and automation pipelines in machine learning"](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page)
 
@@ -178,7 +179,7 @@ The goal of the *versioning* is to treat ML training scrips, ML models and data 
 Analogously to the best practices for developing reliable software systems, every ML model specification (ML training code that creates an ML model) should go through a code review phase.
 Furthermore, every ML model specification should be versioned in a VCS to make the training of ML models auditable and reproducible.
 
-Further reading: How do we manage ML models? [Model Management Frameworks](https://www.inovex.de/blog/machine-learning-model-management/)
+**Further reading:** How do we manage ML models? [Model Management Frameworks](https://www.inovex.de/blog/machine-learning-model-management/)
 
 ## Experiments Tracking
 
@@ -194,7 +195,8 @@ Another popular tool for ML experiments tracking is the [Weights and Biases (wan
 
 ## Testing
 
-![Testing in ML Systems](images/ml-systems-testing.png)
+<img src="../img/ml-systems-testing.png" alt="Testing in ML Systems" width="800"/>
+
 [Figure source: "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction" by E.Breck et al. 2017](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/aad9f93b86b7addfea4c419b9100c6cdd26cacea.pdf)
 
 The complete development pipeline includes three essential components, **data pipeline**, **ML model pipeline**, and **application pipeline**. In accordance with this separation we distinguish three scopes for testing in ML systems:
@@ -317,8 +319,8 @@ Both dramatic and slow-leak regression in prediction quality should be notified.
 The picture below shows that the model monitoring can be implemented by tracking the precision, recall, and F1-score of the model prediction along with the time.
 The decrease of the precision, recall, and F1-score triggers the model retraining, which leads to model recovery.
 
+<img src="../img/model-decay-monitoring.jpg" alt="ML Model Decay" width="800"/>
 
-![Model Decay](images/model-decay-monitoring.jpg)
 
 
 ## "ML Test Score" System
