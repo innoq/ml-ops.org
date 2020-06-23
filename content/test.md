@@ -184,10 +184,10 @@ Test test test
    <!-- <div class="tg-wrap"><table class="tg"> -->
   <div class="page-layout-xl--default">
    <table class="table table-striped">
-    <tr>
+    <thead>
       <th  class="table-head" scope="col">MLOps Stage</th>
       <th  class="table-head" scope="col">Output of the Stage Execution</th>
-    </tr>
+    </thead>
     <tr>
       <td class="tg-0lax">Development &amp; Experimentation (ML algorithms, new ML models)</td>
       <td class="tg-0lax">Source code for pipelines: Data extraction, validation, preparation, model training, model evaluation, model testing</td>
