@@ -41,9 +41,9 @@ You will learn about three core elements of ML-based software - ***Data, ML mode
 
   [more...](content/three-levels-of-ml-software.md)
 
-## [MLOps Principles (coming soon)]() 
+## MLOps Principles
 
-In this part, we describe principles and established practices to test, deploy, manage, and monitor ML models in production.
+In this part, we describe principles and established practices to test, deploy, manage, and monitor ML models in production. [more...](content/mlops-principles.md) 
 
 
 ## [State of MLOps (Tools & Frameworks)(coming soon)]() 
