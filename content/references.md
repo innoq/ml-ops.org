@@ -3,16 +3,7 @@ title: "MLOps References"
 layout: page
 ---
 
-# Table of Content
-| <!-- -->                         | <!-- -->                         |
-| -------------------------------- | -------------------------------- |
-| [Core MLOps](#core-mlops) | [MLOps Papers](#mlops-papers) |
-| [Talks About MLOps](#talks-about-mlops) | [Existing ML Systems](#existing-ml-systems) |
-| [Machine Learning](#machine-learning) | [Software Engineering](#software-engineering) |
-| [Product Management for ML/AI](#product-management-for-mlai) | [The Economics of ML/AI](#the-economics-of-mlai) |
 
-
-<a name="core-mlops"></a>
 # Core MLOps 
 
 1. [Machine Learning Operations: You Train It, You Run It!](https://ml-ops.org/)
@@ -105,11 +96,10 @@ layout: page
 
 
 
-<a name="mlops-papers"></a>
+
 # MLOps Papers
 
 1. [Building a Reproducible Machine Learning Pipeline](https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf)
-
 2. [A Systems Perspective to Reproducibility in Production Machine Learning Domain](https://openreview.net/pdf?id=Byl4vavigX)
 3. [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 4. [Scaling Machine Learning as a Service (Uber)](http://proceedings.mlr.press/v67/li17a/li17a.pdf)
@@ -146,7 +136,7 @@ layout: page
 
 
 
-<a name="talsk-about-mlops"></a>
+
 # Talks About MLOps
 
 1. [DeliveryConf 2020. "Continuous Delivery For Machine Learning: Patterns And Pains" by Emily Gorcenski](https://youtu.be/bFW5mZmj0nQ)
@@ -154,7 +144,7 @@ layout: page
 3. [A CI/CD Framework for Production Machine Learning at Massive Scale (using Jenkins X and Seldon Core)](https://youtu.be/68_Phxwaj-k)
 4. [MLOps Virtual Event (Databricks)](https://youtu.be/9Ehh7Vl7ByM)
 
-<a name="existing-ml-systems"></a>
+
 # Existing ML Systems
 
 1. [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/ml-applications/introducing-fblearner-flow-facebook-s-ai-backbone/)
@@ -167,7 +157,7 @@ layout: page
 8. [An overview of ML development platforms](https://www.linkedin.com/pulse/overview-ml-development-platforms-louis-dorard/?utm_source=podia&utm_medium=broadcast&utm_campaign=171187)
 
 
-<a name="machine-learning"></a>
+
 # Machine Learning 
 
 1. Book, Aurélien Géron,"Hands-On Machine Learning with Scikit-Learn and TensorFlow"
@@ -194,7 +184,7 @@ layout: page
 16. [Distill: Machine Learning Research](https://distill.pub/)
 17. [AtHomeWithAI: Curated Resource List by DeepMind](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf)
 
-<a name="software-engineering"></a>
+
 # Software Engineering
 
 1. [The Twelve Factors](https://12factor.net/)
@@ -203,7 +193,7 @@ layout: page
 4. [State of DevOps 2019](https://research.google/pubs/pub48455/)
 5. [Clean Code concepts adapted for machine learning and data science.](https://github.com/davified/clean-code-ml)
 
-<a name="product-management-for-mlai"></a>
+
 # Product Management for ML/AI
 
 1. [What you need to know about product management for AI. A product manager for AI does everything a traditional PM does, and much more.](https://www.oreilly.com/radar/what-you-need-to-know-about-product-management-for-ai/)
@@ -212,7 +202,7 @@ layout: page
 4. [Building machine learning products: a problem well-defined is a problem half-solved.](https://www.jeremyjordan.me/ml-requirements/)
 5. [Talk: Designing Great ML Experiences (Apple)](https://developer.apple.com/videos/play/wwdc2019/803/) 
 
-<a name="the-economics-of-mlai"></a>
+
 # The Economics of ML/AI
 
 1. [Book: "Prediction Machines: The Simple Economics of Artificial Intelligence"](https://www.predictionmachines.ai/)
