@@ -45,10 +45,14 @@ You will learn about three core elements of ML-based software - ***Data, ML mode
 
 In this part, we describe principles and established practices to test, deploy, manage, and monitor ML models in production. [more...](content/mlops-principles.md) 
 
+## State of MLOps (Tools & Frameworks)
 
-## [State of MLOps (Tools & Frameworks)(coming soon)]() 
+This part presents an overview of software tools and frameworks that manage ML artifacts and cover the whole machine learning cycle. [more...](content/state-of-mlops.md) 
 
-This part presents an overview of software tools and frameworks that manage ML artifacts, and cover the whole machine learning cycle.
+## [Model Governance | Ethics | Responsible AI (coming soon)]()
+
+With the recent advances in machine learning and AI, these technologies are increasingly being applied in software systems that interact with people in their daily lives. This progress also led to new questions about how to build security, privacy, fairness, and interpretability, privacy, and security into these ML systems.
+
 
 ## [Use-cases and Demos (coming soon)]()
 

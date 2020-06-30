@@ -69,7 +69,7 @@ layout: page
 35. [MLOps Solutions (Azure based)](https://github.com/visenger/MLOps)
 36. [Monitoring ML pipelines](https://intothedepthsofdataengineering.wordpress.com/2020/02/13/monitoring-ml-pipelines/)
 37. [Deployment & Explainability of Machine Learning COVID-19 Solutions at Scale with Seldon Core and Alibi](https://github.com/axsaucedo/seldon-core/tree/corona_research_exploration/examples/models/research_paper_classification)
-38. [Demystifying AI Infrastructure](https://gradientflow.com/2020/04/03/demystifying-ai-infrastructure/#more-3609)
+38. [Demystifying AI Infrastructure](https://www.intel.com/content/www/us/en/intel-capital/news/story.html?id=a0F1I00000BNTXPUA5#/type=All/page=0/term=/tags=)
 39. [Monitoring Machine Learning Models in Production](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
 40. [Organizing machine learning projects: project management guidelines.](https://www.jeremyjordan.me/ml-projects-guide/)
 41. [The Checklist for Machine Learning Projects (from Aurélien Géron,"Hands-On Machine Learning with Scikit-Learn and TensorFlow")](https://github.com/visenger/handson-ml/blob/master/ml-project-checklist.md)

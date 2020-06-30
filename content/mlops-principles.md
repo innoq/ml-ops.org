@@ -57,7 +57,6 @@ The following picture shows the automated ML pipeline with CI/CD routines:
 
 <img src="../img/mlops-phasen.jpg" alt="Automated ML Pipeline" width="800"/>
 
-
 [Figure adopted from "MLOps: Continuous delivery and automation pipelines in machine learning"](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page)
 
 The MLOps stages that reflect the process of ML pipeline automation are explained in the following table:
