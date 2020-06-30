@@ -73,7 +73,7 @@ Depending on the requirements or restrictions, organizations can implement their
 
 [Figure Source](https://landscape.lfai.foundation/)
 
- ### Further References About the Technical Stack for MLOps
+### Further References About the Technical Stack for MLOps
 
  + [Awesome Production Machine Learning: Toos and Frameworks](https://github.com/EthicalML/awesome-production-machine-learning)
  + [MLOps Agile Stack](images/mlops-agile-stack.png)
