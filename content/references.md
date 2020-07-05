@@ -3,30 +3,35 @@ title: "MLOps References"
 layout: page
 ---
 
-
-# Core MLOps 
+# MLOps Core
 
 1. [Machine Learning Operations: You Train It, You Run It!](https://ml-ops.org/)
-2. [Book: "ML Ops: Operationalizing Data Science" by David Sweenor, Steven Hillion, Dan Rope, Dev Kannabiran, Thomas Hill, Michael O'Connell](https://learning.oreilly.com/library/view/ml-ops-operationalizing/9781492074663/)
+6. [MLOps SIG Specification](https://github.com/tdcox/mlops-roadmap/blob/master/MLOpsRoadmap2020.md)
+29. [ML in Production](http://mlinproduction.com/)
+9. [Awesome production machine learning: State of MLOps](https://github.com/EthicalML/awesome-production-machine-learning)
+11. [Udemy “Deployment of ML Models”](https://www.udemy.com/course/deployment-of-machine-learning-models/)
+
+
+# MLOps Books
+
+1. [Book: "ML Ops: Operationalizing Data Science" by David Sweenor, Steven Hillion, Dan Rope, Dev Kannabiran, Thomas Hill, Michael O'Connell](https://learning.oreilly.com/library/view/ml-ops-operationalizing/9781492074663/)
 3. [Book "Building Machine Learning Powered Applications" by  Emmanuel Ameisen](https://learning.oreilly.com/library/view/building-machine-learning/9781492045106/)
+31. [Book "Building Machine Learning Pipelines" – O’Reilly](https://learning.oreilly.com/library/view/building-machine-learning/9781492053187/) 
 4. [Book "Managing Data Science" by Kirill Dubovikov](https://www.packtpub.com/eu/data/managing-data-science)
 1. [Book “Machine Learning Engineering” by Andriy Burkov](http://www.mlebook.com/wiki/doku.php?id=start)
 2. Book "Accelerated DevOps with AI, ML & RPA: Non-Programmer's Guide to AIOPS & MLOPS" by Stephen Fleming
 4. [Book "Evaluating Machine Learning Models" by Alice Zheng](https://learning.oreilly.com/library/view/evaluating-machine-learning/9781492048756/)
 4. [Book: Agile AI. 2020. By Carlo Appugliese, Paco Nathan, William S. Roberts. O'Reilly Media, Inc.](https://learning.oreilly.com/library/view/agile-ai/9781492074984/)
-4. [Book: "Practical Fairness". 2020. By Aileen Nielsen. O'Reilly Media, Inc.](https://learning.oreilly.com/library/view/practical-fairness/9781492075721/)
 5. [Book: "Machine Learning Logistics". 2017. By T. Dunning et al. O'Reilly Media Inc.](https://mapr.com/ebook/machine-learning-logistics/)
-5. [Continuous Delivery for Machine Learning (by Thoughtworks)](https://martinfowler.com/articles/cd4ml.html)
+
+
+# MLOps Articles
+
+1. [Continuous Delivery for Machine Learning (by Thoughtworks)](https://martinfowler.com/articles/cd4ml.html)
 5. [Linux Foundation AI Foundation](https://wiki.lfai.foundation/)
-6. [MLOps SIG Specification](https://github.com/tdcox/mlops-roadmap/blob/master/MLOpsRoadmap2020.md)
 7. [MLSpec: A project to standardize the intercomponent schemas for a multi-stage ML Pipeline.](https://github.com/visenger/MLSpec)
-8. Oreilly learning resources: [Operationalize ML](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597/9780135556597-ACML_01_05_01?autoplay=false)
-9. [Awesome production machine learning: State of MLOps](https://github.com/EthicalML/awesome-production-machine-learning)
 10. [State of Enterprise ML 2019: PDF](https://info.algorithmia.com/hubfs/2019/Whitepapers/The-State-of-Enterprise-ML-2020/Algorithmia_2020_State_of_Enterprise_ML.pdf?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&utm_content=80984419&_hsenc=p2ANqtz--sz-e2gfqUeDvVSmjsXfvwOnLHB2ZkSdQsO1IRRAdnBIb0emf-JTh8NnwFxB-FeZberIw7_rI9ERTy8zFW8jvoTzjOfA&_hsmi=80984419)
 10. [State of Enterprise ML 2019: Interactive](https://algorithmia.com/state-of-ml?utm_medium=website&utm_source=interactive-page&utm_campaign=IC-1912-2020-State-of-ML&_hsenc=p2ANqtz-_WbXKYLnpgf4zi4OZTNYmNgCRPIFFEqmW-Cqi2Px_T1K2wkIJvDt7KdCxB5vXAPmGirLi7ukZTykxeUh9vmHdn7dRF9g&_hsmi=81660946)
-11. [Udemy “Deployment of ML Models”](https://www.udemy.com/course/deployment-of-machine-learning-models/)
-13. [MLOps NY conference 2019](https://www.iguazio.com/mlops-nyc-sessions/)
-14. [Gartner AI Trends 2019](https://blogs.gartner.com/smarterwithgartner/files/2019/08/CTMKT_736691_Hype_Cycle_for_AI_2019.png)
 15. [Organizing machine learning projects: project management guidelines.](https://www.jeremyjordan.me/ml-projects-guide/)
 16. [Rules for ML Project (Best practices)](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 17. [ML Pipeline Template](https://www.agilestacks.com/tutorials/ml-pipelines)
@@ -34,20 +39,15 @@ layout: page
 19. [Reproducible ML](https://github.com/cmawer/reproducible-model)
 20. [ML project template facilitating both research and production phases.](https://github.com/visenger/ml-project-template)
 21. [Machine learning requires a fundamentally different deployment approach. As organizations embrace machine learning, the need for new deployment tools and strategies grows.](https://www.oreilly.com/radar/machine-learning-requires-a-fundamentally-different-deployment-approach/?utm_medium=email&utm_source=platform+b2c&utm_campaign=engagement&utm_content=whats+new+thinking+20191021)
-22. [What are model governance and model operations? A look at the landscape of tools for building and deploying robust, production-ready machine learning models](https://www.oreilly.com/radar/what-are-model-governance-and-model-operations/)
-23. [Specialized tools for machine learning development and model governance are becoming essential. Why companies are turning to specialized machine learning tools like MLflow.](https://www.oreilly.com/ideas/specialized-tools-for-machine-learning-development-and-model-governance-are-becoming-essential)
 24. [Efficient ML engineering: Tools and best practices](https://learning.oreilly.com/videos/oreilly-strata-data/9781492050681/9781492050681-video327465?autoplay=false)
 25. [Why is DevOps for Machine Learning so Different?](https://hackernoon.com/why-is-devops-for-machine-learning-so-different-384z32f1)
 26. [Lessons learned turning machine learning models into real products and services – O’Reilly](https://www.oreilly.com/radar/lessons-learned-turning-machine-learning-models-into-real-products-and-services/)
 27. [MLOps: Model management, deployment and monitoring with Azure Machine Learning](https://docs.microsoft.com/en-gb/azure/machine-learning/concept-model-management-and-deployment)
 28. [Guide to File Formats for Machine Learning: Columnar, Training, Inferencing, and the Feature Store](https://towardsdatascience.com/guide-to-file-formats-for-machine-learning-columnar-training-inferencing-and-the-feature-store-2e0c3d18d4f9)
 29. [Architecting a Machine Learning Pipeline How to build scalable Machine Learning systems](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7)
-29. [What are model governance and model operations? – O’Reilly](https://www.oreilly.com/radar/what-are-model-governance-and-model-operations/)
 29. [Why Machine Learning Models Degrade In Production](https://towardsdatascience.com/why-machine-learning-models-degrade-in-production-d0f2108e9214)
 29. [Concept Drift and Model Decay in Machine Learning](http://xplordat.com/2019/04/25/concept-drift-and-model-decay-in-machine-learning/?source=post_page---------------------------)
 29. [Bringing ML to Production](https://www.slideshare.net/mikiobraun/bringing-ml-to-production-what-is-missing-amld-2020)
-29. [Global AI Survey: AI proves its worth, but few scale impact](https://www.mckinsey.com/featured-insights/artificial-intelligence/global-ai-survey-ai-proves-its-worth-but-few-scale-impact)
-29. [ML in Production](http://mlinproduction.com/)
 29. [A Tour of End-to-End Machine Learning Platforms](https://databaseline.tech/a-tour-of-end-to-end-ml-platforms/)
 29. [Full Stack Deep Learning](https://full-stack-deep-learning.aerobaticapp.com/e372_eb327323-811b-4de9-8894-76ec4cfd6458/assets/slides/fsdl_2_projects.pdf)
 29. [What Does it Mean to Deploy a Machine Learning Model?](https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/)
@@ -63,7 +63,6 @@ layout: page
 29. [The 5 Components Towards Building Production-Ready Machine Learning Systems](https://medium.com/cracking-the-data-science-interview/the-5-components-towards-building-production-ready-machine-learning-system-a4d5237ec04e)
 29. [Spring 2019 Full Stack Deep Learning Bootcamp](https://fullstackdeeplearning.com/march2019)
 30. [Deep Learning in Production (references about deploying deep learning-based models in production)](https://github.com/ahkarami/Deep-Learning-in-Production)
-31. [Book "Building Machine Learning Pipelines" – O’Reilly](https://learning.oreilly.com/library/view/building-machine-learning/9781492053187/) 
 32. [Machine Learning Experiment Tracking](https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0)
 33. [The Team Data Science Process (TDSP)](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview)
 35. [MLOps Solutions (Azure based)](https://github.com/visenger/MLOps)
@@ -75,9 +74,6 @@ layout: page
 41. [The Checklist for Machine Learning Projects (from Aurélien Géron,"Hands-On Machine Learning with Scikit-Learn and TensorFlow")](https://github.com/visenger/handson-ml/blob/master/ml-project-checklist.md)
 42. [Data Project Checklist by Jeremy Howard](https://www.fast.ai/2020/01/07/data-questionnaire/)
 43. [MLOps: not as Boring as it Sounds](https://itnext.io/mlops-not-as-boring-as-it-sounds-eaebe73e3533)
-44. [AI Fairness 360, A Step Towards Trusted AI - IBM Research](https://www.ibm.com/blogs/research/2018/09/ai-fairness-360/)
-44. [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai-resources)
-44. [TensorFlow Privacy](https://github.com/tensorflow/privacy)
 45. [10 Steps to Making Machine Learning Operational. Cloudera White Paper](https://www.cloudera.com/content/dam/www/marketing/resources/whitepapers/10-steps-to-making-ml-operational.pdf)
 46. [AI Infrastructure for Everyone: DeterminedAI](https://determined.ai/)
 47. [MLOps is Not Enough. The Need for an End-to-End Data Science Lifecycle Process.](https://techcommunity.microsoft.com/t5/azure-ai/mlops-is-not-enough/ba-p/1386789)
@@ -93,8 +89,9 @@ layout: page
 57. [Why We Need DevOps for ML Data](https://tecton.ai/blog/devops-ml-data/) 
 58. [Machine Learning Ops. A collection of resources on how to facilitate Machine Learning Ops with GitHub.](http://mlops-github.com/)
 59. [CI/CD for Machine Learning & AI](https://blog.paperspace.com/ci-cd-for-machine-learning-ai/)
-
-
+60. [Data Preparation for Machine Learning (7-Day Mini-Course)](https://machinelearningmastery.com/data-preparation-for-machine-learning-7-day-mini-course/)
+61. [AWS Cost Optimization for ML Infrastructure - EC2 spend](https://blog.floydhub.com/aws-cost-optimization-for-ml-infra-ec2/)
+62. [Task Cheatsheet for Almost Every Machine Learning Project A checklist of tasks for building End-to-End ML projects](https://towardsdatascience.com/task-cheatsheet-for-almost-every-machine-learning-project-d0946861c6d0)
 
 
 # MLOps Papers
@@ -133,6 +130,7 @@ layout: page
 8. ["Explainable machine learning in deployment." Bhatt, Umang, et al. Proceedings of the Conference on Fairness, Accountability, and Transparency. 2020.](https://dl.acm.org/doi/pdf/10.1145/3351095.3375624)
 9. ["Studying software engineering patterns for designing machine learning systems." Washizaki, Hironori, Hiromu Uchida, Foutse Khomh, and Yann-Gaël Guéhéneuc. In 2019 10th International Workshop on Empirical Software Engineering in Practice (IWESEP)](https://arxiv.org/pdf/1910.04736.pdf)
 10. [Chen, A., Chow, A., Davidson, A., DCunha, A., Ghodsi, A., Hong, S.A., Konwinski, A., Mewald, C., Murching, S., Nykodym, T. and Ogilvie, P., 2020, June. Developments in MLflow: A System to Accelerate the Machine Learning Lifecycle. In Proceedings of the Fourth International Workshop on Data Management for End-to-End Machine Learning](https://dl.acm.org/doi/pdf/10.1145/3399579.3399867)
+11. [Karlaš, B., Interlandi, M., Renggli, C., Wu, W., Zhang, C., Mukunthu, D., Babu, I., Edwards, J., Lauren, C., Xu, A. and Weimer, M., Building Continuous Integration Services for Machine Learning. KDD 2020](http://pages.cs.wisc.edu/~wentaowu/papers/kdd20-ci-for-ml.pdf)
 
 
 
@@ -143,6 +141,7 @@ layout: page
 2. [MLOps Conference: Talks from 2019](https://www.mlopsconf.com?wix-vod-comp-id=comp-k1ry4afh)
 3. [A CI/CD Framework for Production Machine Learning at Massive Scale (using Jenkins X and Seldon Core)](https://youtu.be/68_Phxwaj-k)
 4. [MLOps Virtual Event (Databricks)](https://youtu.be/9Ehh7Vl7ByM)
+5. [MLOps NY conference 2019](https://www.iguazio.com/mlops-nyc-sessions/)
 
 
 # Existing ML Systems
@@ -183,6 +182,7 @@ layout: page
 15. [Paper: "Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence", by Sebastian Raschka, Joshua Patterson, and Corey Nolet. 2020](https://arxiv.org/pdf/2002.04803.pdf)
 16. [Distill: Machine Learning Research](https://distill.pub/)
 17. [AtHomeWithAI: Curated Resource List by DeepMind](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf)
+18. [Awesome Data Science](https://github.com/academic/awesome-datascience)
 
 
 # Software Engineering
@@ -209,6 +209,8 @@ layout: page
 2. [Book: "The AI Organization" by David Carmona](https://learning.oreilly.com/library/view/the-ai-organization/9781492057369/)
 2. [Book: "Succeeding with AI". 2020. By Veljko Krunic. Manning Publications](https://learning.oreilly.com/library/view/succeeding-with-ai/9781617296932/)
 2. [A list of articles about AI and the economy](https://www.predictionmachines.ai/articles)
+14. [Gartner AI Trends 2019](https://blogs.gartner.com/smarterwithgartner/files/2019/08/CTMKT_736691_Hype_Cycle_for_AI_2019.png)
+29. [Global AI Survey: AI proves its worth, but few scale impact](https://www.mckinsey.com/featured-insights/artificial-intelligence/global-ai-survey-ai-proves-its-worth-but-few-scale-impact)
 3. [Getting started with AI? Start here! Everything you need to know to dive into your project](https://medium.com/hackernoon/the-decision-makers-guide-to-starting-ai-72ee0d7044df)
 4. [11 questions to ask before starting a successful Machine Learning project](https://tryolabs.com/blog/2019/02/13/11-questions-to-ask-before-starting-a-successful-machine-learning-project/)
 5. [What AI still can’t do](https://www.technologyreview.com/s/615189/what-ai-still-cant-do/)
@@ -232,3 +234,22 @@ layout: page
 22. [Structured Approach for Identifying AI Use Cases](https://towardsdatascience.com/proven-structured-approach-for-identifying-ai-use-cases-b876d8d00e5)
 23. [Book: "Machine Learning for Business" by Doug Hudgeon, Richard Nichol, Oreilly](https://learning.oreilly.com/library/view/machine-learning-for/9781617295836/)
 24. [Why Commercial Artificial Intelligence Products Do Not Scale (FemTech)](https://www.presagen.com/why-commercial-artificial-intelligence-products-do-not-scale)
+25. [Google Cloud’s AI Adoption Framework (White Paper)](https://services.google.com/fh/files/misc/ai_adoption_framework_whitepaper.pdf)
+
+
+
+# Model Governance, Ethics, Responsible AI
+
+1. [What are model governance and model operations? A look at the landscape of tools for building and deploying robust, production-ready machine learning models](https://www.oreilly.com/radar/what-are-model-governance-and-model-operations/)
+2. [Specialized tools for machine learning development and model governance are becoming essential. Why companies are turning to specialized machine learning tools like MLflow.](https://www.oreilly.com/ideas/specialized-tools-for-machine-learning-development-and-model-governance-are-becoming-essential)
+29. [What are model governance and model operations? – O’Reilly](https://www.oreilly.com/radar/what-are-model-governance-and-model-operations/)
+4. [Book: "Practical Fairness". 2020. By Aileen Nielsen. O'Reilly Media, Inc.](https://learning.oreilly.com/library/view/practical-fairness/9781492075721/)
+44. [AI Fairness 360, A Step Towards Trusted AI - IBM Research](https://www.ibm.com/blogs/research/2018/09/ai-fairness-360/)
+44. [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai-resources)
+44. [TensorFlow Privacy](https://github.com/tensorflow/privacy)
+2. [Learn how to integrate Responsible AI practices into your ML workflow using TensorFlow](https://www.tensorflow.org/resources/responsible-ai)
+3. [ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT)](https://facctconference.org/index.html)
+
+
+
+
