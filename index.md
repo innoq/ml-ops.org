@@ -45,7 +45,7 @@ You will learn about three core elements of ML-based software - ***Data, ML mode
 
 In this part, we describe principles and established practices to test, deploy, manage, and monitor ML models in production. [more...](content/mlops-principles.md) 
 
-## State of MLOps (Tools & Frameworks)
+## State of MLOps
 
 This part presents an overview of software tools and frameworks that manage ML artifacts and cover the whole machine learning cycle. [more...](content/state-of-mlops.md) 
 

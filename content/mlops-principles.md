@@ -13,15 +13,15 @@ In the following, we describe a set of important concepts in MLOps such as *Iter
 
 <img src="../img/mlops-loop-en.jpg" alt="Agile ML Workflow" width="800"/>
 
-The complete MLOps process includes three phases of *"Designing the ML-powered application", "ML Experimentation and Development", and "ML Operations"*.
+The complete MLOps process includes three broad phases of *"Designing the ML-powered application", "ML Experimentation and Development", and "ML Operations"*.
 
-The first phase is devoted to designing the ML-powered software, which should solve the business problem. We identify our potential user and design the machine learning solution to solve its problem. Mostly, we would act within two categories of problems - either increasing the productivity of the user or increasing the interactivity of our application.
+The first phase is devoted to *business understanding, data understanding* and *designing the ML-powered software*. In this stage, we identify our potential user, design the machine learning solution to solve its problem, and assess the further development of the project. Mostly, we would act within two categories of problems - either increasing the productivity of the user or increasing the interactivity of our application.
 
 Initially, we define ML use-cases and prioritize them. The best practice for ML projects is to work on one ML use case at a time. Furthermore, the *design* phase aims to inspect the available data that will be needed to train our model and to specify the functional and non-functional requirements of our ML model. We should use these requirements to design the architecture of the ML-application, establish the serving strategy, and create a test suite for the future ML model. 
 
-The follow-up phase *"ML Experimentation and Development"* is devoted to verifying the applicability of ML for our problem by implementing *Proof-of-Concept for ML Model*. Here, we run iteratively different steps, such as identifying or polishing the suitable ML algorithm for our problem, data engineering, and model engineering. The primary goal in this phase is to deliver a stable ML model that we will run in production.
+The follow-up phase *"ML Experimentation and Development"* is devoted to verifying the applicability of ML for our problem by implementing *Proof-of-Concept for ML Model*. Here, we run iteratively different steps, such as *identifying or polishing the suitable ML algorithm for our problem, data engineering*, and *model engineering*. The primary goal in this phase is to deliver a stable quality ML model that we will run in production.
 
-The main focus of the *"ML Operations"* phase is to deliver the previously developed ML model in production by using established DevOps practices such as Testing, Versioning, Continuous Delivery, and Monitoring.
+The main focus of the *"ML Operations"* phase is to deliver the previously developed ML model in production by using established DevOps practices such as testing, versioning, continuous delivery, and monitoring.
 
 All three phases are interconnected and influence each other. For example, the design decision during the design stage will propagate into the experimentation phase and finally influence the deployment options during the final operations phase.
 
@@ -236,6 +236,9 @@ Stale models can affect the quality of prediction in intelligent software.
   Including the range of ages to produce an *Age vs. Prediction Quality*  curve to facilitate the understanding of how often the ML model should be trained.
 - Assessing the cost of more sophisticated ML models.
   - Action: ML model performance should be compared to the simple baseline ML model (e.g. linear model vs neural network).
+- Validating performance of a model.
+  - It is recommended to separate the teams and procedures collecting the training and test data to remove the dependencies and avoid false methodology propagating from the training set to the test set ([source](https://arxiv.org/pdf/2003.05155.pdf)).
+  - Action: Use an additional test set, which is disjoint from the training and validation sets. Use this *test set* only for a final evaluation.
 
 - Fairness/Bias/Inclusion testing for the ML model performance.
   - Action: Collect more data that includes potentially under-represented categories.
@@ -483,7 +486,7 @@ In the most resent study on the [state of DevOps](https://services.google.com/fh
 To improve the effectiveness of the ML development and delivery process one should measure the above four key metrics. A practical way to achieve such effectiveness is to implement the CI/CD pipeline first and adopt test-driven development for Data, ML Model, and Software Code pipelines. 
 
 
-## Summary of MLOps Principles
+## Summary of MLOps Principles and Best Practices
 
 The complete ML development pipeline includes three levels where changes can occur: ***Data***, ***ML Model***, and ***Code***.
 This means that in machine learning-based systems, the trigger for a build might be the combination of a code change, data change or model change.
@@ -527,14 +530,15 @@ The following table summarizes the MLOps principles for building ML-based softwa
   <tr>
     <td>Reproducibility</td>
     <td>1) Backup data <br>2) Data versioning <br>3) Extract metadata <br>4) Versioning of feature engineering</td>
-    <td>1) Hyperparameter tuning is identical between dev and prod <br>2) The order of features is the same <br>3) Ensemble learning: the combination of ML models is same</td>
-    <td>1) Versions of all dependencies in dev and prod are identical <br>2) Same technical stack for dev and production environments</td>
+    <td>1) Hyperparameter tuning is identical between dev and prod <br>2) The order of features is the same <br>3) Ensemble learning: the combination of ML models is same <br> 4)The model pseudo-code is documented </td>
+    <td>1) Versions of all dependencies in dev and prod are identical <br>2) Same technical stack for dev and production environments <br> 3) Reproducing results by providing container images or virtual machines 
+    </td>
   </tr>
   <tr>
     <td>Deployment</td>
     <td>1) Feature store is used in dev and prod environments</td>
-    <td>1) Containerization of the ML stack <br>2) REST API <br>3) On-premise or cloud</td>
-    <td>1) On-premise or cloud</td>
+    <td>1) Containerization of the ML stack <br>2) REST API <br>3) On-premise, cloud, or edge </td>
+    <td>1) On-premise, cloud, or edge</td>
   </tr>
   <tr>
     <td>Monitoring</td>
@@ -546,3 +550,40 @@ The following table summarizes the MLOps principles for building ML-based softwa
 </table></div>
 </body>
 </html>
+
+Along with the MLOps principles, following the set of best practices should help reducing the "technical debt" of the ML project:
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div class="page-layout-xl--default">
+   <table class="table table-striped">
+<thead>
+  <tr>
+    <th>MLOps Best Practices</th>
+    <th>Data</th>
+    <th>ML Model</th>
+    <th>Code</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Documentation</td>
+    <td>1) Data sources<br>2) Decisions, how/where to get data<br>3) Labelling methods</td>
+    <td>1) Model selection criteria<br>2) Design of experiments<br>3) Model pseudo-code</td>
+    <td>1) Deployment process<br>2) How to run locally</td>
+  </tr>
+  <tr>
+    <td>Project Structure</td>
+    <td>1) Data folder for raw and processed data<br>2) A folder for data engineering pipeline<br>3) Test folder for data engineering methods</td>
+    <td>1) A folder that contains the trained model<br>2) A folder for notebooks<br>3) A folder for feature engineering<br>4)A folder for ML model engineering </td>
+    <td>1) A folder for bash/shell scripts<br>2) A folder for tests<br>3) A folder for deployment files (e.g Docker files)</td>
+  </tr>
+</tbody>
+</table></div>
+</body>
+</html>
+
