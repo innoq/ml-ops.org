@@ -530,7 +530,11 @@ Afterwards, the queued prediction results are pushed to the prediction service t
 
 <img src="../img/model-on-demand.jpg" alt="Model on Demand" width="800"/>
 
-Further reading: [Event-driven architecture](https://learning.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html)
+Further reading: 
+
+ + [Event-driven architecture](https://learning.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch02.html)
+ + [Web services vs. streaming for real-time machine learning endpoints](https://towardsdatascience.com/web-services-vs-streaming-for-real-time-machine-learning-endpoints-c08054e2b18e)
+
 
 #### Hybrid-Serving (Federated Learning)
 
