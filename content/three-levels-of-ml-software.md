@@ -132,7 +132,7 @@ The following list is adopted from ["Hands-On Machine Learning with Scikit-Learn
 
 #### Different forms of ML workflows
 
-Operating an ML model might assume several architectural solutions.
+Operating an ML model might assume several architectural styles.
 In the following, we discuss four architectural patterns which are classified along two dimensions:
 
 ***1. ML Model Training*** and
