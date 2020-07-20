@@ -3,7 +3,6 @@ title: "MLOps: Phase Zero"
 layout: article
 ---
 
-
 # “What is the business problem that we are trying to solve here?”
 
 The most important phase in any software project is to understand the business problem and create requirements.

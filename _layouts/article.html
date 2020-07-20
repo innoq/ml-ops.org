@@ -28,14 +28,9 @@
   <body>
     <nav class="sidenav">
         <img class="header__logo" src="/assets/mlops_header_logo.svg" alt="MLOps Logo">
-        <a class="sidenav__back button" href="/index.html">Back</a>
-        <div class="sidenav__links">
-            <a href="#" class="sidenav__link">Why you Might Want to use Machine Learning</a>
-            <a href="#" class="sidenav__link">Deployment Gap</a>
-            <a href="#" class="sidenav__link">Scenarios of Change That Need to be Managed</a>
-            <a href="#" class="sidenav__link">MLOps Definition</a>
-            <a href="#" class="sidenav__link">The Evolution of the MLOps</a>
-        </div>
+        <a class="sidenav__back button" href="/">Back</a>
+        <sidenav-links class="sidenav__links">
+        </sidenav-links>
     </nav>
     
     <main>
@@ -57,6 +52,7 @@
         </article>
     </main>
 
+    <script src="/assets/components.js"></script>
     <script src="https://assets.innoq.com/chenin.js"></script>
     <script>
         new Chenin({siteId: 7, hashMode: false})
