@@ -1,6 +1,6 @@
 ---
 title: "MLOps: Phase Zero"
-layout: page
+layout: article
 ---
 
 

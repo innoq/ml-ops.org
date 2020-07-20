@@ -1,3 +1,8 @@
+---
+title: "State of MLOps"
+layout: article
+---
+
 # MLOps Infrastructure Stack
 
 Before any machine learning model can be put in production, many experimentation cycles are needed to identify the right ML model to achieve the business goal. 

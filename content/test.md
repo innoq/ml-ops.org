@@ -1,6 +1,6 @@
 ---
 title: "MLOps test"
-layout: page
+layout: article
 ---
 
 <html lang="en" dir="ltr">

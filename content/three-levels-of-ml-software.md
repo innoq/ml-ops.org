@@ -1,3 +1,8 @@
+---
+title: "Three Levels of ML Software"
+layout: article
+---
+
 # Three Levels of ML Software
 
 ML/AI is rapidly adopted by new applications and industries.

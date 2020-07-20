@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/innoq-style.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-  
+    
     <meta name="publication_date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
     <meta name="date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
-  
+    
     <meta name="title" content="Machine Learning Operations">
     <meta name="description" content="Machine Learning Operations">
-  
+    
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@INNOQ">
     <meta name="twitter:creator" content="@INNOQ">
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="Machine Learning Operations">
     <meta name="twitter:image" content="">
-  
+    
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="Machine Learning Operations">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://ml-ops.org/">
-  </head>
-  <body>
-    <main role="main">
-      {% include page-header.html %}
-      <hr class="claim-header__divider">
-      <article class="page-layout-md--default">
+</head>
+<body>
+    <main>
         {{ content }}
-      </article>
-      {% include page-footer.html %}
     </main>
-
+    
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <p>The content of this site was created by Dr. Larysa Visengeriyeva, Anja Kammer, Isabel Bär, Alexander Kniesz, and Michael Plöd (DDD Advisor).</p>
+                <p>It is published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International Public License</a> and can therefore be shared and adapted with attribution ("INNOQ").</p>
+                <p>Made and maintained by</p>
+            </div>
+            <a href="https://www.innoq.com">
+                <img class="footer__logo" src="/assets/innoq-logo_mlops.svg" alt="INNOQ">
+            </a>
+            <p><a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+    
     <script src="https://assets.innoq.com/chenin.js"></script>
     <script>
-      new Chenin({siteId: 7, hashMode: false})
+        new Chenin({siteId: 7, hashMode: false})
     </script>
-  </body>
+</body>
 </html>

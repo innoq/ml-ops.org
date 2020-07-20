@@ -1,6 +1,6 @@
 ---
 title: "MLOps: Motivation"
-layout: page
+layout: article
 ---
 
 # Why you Might Want to use Machine Learning 

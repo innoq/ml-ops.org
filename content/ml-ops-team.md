@@ -1,6 +1,6 @@
 ---
 title: "MLOps Team"
-layout: page
+layout: article
 ---
 
 # MLOps Team at INNOQ

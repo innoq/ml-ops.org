@@ -1,6 +1,6 @@
 ---
 title: "End-to-end Machine Learning Workflow"
-layout: page
+layout: article
 ---
 
 # An Overview of the End-to-End Machine Learning Workflow
