@@ -300,6 +300,7 @@ table td {
   margin-top: -4px;
   right: 20px;
   height: 36px;
+  width: auto;
 }
 
 .teasersection__teasergrid__teaser ul {
