@@ -2,6 +2,7 @@
 title: "State of MLOps"
 layout: article
 ---
+<img class="article__icon" src="/assets/icons/Icon__StateOf.svg" alt="">
 
 # MLOps Infrastructure Stack
 

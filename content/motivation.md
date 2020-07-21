@@ -2,6 +2,7 @@
 title: "MLOps: Motivation"
 layout: article
 ---
+<img class="article__icon" src="/assets/icons/Icon__Motivation.svg" alt="Icon">
 
 # Why you Might Want to use Machine Learning 
 

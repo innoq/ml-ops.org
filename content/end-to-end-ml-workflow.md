@@ -2,6 +2,7 @@
 title: "End-to-end Machine Learning Workflow"
 layout: article
 ---
+<img class="article__icon" src="/assets/icons/Icon__Lifecycle.svg" alt="Icon of an eye">
 
 # An Overview of the End-to-End Machine Learning Workflow
 

@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   color: var(--color-primary);
   font-size: 3rem;
+  hyphens: none;
 }
 
 h2 {
@@ -347,6 +348,7 @@ footer p {
 img {
   display: block;
   margin: auto;
+  width: 100%;
 }
 
 .button {
@@ -393,8 +395,8 @@ a.button:hover {
 }
 
 .article__icon {
-  width: 60px;
-  padding-bottom: 3rem;
+  width: 50px;
+  margin: -20px 0 0 0;
 }
 
 .article__infobox1 {
