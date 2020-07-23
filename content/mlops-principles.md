@@ -1,4 +1,10 @@
-# MLOps principles
+---
+title: "MLOps Principles"
+layout: article
+---
+<img class="article__icon" src="/assets/icons/Icon__Principles.svg" alt="Icon">
+
+# MLOps Principles
 
 
 As machine learning and AI propagate in software products and services, we need to establish best practices and tools to test, deploy, manage, and monitor ML models in real-world production. In short, with MLOps we strive to avoid *"technical debt"* in machine learning applications. 

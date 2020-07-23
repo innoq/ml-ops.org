@@ -1,3 +1,9 @@
+---
+title: "Three Levels of ML Software"
+layout: article
+---
+<img class="article__icon" src="/assets/icons/Icon__ThreeLevels.svg" alt="Icon">
+
 # Three Levels of ML Software
 
 ML/AI is rapidly adopted by new applications and industries.

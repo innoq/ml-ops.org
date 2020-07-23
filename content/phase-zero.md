@@ -1,8 +1,8 @@
 ---
 title: "MLOps: Phase Zero"
-layout: page
+layout: article
 ---
-
+<img class="article__icon" src="/assets/icons/Icon__DesigningSoftware.svg" alt="Icon">
 
 # “What is the business problem that we are trying to solve here?”
 

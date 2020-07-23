@@ -1,7 +1,8 @@
 ---
 title: "End-to-end Machine Learning Workflow"
-layout: page
+layout: article
 ---
+<img class="article__icon" src="/assets/icons/Icon__Lifecycle.svg" alt="Icon of an eye">
 
 # An Overview of the End-to-End Machine Learning Workflow
 
@@ -19,7 +20,7 @@ The Figure below shows the core steps involved in a typical ML workflow.
 <img src="../img/ml-engineering.jpg" alt="Machine Learning Engineering" width="800"/>
 
 
-### Data Engineering
+## Data Engineering
 
 The initial step in any data science workflow is to acquire and prepare the data to be analyzed.
 Typically, data is being integrated from various resources and has different formats.
@@ -35,7 +36,7 @@ The Data Engineering pipeline includes a sequence of operations on the available
 4. *Data Labeling* - The operation of the Data Engineering pipeline, where each data point is assigned to a specific category.
 5. *Data Splitting* - Splitting the data into training, validation, and test datasets to be used during the core machine learning stages to produce the ML model.
 
-### Model Engineering
+## Model Engineering
 
 The core of the ML workflow is the phase of writing and executing machine learning algorithms to obtain an ML model. The Model Engineering pipeline includes a number of operations that lead to a final model:
 1. *Model Training* - The process of applying the machine learning algorithm on training data to train an ML model. It also includes feature engineering and the hyperparameter tuning for the model training activity.
@@ -44,7 +45,7 @@ The core of the ML workflow is the phase of writing and executing machine learni
 4. *Model Packaging* - The process of exporting the final ML model into a specific format (e.g. PMML, PFA, or ONNX), which describes the model, in order to be consumed by the business application.
 
 
-### Model Deployment
+## Model Deployment
 
 Once we trained a machine learning model, we need to deploy it as part of a business application such as a mobile or desktop application.
 The ML models require various data points (feature vector) to produce predictions.

@@ -1,7 +1,8 @@
 ---
 title: "MLOps: Motivation"
-layout: page
+layout: article
 ---
+<img class="article__icon" src="/assets/icons/Icon__Motivation.svg" alt="Icon">
 
 # Why you Might Want to use Machine Learning 
 
@@ -46,7 +47,7 @@ In the following Table, we summarize the ML/AI capabilities:
 [Table Source: "The AI Organization" by David Carmona](https://learning.oreilly.com/library/view/the-ai-organization/9781492057369/)
 
 
-# Deployment Gap 
+## Deployment Gap 
 
 More and more enterprises are experimenting with ML.
 Getting a model into the real world involves more than just building it.
@@ -70,7 +71,7 @@ About 18 percent stated that it takes from three months to a year.
 According to the report *"The main challenges people face when developing ML capabilities are scale, version control, model reproducibility, and aligning stakeholders"*.
 
 
-# Scenarios of Change That Need to be Managed
+## Scenarios of Change That Need to be Managed
 
 The reason for the previously described deployment gap is that the development of the machine learning-based applications is fundamentally different from the development of the traditional software.
 The complete development pipeline includes three levels of change: **Data**, **ML Model**, and **Code**.
@@ -100,7 +101,7 @@ As shown, there is a need to establish effective practices and processes around 
 Further reading: [Why is DevOps for Machine Learning so Different?](https://hackernoon.com/why-is-devops-for-machine-learning-so-different-384z32f1)
 
 
-# MLOps Definition
+## MLOps Definition
 
 We saw what real-world problems might be solved by applying machine learning. 
 We established the challenges of getting the ML models into production.
@@ -113,7 +114,7 @@ Alternatively, we can use the definition of  **Machine Learning Engineering (MLE
 
 MLOps, like DevOps, emerges from the understanding that separating the ML model development from the process that delivers it — ML operations — lowers quality, transparency, and agility of the whole intelligent software.
 
-# The Evolution of the MLOps
+## The Evolution of the MLOps
 
 In the early 2000s, when businesses needed to implement machine learning solutions, they used the vendors' licensed software such as SAS, SPSS, and FICO. With the rise of open-source software and the availability of data, more software practitioners started using Python or R libraries for training ML models. However, the usage of the models in production was still a problem. As the containerization technology was emerging, the deployment of the model in a scalable way was solved by using Docker containers and Kubernetes. Recently, we see the evolution of those solutions into ML deployment platforms that cover the whole iteration of model experimentation, training, deployment, and monitoring. The following Figure visualizes the evolution of the MLOps.
 

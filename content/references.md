@@ -1,6 +1,6 @@
 ---
 title: "MLOps References"
-layout: page
+layout: article
 ---
 
 # MLOps Core

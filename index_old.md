@@ -1,6 +1,6 @@
 ---
 title: "ML Ops: Machine Learning Operations"
-layout: page
+layout: article
 ---
 
 <img src="../img/mlops-loop-banner.jpg " alt="MLOps Loop" width="800"/>
