@@ -2,6 +2,8 @@
 title: "MLOps References"
 layout: article
 ---
+<img class="article__icon" src="/assets/icons/Icon__References.svg" alt="Icon">
+
 # MLOps References
 ## MLOps Core
 1. [Machine Learning Operations: You Train It, You Run It!](https://ml-ops.org/)
