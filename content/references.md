@@ -2,9 +2,8 @@
 title: "MLOps References"
 layout: article
 ---
-
-# MLOps Core
-
+# MLOps References
+## MLOps Core
 1. [Machine Learning Operations: You Train It, You Run It!](https://ml-ops.org/)
 2. [MLOps SIG Specification](https://github.com/tdcox/mlops-roadmap/blob/master/MLOpsRoadmap2020.md)
 3. [ML in Production](http://mlinproduction.com/)
@@ -14,9 +13,7 @@ layout: article
 
 
 
-# MLOps Books
-
-
+## MLOps Books
 1. [Book: "ML Ops: Operationalizing Data Science" by David Sweenor, Steven Hillion, Dan Rope, Dev Kannabiran, Thomas Hill, Michael O'Connell](https://learning.oreilly.com/library/view/ml-ops-operationalizing/9781492074663/)
 3. [Book "Building Machine Learning Powered Applications" by  Emmanuel Ameisen](https://learning.oreilly.com/library/view/building-machine-learning/9781492045106/)
 31. [Book "Building Machine Learning Pipelines" – O’Reilly](https://learning.oreilly.com/library/view/building-machine-learning/9781492053187/) 
@@ -32,8 +29,7 @@ layout: article
 
 
 
-# MLOps Articles
-
+## MLOps Articles
 1. [Continuous Delivery for Machine Learning (by Thoughtworks)](https://martinfowler.com/articles/cd4ml.html)
 5. [Linux Foundation AI Foundation](https://wiki.lfai.foundation/)
 7. [MLSpec: A project to standardize the intercomponent schemas for a multi-stage ML Pipeline.](https://github.com/visenger/MLSpec)
@@ -109,8 +105,7 @@ layout: article
 
 
 
-# MLOps Papers
-
+## MLOps Papers
 1. [Building a Reproducible Machine Learning Pipeline](https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf)
 2. [A Systems Perspective to Reproducibility in Production Machine Learning Domain](https://openreview.net/pdf?id=Byl4vavigX)
 3. [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
@@ -150,8 +145,7 @@ layout: article
 
 
 
-# Talks About MLOps
-
+## Talks About MLOps
 1. [DeliveryConf 2020. "Continuous Delivery For Machine Learning: Patterns And Pains" by Emily Gorcenski](https://youtu.be/bFW5mZmj0nQ)
 2. [MLOps Conference: Talks from 2019](https://www.mlopsconf.com?wix-vod-comp-id=comp-k1ry4afh)
 3. [A CI/CD Framework for Production Machine Learning at Massive Scale (using Jenkins X and Seldon Core)](https://youtu.be/68_Phxwaj-k)
@@ -159,8 +153,7 @@ layout: article
 5. [MLOps NY conference 2019](https://www.iguazio.com/mlops-nyc-sessions/)
 
 
-# Existing ML Systems
-
+## Existing ML Systems
 1. [Introducing FBLearner Flow: Facebook’s AI backbone](https://engineering.fb.com/ml-applications/introducing-fblearner-flow-facebook-s-ai-backbone/)
 2. [TFX: A TensorFlow-Based Production-Scale Machine Learning Platform](https://dl.acm.org/doi/pdf/10.1145/3097983.3098021?download=true)
 3. [Getting started with Kubeflow Pipelines](https://cloud.google.com/blog/products/ai-machine-learning/getting-started-kubeflow-pipelines)
@@ -172,8 +165,7 @@ layout: article
 
 
 
-# Machine Learning 
-
+## Machine Learning 
 1. Book, Aurélien Géron,"Hands-On Machine Learning with Scikit-Learn and TensorFlow"
 1. [Foundations of Machine Learning](https://bloomberg.github.io/foml/)
 2. [Best Resources to Learn Machine Learning](https://www.trainindata.com/post/best-resources-to-learn-machine-learning)
@@ -200,8 +192,7 @@ layout: article
 18. [Awesome Data Science](https://github.com/academic/awesome-datascience)
 
 
-# Software Engineering
-
+## Software Engineering
 1. [The Twelve Factors](https://12factor.net/)
 2. [Book "Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations", 2018 by Nicole Forsgren et.al](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)
 3. [Book "The DevOps Handbook" by Gene Kim, et al. 2016](https://itrevolution.com/book/the-devops-handbook/)
@@ -209,8 +200,7 @@ layout: article
 5. [Clean Code concepts adapted for machine learning and data science.](https://github.com/davified/clean-code-ml)
 
 
-# Product Management for ML/AI
-
+## Product Management for ML/AI
 1. [What you need to know about product management for AI. A product manager for AI does everything a traditional PM does, and much more.](https://www.oreilly.com/radar/what-you-need-to-know-about-product-management-for-ai/)
 2. [The People + AI Guidebook](https://pair.withgoogle.com/guidebook/)
 3. [User Needs + Defining Success](https://pair.withgoogle.com/chapter/user-needs/)
@@ -218,8 +208,7 @@ layout: article
 5. [Talk: Designing Great ML Experiences (Apple)](https://developer.apple.com/videos/play/wwdc2019/803/) 
 
 
-# The Economics of ML/AI
-
+## The Economics of ML/AI
 1. [Book: "Prediction Machines: The Simple Economics of Artificial Intelligence"](https://www.predictionmachines.ai/)
 2. [Book: "The AI Organization" by David Carmona](https://learning.oreilly.com/library/view/the-ai-organization/9781492057369/)
 2. [Book: "Succeeding with AI". 2020. By Veljko Krunic. Manning Publications](https://learning.oreilly.com/library/view/succeeding-with-ai/9781617296932/)
@@ -253,8 +242,7 @@ layout: article
 
 
 
-# Model Governance, Ethics, Responsible AI
-
+## Model Governance, Ethics, Responsible AI
 1. [What are model governance and model operations? A look at the landscape of tools for building and deploying robust, production-ready machine learning models](https://www.oreilly.com/radar/what-are-model-governance-and-model-operations/)
 2. [Specialized tools for machine learning development and model governance are becoming essential. Why companies are turning to specialized machine learning tools like MLflow.](https://www.oreilly.com/ideas/specialized-tools-for-machine-learning-development-and-model-governance-are-becoming-essential)
 29. [What are model governance and model operations? – O’Reilly](https://www.oreilly.com/radar/what-are-model-governance-and-model-operations/)
