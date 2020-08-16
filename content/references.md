@@ -112,7 +112,7 @@ layout: article
 67. [Continuous Machine Learning (CML) is CI/CD for Machine Learning Projects (DVC)](https://cml.dev/)
 68. [What I learned from looking at 200 machine learning tools](https://huyenchip.com/2020/06/22/mlops.html)
 69. [Big Data & AI Landscape](http://mattturck.com/wp-content/uploads/2018/07/Matt_Turck_FirstMark_Big_Data_Landscape_2018_Final.png)
-70. [Deploying Machine Learning Models as Data, not Code — A better match? MLOps using omega|ml](https://towardsdatascience.com/deploying-machine-learning-models-as-data-not-code-omega-ml-8825a0ae530a)
+70. [Deploying Machine Learning Models as Data, not Code — A better match?](https://towardsdatascience.com/deploying-machine-learning-models-as-data-not-code-omega-ml-8825a0ae530a)
 71. [“Thou shalt always scale” — 10 commandments of MLOps](https://towardsdatascience.com/mlops-thou-shalt-always-scale-10-commandments-of-mlops-152c11e711a5)
 72. [Three Risks in Building Machine Learning Systems](https://insights.sei.cmu.edu/sei_blog/2020/05/three-risks-in-building-machine-learning-systems.html)
 73. [Deploying R Models with MLflow and Docker](https://mdneuzerling.com/post/deploying-r-models-with-mlflow-and-docker/)
