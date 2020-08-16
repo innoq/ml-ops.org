@@ -126,11 +126,11 @@ The following table lists those components:
         <td class="tg-0pky">Versioning the Code, Data, and ML Model artifacts.</td>
       </tr>
       <tr>
-        <td class="tg-0pky">Test &amp; Build Servises</td>
+        <td class="tg-0pky">Test &amp; Build Services</td>
         <td class="tg-0pky">Using CI tools for (1) Quality assurance&nbsp;&nbsp;for all ML artifacts, and (2) Building packages and executables for pipelines.</td>
       </tr>
       <tr>
-        <td class="tg-0pky">Deployment Servises</td>
+        <td class="tg-0pky">Deployment Services</td>
         <td class="tg-0pky">Using CD tools for deploying pipelines to the target environment.</td>
       </tr>
       <tr>

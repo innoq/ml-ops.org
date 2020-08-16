@@ -462,7 +462,7 @@ The following taxonomy shows these approaches:
         </tr>
         <tr>
           <td scope="row"><b>Compile/ Runtime Availabilty</b></td>
-          <td><b>Build & runtime availabe</b></td>
+          <td><b>Build & runtime available</b></td>
           <td><b>Available remotely through REST API/RPC</b></td>
           <td><b>Available at the runtime scope</b></td>
         </tr>
