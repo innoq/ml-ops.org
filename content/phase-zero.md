@@ -83,7 +83,7 @@ After clarifying what data is available, we brainstorm what type of ML should be
  + Supervised or unsupervised learning?
  + Is this anomaly detection?
  + Is the problem about which option should be taken? (recommendation)
- + Do we need to predict a continous value? (regression)
+ + Do we need to predict a continuous value? (regression)
  + Which category need to be predicted? (classification)
  + Do we need to group our data? (clustering)
  + If supervised, what type of ML task should be taken: classification, regression, or ranking?
