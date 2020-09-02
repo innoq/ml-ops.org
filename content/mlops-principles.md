@@ -156,11 +156,17 @@ The following table lists those components:
 
 Further reading: ["MLOps: Continuous delivery and automation pipelines in machine learning"](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page)
 
-## Continuous Deployment
+## Continuous X
 
 To understand ***Model deployment***, we first specify the "ML assets" as ML model, its parameters and hyperparameters, training scripts, training and testing data. We are interested in the identity, components, versioning, and dependencies of these ML artifacts.
 The target destination for an ML artifact may be a (micro-) service or some infrastructure components.
 A deployment service provides orchestration, logging, monitoring, and notification to ensure that the ML models, code and data artifacts are stable.
+
+MLOps is an ML engineering culture that includes the following practices:
++ **Continuous Integration (CI)** extends the testing and validating code and components by adding testing and validating data and models.
++ **Continuous Delivery (CD)** concerns with delivery of an ML training pipeline that automatically deploys another the ML model prediction service.
++ **Continuous Training (CT)** is unique to ML systems property, which automatically retrains ML models for re-deployment.
++ **Continuous Monitoring (CM)** concerns with monitoring production data and model performance metrics, which are bound to business metrics.
 
 
 ## Versioning
