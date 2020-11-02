@@ -22,6 +22,12 @@ The MLOps technology stack should include tooling for the following tasks:
 
 To solve MLOps challenges there are many choices ranging from using an *off-the-shelf machine-learning platform* to implement an in-house solution by composing open-source libraries. Existing cloud providers already working on offering machine learning platforms such as AI Platform by Google Cloud, AzureML, and SageMaker by AWS. Initiated at Google, the Kubeflow project presents an option to manage a set of open-source tools for MLOps and assemble them on Kubernetes. The adoption of such ML platform depends on the cloud strategy of the organization. In case, when an in-house hosted solution for MLOps is preferred, non-cloud systems like [MLFlow](https://mlflow.org/), [Sacred](https://github.com/IDSIA/sacred), or [DVC](https://dvc.org/) might be a tool of choice.   
 
+Currently, the landscape of MLOps technologies is frequently changing. As the scope of each tool might span several components of the MLOps process, every use-case would require to consider the MLOps tech stack carefully.  For example, the requirements for model versioning and monitoring might be different depending on the use-case. Monitoring model serving in the regulated industries such as financial or medical will be more sophisticated than in a non-regulated. The structured way to proceed in the MLOps tech stack selection is to use the MLOps Stack Template.  This template breaks down a machine learning workflow into nine components, as described in the *MLOps Principles*. Before selecting tools or frameworks, the corresponding requirements for each component need to be collected and analysed. Finally, the tool selection should be aligned to that analysis.
+
+The following MLOps Stack Template is courtesy of [Henrik Skogström (Valohai)](https://valohai.com/blog/the-mlops-stack/) 
+
+<img src="../img/mlops-full-stack.png" alt="AI Landscape" width="800"/>
+
 An example of the technology stack might include the following open source tools:
 
 <html lang="en" dir="ltr">
@@ -39,6 +45,10 @@ An example of the technology stack might include the following open source tools
   </tr>
 </thead>
 <tbody>
+<tr>
+    <td>Data Analysis</td>
+    <td>Python, Pandas</td>
+  </tr>
   <tr>
     <td>Source Control</td>
     <td>Git</td>
@@ -57,7 +67,7 @@ An example of the technology stack might include the following open source tools
   </tr>
   <tr>
     <td>Feature Store</td>
-    <td>project code library</td>
+    <td>Project code library</td>
   </tr>
   <tr>
     <td>ML Metadata Store</td>
