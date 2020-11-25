@@ -47,7 +47,7 @@ The remaining canvas is divided into three broad categories: *Learning, Predicti
 
 <img src="../img/machine-learning-canvas-v1.jpg" alt="Machine Learning Canvas" width="800"/>
 
-In total, the Machine Learning Canvas is structured as ten compound blocks, such as *Value Proposition, Data Sources, ML Task, Features (Engineering), Offline Evaluation, Decisions, Making Predictions, Collecting Data, Building Models,* and  *Live Evaluation and Monitoring*. Each of those blocks is focused on one aspect of the future ML application:
+In total, the Machine Learning Canvas is structured as ten compound blocks, such as *Value Proposition, Data Sources, Prediction Task, Features (Engineering), Offline Evaluation, Decisions, Making Predictions, Collecting Data, Building Models,* and  *Live Evaluation and Monitoring*. Each of those blocks is focused on one aspect of the future ML application:
 
 ### Value Proposition
 This is the crucial blocks in the whole canvas. Here we should answer three important questions:
