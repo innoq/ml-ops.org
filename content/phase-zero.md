@@ -56,6 +56,10 @@ This is the crucial blocks in the whole canvas. Here we should answer three impo
 2. *Why* is it important?
 3. *Who* is the end-user? Can we specify the *persona*?
 
+To create an effective *Value Proposition* statement, we could use the [Geoffrey Moore's value positioning statement template:](https://the.gt/geoffrey-moore-positioning-statement/) 
+
+****For (target customer) who (need or opportunity), our (product/service name) is (product category) that (benefit).****
+
 [*Narrowing the domain*](https://cdixon.org/2015/02/01/the-ai-startup-idea-maze) of the problem could be useful for the next question regarding the required data. For example, instead of creating a universal chat-bot, build a bot that helps with scheduling conference-calls. 
 
 ### Data Sources
@@ -107,7 +111,8 @@ As every ML algorithm requires input data in the form of features, we should cla
 
 Before any implementation of the ML model training, we would need to specify and set up the methods and metrics to evaluate the system before deployment. Here we would need to specify:
 
- + What evaluation metrics should be used?
+ + Domain specific metrics that justify the deployment of the ML model. For example, simulated with the training and testing data, would the prediction of the model generate more revenue than the revenue created in the "traditional" way.
+ + What technical evaluation metrics should be used?
     + Precision, Recall, F-1 measure.
     + Accuracy.
  + What is the meaning of model prediction errors such as *false positives* and *false negatives*?
