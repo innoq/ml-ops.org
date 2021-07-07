@@ -2,7 +2,8 @@
 title: "CRISP-ML(Q)"
 layout: article
 ---
-<img class="article__icon" src="/assets/icons/Icon__Principles.svg" alt="Icon">
+<img class="article__icon" src="/assets/icons/Icon__Crisp.svg" alt="Icon">
+<br>
 
 # CRISP-ML(Q). The ML Lifecycle Process.
 
