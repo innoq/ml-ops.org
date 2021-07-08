@@ -44,10 +44,10 @@ The purpose of the MLOps Stack Canvas is to help you to structure workflows, arc
 
 Generally, the [MLOps Stack Canvas](https://miro.com/app/board/o9J_lfoc4Hg=/) consists of three main areas: *Data and Code Management, Model Management,* and *Metadata Management*. Each of these areas contains its own building blocks. 
 
-<img src="../img/mlops-canvas.jpg" alt="MLOps Stack Canvas" width="800"/>
+<img src="../img/MLOpsStack-base.jpg" alt="MLOps Stack Canvas" width="800"/>
 Figure 2: MLOps Stack Canvas to identify the infrastructure components.
 
-Please note that you might access the [MLOps Stack Canvas](https://miro.com/app/board/o9J_lfoc4Hg=/) as a Miro board.
+Please note that you might access the [MLOps Stack Canvas](https://miro.com/app/board/o9J_lfoc4Hg=/) as a Miro board and it is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 In the following, we explain each of these blocks.
 
