@@ -47,7 +47,7 @@ Generally, the [MLOps Stack Canvas](https://miro.com/app/board/o9J_lfoc4Hg=/) co
 <img src="../img/MLOpsStack-base.jpg" alt="MLOps Stack Canvas" width="800"/>
 Figure 2: MLOps Stack Canvas to identify the infrastructure components.
 
-Please note that you might access the [MLOps Stack Canvas](https://miro.com/app/board/o9J_lfoc4Hg=/) as a Miro board and it is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+Please note that you might access the [MLOps Stack Canvas](https://miro.com/miroverse/mlops-stack-canvas/) as a Miro board and it is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 In the following, we explain each of these blocks.
 
@@ -219,5 +219,5 @@ Getting ML models in production involves many interplaying components. With the 
 
 ## Acknowledgements
 
-We would like to thank [Alexey Grigoriev](https://www.linkedin.com/in/agrigorev/) for insightful discussions and his valuable feedback for this chapter.
+We would like to thank [Alexey Grigoriev](https://www.linkedin.com/in/agrigorev/) and [Louis Dorard](https://www.linkedin.com/in/louisdorard/) for insightful discussions and his valuable feedback for this chapter.
 
