@@ -94,3 +94,5 @@ Depending on the requirements or restrictions, organizations can implement their
  + [Awesome Production Machine Learning: Toos and Frameworks](https://github.com/EthicalML/awesome-production-machine-learning)
  + [MLOps Agile Stack](images/mlops-agile-stack.png)
  + [Demystifying the AI Infrastructure Stack](https://www.intel.com/content/www/us/en/intel-capital/news/story.html?id=a0F1I00000BNTXPUA5#/type=All/page=0/term=/tags=)
+ + [Introducing TWIML’s New ML and AI Solutions Guide](https://twimlai.com/solutions/introducing-twiml-ml-ai-solutions-guide/)
+ + [MLOps.community resources](https://mlops.community/learn/)
