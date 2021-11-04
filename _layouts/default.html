@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="any" href="{{ site.baseurl }}/favicon.svg"/>
 
     <meta name="publication_date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
     <meta name="date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
@@ -14,7 +14,7 @@
     <meta name="title" content="Machine Learning Operations">
     <meta name="description" content="Machine Learning Operations">
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@INNOQ">
     <meta name="twitter:creator" content="@INNOQ">
     <meta name="twitter:title" content="{{ site.title }}">
@@ -25,25 +25,53 @@
     <meta property="og:description" content="Machine Learning Operations">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://ml-ops.org/">
+
+    <section class="header">
+        <div class="container">
+            <div class="header__flex">
+                <img class="header__logo" src="/assets/mlops_header_logo.svg" alt="MLOps Logo">
+
+                <div class="header__content">
+                    <div class="header__content__left">
+                        <h1 class="header__title">Machine Learning Operations</h1>
+                        <p class="header__lead">With Machine Learning Model Operationalization Management (MLOps), we
+                            want
+                            to provide an end-to-end machine learning development process to design, build and manage
+                            reproducible, testable, and evolvable ML-powered software.</p>
+                    </div>
+                    <div class="header__content__right">
+                        <img class="header__content__keyvisual" src="/assets/mlops_visual.svg" alt="MLOps Logo">
+                    </div>
+                </div>
+                <a href="#gettingstarted"><img class="icon" src="/assets/icons/Icon__ButtonDown.svg"
+                                               alt="Please scroll"></a>
+            </div>
+        </div>
+    </section>
+
+
     <script async defer data-domain="ml-ops.org" src="https://stats.innoq.com/js/index.js"></script>
 </head>
 <body>
-    <main>
-        {{ content }}
-    </main>
+<main>
+    {{ content }}
+</main>
 
-    <footer>
-        <div class="container">
-            <div class="footer__content">
-                <p>The content of this site was created by Dr. Larysa Visengeriyeva, Anja Kammer, Isabel Bär, Alexander Kniesz, and Michael Plöd (DDD Advisor).</p>
-                <p>It is published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International Public License</a> and can therefore be shared and adapted with attribution ("INNOQ").</p>
-                <p>Made and maintained by</p>
-            </div>
-            <a href="https://www.innoq.com">
-                <img class="footer__logo" src="/assets/innoq-logo_mlops.svg" alt="INNOQ">
-            </a>
-            <p><a href="https://www.innoq.com/en/datenschutz">Privacy Policy</a></p>
+<footer>
+    <div class="container">
+        <div class="footer__content">
+            <p>The content of this site was created by Dr. Larysa Visengeriyeva, Anja Kammer, Isabel Bär, Alexander
+                Kniesz, and Michael Plöd (DDD Advisor).</p>
+            <p>It is published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative
+                Commons Attribution 4.0 International Public License</a> and can therefore be shared and adapted with
+                attribution ("INNOQ").</p>
+            <p>Made and maintained by</p>
         </div>
-    </footer>
+        <a href="https://www.innoq.com">
+            <img class="footer__logo" src="/assets/innoq-logo_mlops.svg" alt="INNOQ">
+        </a>
+        <p><a href="https://www.innoq.com/en/datenschutz">Privacy Policy</a></p>
+    </div>
+</footer>
 </body>
 </html>

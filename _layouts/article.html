@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="any" href="{{ site.baseurl }}/favicon.svg"/>
 
     <meta name="publication_date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
     <meta name="date" content="{{ site.time | date: '%Y-%m-%d' }}" scheme="YYYY-MM-DD">
@@ -14,7 +14,7 @@
     <meta name="title" content="Machine Learning Operations">
     <meta name="description" content="Machine Learning Operations">
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@INNOQ">
     <meta name="twitter:creator" content="@INNOQ">
     <meta name="twitter:title" content="{{ site.title }}">
@@ -26,34 +26,37 @@
     <meta property="og:image" content="">
     <meta property="og:url" content="https://ml-ops.org/">
     <script async defer data-domain="ml-ops.org" src="https://stats.innoq.com/js/index.js"></script>
-  </head>
-  <body>
-    <nav class="sidenav">
-        <img class="header__logo" src="/assets/mlops_header_logo.svg" alt="MLOps Logo">
-        <a class="sidenav__back button" href="/">Back</a>
-        <sidenav-links class="sidenav__links">
-        </sidenav-links>
-    </nav>
+</head>
+<body>
+<nav class="sidenav">
+    <img class="header__logo" src="/assets/mlops_header_logo.svg" alt="MLOps Logo">
+    <a class="sidenav__back button" href="/">Back</a>
+    <sidenav-links class="sidenav__links">
+    </sidenav-links>
+</nav>
 
-    <main>
-        <article class="article__main">
-            {{ content }}
-            <footer class="footer__article">
-                <div>
-                    <div class="footer__content">
-                        <p>The content of this site was created by Dr. Larysa Visengeriyeva, Anja Kammer, Isabel Bär, Alexander Kniesz, and Michael Plöd (DDD Advisor). Design made by Sebastian Eberstaller.</p>
-                        <p>It is published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International Public License</a> and can therefore be shared and adapted with attribution ("INNOQ").</p>
-                        <p>Made and maintained by</p>
-                    </div>
-                    <a href="https://www.innoq.com">
-                        <img class="footer__logo" src="/assets/innoq-logo_mlops.svg" alt="INNOQ">
-                    </a>
-                    <p><a href="https://www.innoq.com/en/datenschutz">Privacy Policy</a></p>
+<main>
+    <article class="article__main">
+        {{ content }}
+        <footer class="footer__article">
+            <div>
+                <div class="footer__content">
+                    <p>The content of this site was created by Dr. Larysa Visengeriyeva, Anja Kammer, Isabel Bär,
+                        Alexander Kniesz, and Michael Plöd (DDD Advisor). Design made by Sebastian Eberstaller.</p>
+                    <p>It is published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative
+                        Commons Attribution 4.0 International Public License</a> and can therefore be shared and adapted
+                        with attribution ("INNOQ").</p>
+                    <p>Made and maintained by</p>
                 </div>
-            </footer>
-        </article>
-    </main>
+                <a href="https://www.innoq.com">
+                    <img class="footer__logo" src="/assets/innoq-logo_mlops.svg" alt="INNOQ">
+                </a>
+                <p><a href="https://www.innoq.com/en/datenschutz">Privacy Policy</a></p>
+            </div>
+        </footer>
+    </article>
+</main>
 
-    <script src="/assets/components.js"></script>
-  </body>
+<script src="/assets/components.js"></script>
+</body>
 </html>
