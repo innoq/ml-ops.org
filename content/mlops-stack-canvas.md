@@ -219,5 +219,5 @@ Getting ML models in production involves many interplaying components. With the 
 
 ## Acknowledgements
 
-We would like to thank [Alexey Grigoriev](https://www.linkedin.com/in/agrigorev/) and [Louis Dorard](https://www.linkedin.com/in/louisdorard/) for insightful discussions and his valuable feedback for this chapter.
+We would like to thank [Alexey Grigoriev](https://www.linkedin.com/in/agrigorev/) and [Louis Dorard](https://www.linkedin.com/in/louisdorard/) for the insightful discussions and their valuable feedback for this chapter.
 
