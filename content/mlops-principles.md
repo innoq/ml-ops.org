@@ -264,7 +264,7 @@ Stale models can affect the quality of prediction in intelligent software.
 
 ### ML infrastructure test
 
-- Training of the ML models should be reproducible, which means that training the ML model on the same data should produce identical ML models.
+- Training the ML models should be reproducible, which means that training the ML model on the same data should produce identical ML models.
   - Diff-testing of ML models relies on deterministic training, which is hard to achieve due to non-convexity of the ML algorithms, random seed generation, or distributed ML model training.
   - Action: determine the non-deterministic parts in the model training code base and try to minimize non-determinism.
 
