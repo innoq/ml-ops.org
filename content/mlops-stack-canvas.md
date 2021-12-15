@@ -195,7 +195,7 @@ There are also organizational aspects of MLOps, which belong to the general disc
 
 The MLOps Stack Canvas scope is to assist you while identifying the workflows, architecture, and infrastructure components for the MLOps stack in the ML project. Answering questions in this canvas should get you a good estimation of costs that accompany your ML project in every phase.
 
-### Documenting MLOps Architecture
+## Documenting MLOps Architecture
 
 One of the effective ways to document the MLOps architecture is by using [Architecture Decision Records](https://adr.github.io/) (ARD) construct. For example, one ARD can manifest each building block from the MLOps Stack Canvas. The simplified ARD format consists of three essential components:
 
@@ -218,7 +218,7 @@ The following is a simplified example of such ARD.
 *Consequences*: We need to move our data storage to the DVC-supported storage mechanisms. Additionally, upskilling our team members is required.
 
 
-### MLOps Maturity Level
+## MLOps Maturity Level
 
 Machine learning is still a new technology for many organizations. Launching ML-powered software solutions goes through three stages of [“AI Readiness”](https://services.google.com/fh/files/misc/ai_adoption_framework_whitepaper.pdf), which denotes a company’s maturity in incorporating AI into the business. The AI maturity can be distinguished between three phases: *Tactical, Strategic,* and *Transformational* (see Figure 3).
 
