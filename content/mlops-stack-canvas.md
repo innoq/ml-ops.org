@@ -195,6 +195,28 @@ There are also organizational aspects of MLOps, which belong to the general disc
 
 The MLOps Stack Canvas scope is to assist you while identifying the workflows, architecture, and infrastructure components for the MLOps stack in the ML project. Answering questions in this canvas should get you a good estimation of costs that accompany your ML project in every phase.
 
+### Documenting MLOps Architecture
+
+One of the effective ways to document the MLOps architecture is by using [Architecture Decision Records](https://adr.github.io/) (ARD) construct. For example, one ARD can manifest each building block from the MLOps Stack Canvas. The simplified ARD format consists of three essential components:
+
+*ARD*: A brief description of the architectural decision.
+
+*Context*: A short description of the problem.
+
+*Decision*: Here, we describe the actual architectural decision with a detailed explanation.
+
+*Consequences*: This section provides any implications of the architecture decision. This section is also a good place to discuss any architectural trade-offs. 
+
+The following is a simplified example of such ARD.
+
+*ARD: Dataset versioning*.
+
+*Context*: As requested by the regulatory requirements, every retraining of the ML model should be in sync with the changes in the dataset. 
+
+*Decision*: The ML model should be retrained whenever a new batch of data points is collected.  Therefore, we decided to use DVC to track datasets and ML models. An alternative solution would be LakeFS.
+
+*Consequences*: We need to move our data storage to the DVC-supported storage mechanisms. Additionally, upskilling our team members is required.
+
 
 ### MLOps Maturity Level
 
