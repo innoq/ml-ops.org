@@ -20,17 +20,17 @@ html {
 @font-face {
   font-family: FFMarkWebProBook;
   font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), 
-       url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), 
-       url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype"); 
+  src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"),
+  url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"),
+  url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
 }
 
 @font-face {
   font-family: FFMarkWebProBold;
   font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), 
-       url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), 
-       url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype"); 
+  src: url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"),
+  url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"),
+  url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
 }
 
 body {
@@ -173,7 +173,7 @@ table td {
 }
 
 .sidenav__links {
-  display: block; 
+  display: block;
   padding-top: 60px;
 }
 
@@ -196,8 +196,8 @@ table td {
   /* height: 631px; */
   background-image: url('/assets/gradient_header.svg');
   background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom;
+  background-size: cover;
+  background-position: bottom;
 }
 
 .header__flex {
@@ -243,6 +243,105 @@ table td {
   line-height: 150%;
   margin-top: 30px;
 }
+
+
+/*// navbar__meta // container*/
+
+.navbar__meta {
+
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  /*justify-content: left;*/
+  order: 1;
+  /*padding: 2rem;*/
+  padding-right: 0;
+  /*background-color: $navbar-lightened-bg;*/
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.navbtn--meta {
+  margin-right: 1px;
+}
+
+.navbtn {
+  position: relative;
+  display: inline-block;
+  border: 0;
+  background-color: transparent;
+  /*color: $navbar-link-color;*/
+  cursor: pointer;
+  text-decoration: none;
+  /*transition: $navbar-navbtn-transition;*/
+  white-space: nowrap;
+  padding-left: 15px;
+}
+
+
+/*search*/
+.navbtn--search {
+  padding: 0 0 0 1px;
+}
+
+@font-face {
+  font-family: "icons";
+  font-display: swap;
+  src: url("https://assets.innoq.com/fonts/icomoon.woff2?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("woff2"), url("https://assets.innoq.com/fonts/icomoon.woff?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("woff"), url("https://assets.innoq.com/fonts/icomoon.ttf?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("truetype"), url("https://assets.innoq.com/fonts/icomoon.svg?cachebuster=7d0a3995eec718ff34fa8444132981c6#icons") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.icon {
+  position: relative;
+  top: 2px;
+  text-transform: none;
+  line-height: 1;
+  font-family: "icons";
+  font-size: 0.8em;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  speak: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "b";
+}
+
+
+/* navigation bar*/
+.navbar__content {
+  display: flex;
+  overflow: auto;
+  justify-content: space-between;
+  /*padding: 5rem 0;*/
+}
+
+.navbar__content__left {
+  /*width: 50%;*/
+  padding-right: 4rem;
+  float: left;
+}
+
+.navbar__content__right {
+  /*width: 50%;*/
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+  /*padding: 2rem;*/
+  padding-right: 0;
+  padding-left: unset;
+  /*background-color: $navbar-lightened-bg;*/
+  font-size: 1rem;
+  text-transform: uppercase;
+  float: right;
+}
+
 
 /* Getting Started */
 .gettingstarted__content {
@@ -307,7 +406,7 @@ table td {
   margin: -4px 0 20px 0;
 }
 
-  .teasersection__teasergrid__teaser ul li {
+.teasersection__teasergrid__teaser ul li {
   font-size: 1rem;
   padding-bottom: 0.5rem;
 }
@@ -319,7 +418,7 @@ footer {
   padding: 100px 0 100px 0;
   background-image: url('/assets/gradient_footer.svg');
   background-repeat: no-repeat;
-	background-size: cover;
+  background-size: cover;
   background-position: top;
   z-index: 2;
 }
@@ -417,14 +516,13 @@ a.button:hover {
 }
 
 
-
 /* Media Queries */
 /* On screens that are 1070px wide or less, go from four columns to two columns */
 @media screen and (max-width: 1070px) {
   html {
     font-size: 12px;
   }
-  
+
   .container {
     padding: 0 20px;
   }
@@ -471,42 +569,42 @@ a.button:hover {
 
   .teasersection__teasergrid__teaser {
     min-height: 280px;
-  }  
-  
+  }
+
   /* Article */
   .header__logo {
     display: inline;
   }
-  
+
   .sidenav {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 80px;
   }
-  
+
   .sidenav__links {
     display: none;
   }
-  
+
   .sidenav__back {
     margin: 4px 0 0 0;
   }
-  
+
   .article__main {
     margin: auto;
     padding: 120px 20px;
     width: 100%;
   }
-  
+
   footer {
     margin-top: 60px;
   }
 
-    .footer__content {
-      width: 90%;
-    }
-  
+  .footer__content {
+    width: 90%;
+  }
+
   .footer__article {
     width: 100%;
     margin: 0;
