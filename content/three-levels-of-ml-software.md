@@ -16,7 +16,7 @@ We recommend ***documenting*** everything you have learned in each step of the w
 
 ## Data: Data Engineering Pipelines
 
-We mentioned previously that the fundamental part of any machine learning workflow is **Data**.
+We mentioned previously that the fundamental part of any machine learning workflow is **[Data](https://www.datamesh-architecture.com/)**.
 Collecting good data sets has a huge impact on the quality and performance of the ML model.
 The famous citation
 

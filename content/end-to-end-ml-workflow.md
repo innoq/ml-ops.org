@@ -56,5 +56,7 @@ This stage includes the following operations:
 2. *Model Performance Monitoring* - The process of observing the ML model performance based on live and previously unseen data, such as prediction or recommendation. In particular, we are interested in ML-specific signals, such as prediction deviation from previous model performance. These signals might be used as triggers for model re-training.
 3. *Model Performance Logging* - Every inference request results in the log-record.
 
+Further reading: "[Data Mesh Archtitecture](https://www.datamesh-architecture.com/)"
+
 
 
