@@ -116,10 +116,12 @@ Models used in the healthcare and financial sectors are examples of models opera
 It is important to integrate model governance processes into every step of the ML life cycle from the very beginning. The following [Model Governance framework](https://www.oreilly.com/library/view/the-framework-for/9781098100483/ch01.html) guides through the whole life cycle and covers both legal and corporate requirements.
 
 This table describes the main components of the framework for model governance which should be integrated into every stage of the ML life cycle:
+
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title><**MLOps-Model Governance-Framework**</title>
+    <title>MLOps-Model Governance-Framework</title>
   </head>
   <body>
 <div class="page-layout-xl--default">
@@ -175,7 +177,7 @@ This table describes the main components of the framework for model governance w
 </body>
 </html>
 
-xxxxx
+
 
 ## Reproducibility and Validation
 
