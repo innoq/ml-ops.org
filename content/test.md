@@ -116,45 +116,6 @@ Models used in the healthcare and financial sectors are examples of models opera
 It is important to integrate model governance processes into every step of the ML life cycle from the very beginning. The following [Model Governance framework](https://www.oreilly.com/library/view/the-framework-for/9781098100483/ch01.html) guides through the whole life cycle and covers both legal and corporate requirements.
 
 This table describes the main components of the framework for model governance which should be integrated into every stage of the ML life cycle:
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-<div class="page-layout-xl--default">
-   <table class="table table-striped">
-    <thead>
-      <th  class="table-head" scope="col">MLOps Stage</th>
-      <th  class="table-head" scope="col">Output of the Stage Execution</th>
-    </thead>
-    <tr>
-      <td class="tg-0lax">Development &amp; Experimentation (ML algorithms, new ML models)</td>
-      <td class="tg-0lax">Source code for pipelines: Data extraction, validation, preparation, model training, model evaluation, model testing</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Pipeline Continuous Integration (Build source code and run tests)</td>
-      <td class="tg-0lax">Pipeline components to be deployed: packages and executables.</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Pipeline Continuous Delivery (Deploy pipelines to the target environment)</td>
-      <td class="tg-0lax">Deployed pipeline with new implementation of the model.</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Automated Triggering (Pipeline is automatically executed in production. Schedule or trigger are used)</td>
-      <td class="tg-0lax">Trained model that is stored in the model registry.</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Model Continuous Delivery (Model serving for prediction)</td>
-      <td class="tg-0lax">Deployed model prediction service (e.g. model exposed as REST API)</td>
-    </tr>
-    <tr>
-      <td class="tg-0lax">Monitoring (Collecting data about the model performance on live data)</td>
-      <td class="tg-0lax">Trigger to execute the pipeline or to start a new experiment cycle.</td>
-    </tr>
-  </table></div>
-  </body>
-  </html>
 
 
 <html lang="en" dir="ltr">
