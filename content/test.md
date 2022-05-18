@@ -160,7 +160,7 @@ This table describes the main components of the framework for model governance w
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>MLOps-Model Governance-Framework</title>
+    <title></title>
   </head>
   <body>
 <div class="page-layout-xl--default">
@@ -175,17 +175,14 @@ This table describes the main components of the framework for model governance w
 <tbody>
   <tr>
     <td>Development (building the training pipeline) </td>
-    <td>Reproducibility, <br> Validation</td>
-    <td>Model Metadata Management, Model Documentation, Model and Data Registry <br>
-    Model Evaluation and Validation</td>
+    <td>Reproducibility, Validation</td>
+    <td>Model Metadata Management, Model Documentation, Model and Data Registry,    Model Evaluation and Validation </td>
 
   </tr>
   <tr>
     <td>Deployment & Operations </td>
     <td>Observation, Visibility, Control </td>
-    <td>Logging (Serving Logs), <br> Continuous Monitoring and Evaluation, <br> ML Infrastructure Cost Transparency, Versioning of Models and Data Sets <br> Tracking ML-Metadata in ML Metadata and Artifact Registry
-
-</td>
+    <td>Logging (Serving Logs), Continuous Monitoring and Evaluation, ML Infrastructure Cost Transparency, Versioning of Models and Data Sets Tracking ML-Metadata in ML Metadata and Artifact Registry</td>
   </tr>
   <tr>
     <td></td>
@@ -200,13 +197,12 @@ This table describes the main components of the framework for model governance w
   <tr>
     <td></td>
     <td>Security</td>
-    <td>Data, Information and Infrastructure Security,<br> Compliance with IT standards, <br> Authentication, SSO and RBAC, <br> Management of Model Endpoints and API, <br> Management of Keys and Secrets, System Testing
-</td>
+    <td>Data, Information and Infrastructure Security, Compliance with IT standards, Authentication, SSO and RBAC, Management of Model Endpoints and API, Management of Keys and Secrets, System Testing </td>
   </tr>
   <tr>
     <td></td>
     <td>Conformity and Auditability</td>
-    <td> Collecting relevant information from Model Logging (ML metadata), Documentation, Audit Results, Conformity Testing and certificate of conformity (CE Mark)
+    <td> Collecting relevant information from Model Logging (ML metadata), Documentation, Audit Results, Conformity Testing and certificate of conformity (CE Mark) </td>
   </tr>
   <tr>
     
