@@ -63,19 +63,19 @@ Companies already have to comply with [several legal regulations](https://www.lu
 
 Fig. 2: Different risk categories according to EU draft on AI regulation
 
-**Category 1 (“Unacceptable Risk”)**
+### Category 1 (“Unacceptable Risk”)
 
 AI software considered to be a significant risk for security, livelihoods, and human rights is forbidden (e.g., social scoring systems).
 
-**Category 2 (“High Risk”)**
+### Category 2 (“High Risk”)
 
 AI software in the "high" risk category is subject to strict requirements. [These include the following aspects](https://germany.representation.ec.europa.eu/news/fur-vertrauenswurdige-kunstliche-intelligenz-eu-kommission-legt-weltweit-ersten-rechtsrahmen-vor-2021-04-21_de): Robustness, security, accuracy (precision), documentation and logging as well as appropriate risk assessment and mitigation. [Further requirements](https://planit.legal/das-ki-gesetz-der-eu-entwurf-und-diskussionsstand/) include high-quality training data, non-discrimination, traceability, transparency, human monitoring, and the need for conformity testing and proof of compliance through CE marking. Examples of ML systems in this category include private and public services (credit scoring) or systems used in education or vocational training to decide on a person's access to education and career path (e.g., exam scoring).
 
-**Category 3 (“Limited Risk”)**
+### Category 3 (“Limited Risk”)
 
 This AI software is subject to a transparency obligation. For example, chatbot users must be informed that they are interacting with AI software.
 
-**Category 4 (“Minimal Risk”)**
+### Category 4 (“Minimal Risk”)
 
 AI software in this category is not subject to any regulation (e.g., spam filters).
 
@@ -116,7 +116,6 @@ Models used in the healthcare and financial sectors are examples of models opera
 It is important to integrate model governance processes into every step of the ML life cycle from the very beginning. The following [Model Governance framework](https://www.oreilly.com/library/view/the-framework-for/9781098100483/ch01.html) guides through the whole life cycle and covers both legal and corporate requirements.
 
 This table describes the main components of the framework for model governance which should be integrated into every stage of the ML life cycle:
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -146,28 +145,22 @@ This table describes the main components of the framework for model governance w
     <td>Logging (Serving Logs), <br> Continuous Monitoring and Evaluation, <br> ML Infrastructure Cost Transparency, Versioning of Models and Data Sets <br> Tracking ML-Metadata in ML Metadata and Artifact Registry
 
 </td>
-   
-
   </tr>
   <tr>
     <td></td>
     <td>Monitoring and Alerting</td>
     <td>Continuous Monitoring and Continous Evaluation, Automated Alert Function (in response to performance loss or distribution shifts) </td>
-    
-
   </tr>
   <tr>
     <td></td>
     <td>Model Service Catalog</td>
-    <td>Providing requested information on models for internal reusability</td>
-    
+    <td>Providing requested information on models for internal reusability</td> 
   </tr>
   <tr>
     <td></td>
     <td>Security</td>
     <td>Data, Information and Infrastructure Security,<br> Compliance with IT standards, <br> Authentication, SSO and RBAC, <br> Management of Model Endpoints and API, <br> Management of Keys and Secrets, System Testing
 </td>
-
   </tr>
   <tr>
     <td></td>
@@ -182,8 +175,9 @@ This table describes the main components of the framework for model governance w
 </body>
 </html>
 
+xxxxx
 
-**Reproducibility and Validation**
+## Reproducibility and Validation
 
 In the first phase of the ML lifecycle, **reproducibility must be established and the model should be validated**.
 
@@ -196,19 +190,19 @@ Another important component of validation is explainability: are developers able
 
 After model deployment, model governance processes should be integrated into the deployment and operations phases of the ML lifecycle:
 
-**Observation, Security, Control**
+## Observation, Security, Control
 
 This component enables companies to provide transparency about the model which includes **logging, metrics and auditing**: model logging values are processed into metrics and visualized in dashboards for analysis and communication purposes. **Cost transparency** provides visibility into costs and facilitates billing of various teams for a specific model and resource usage. **Model Usage Reports** provide visibility into the success and adoption of individual models and can support access control. The last component includes *versioning of model and data*, to ensure that all models can be restored without data loss or modification and that model prediction can be traced back to the model version that has produced them.
 
-**Monitoring and Alerting**
+## Monitoring and Alerting
 
 Key metrics should be continuously monitored to detect deviations early. If deviations, such as distribution shifts or performance loss are detected, alerts should be sent to inform stakeholders immediately (if MLOps-pipelines are fully automated, deviations will automatically trigger the CI/CD training pipeline). The monitoring engine requires appropriate platform and infrastructure integration with dashboard and monitoring tools, continuous monitoring of uptime SLA as a metric for application stability and availability, and alerting functionalities when problems occur. 
 
-**Model Service Catalog**
+## Model Service Catalog
 
 The Model Service Catalog is an internal marketplace of all ML models in the enterprise. The catalog should have a good UX, it should be connected to the location of model storage, and it should display relevant metadata for a model such as its latest version, inputs, and outputs. Employees with appropriate permissions can access the catalog, search for models, and retrieve requested information about the models.
 
-**Security**
+## Security 
 
 [ML security](https://www.innoq.com/de/articles/2021/08/machine-learning-security-teil-2/) is an important aspect of the model governance agenda. [This study](https://www.gartner.com/en/documents/3939991) by Gartner estimates that by 2022 thirty percent of cyber security attacks will have an ML-specific character.
 To be protected against these attacks, measures must be taken to meet required security standards. For example, making models accessible through HTTP comes with the concurrent risk of misuse.  Therefore, adherence to IT standards (DNS, proxies, and load balancing for data traffic) is very important. However, the complexity of these standards may require the services of third-party providers. 
@@ -217,7 +211,7 @@ ML security management needs to secure and manage endpoints to make sure that on
 
 Protection against ML-specific cybersecurity attacks is also very important. With models often being trained on sensitive data, **data and information security** play an important role. Using this [Adversarial ML Threat Matrix](https://github.com/mitre/advMLthreatmatrix) might be helpful: it is comparable to the classic Attack Chain Modeling and builds on the well-established [MITRE Att&CK](https://attack.mitre.org/), a globally accessible knowledge base of attacks and techniques. MITRE Att&CK is used as a guideline for the development of specific threat models and methods in the private sector, in governments, and in the field of cyber security products and services. The Adversarial ML Threat Matrix is a similar concept for ML security – it contains a collection of known weaknesses and the associated attacks.
 
-**Conformity and Auditability** 
+## Conformity and Auditability 
 
 Models of the high-risk category are supposed to undergo [conformity testing in order to be eligible to receive the CE marking](https://planit.legal/das-ki-gesetz-der-eu-entwurf-und-diskussionsstand/), which is a prerequisite to placing models on the European market. In order to fulfill the compliance and auditability requirements of a heavily regulated domain, the model governance framework should be as automated, transparent, and complete as possible. **Model logging, metrics, and audits** are very important in order to prove compliance with requirements. This includes collected and visually prepared model information, for example displaying metrics in dashboards, model and data versioning, and audit results (tested components of the validation in the development phase). Compliance with security requirements is another prerequisite for passing conformity testing: permissions, authorized access to ML applications and authentications have to be put into place. 
 Each domain is subject to different regulations, and there is no one-size-fits-it-all solution. Compliance is very complex and often requires years of expertise. This makes it even more important to involve compliance and security experts in the model governance strategy from the very beginning to make sure that important considerations are not being overlooked. 
@@ -240,7 +234,7 @@ Fig. 4: Data and model management are cross-purpose processes in the MLOps life 
 
 
 
-**Model Governance as Part of Model Management**
+## Model Governance as Part of Model Management 
 
 Model governance encompasses the **recording, auditing, validation, approval, and monitoring of models**. In this variant, model governance is the final supervisory authority to approve a model for being deployed into the production environment. The list below summarizes the model governance components with the necessary tasks and artifacts. For the implementation of these tasks, model governance uses information from the ML metadata, the artifact repository, and the model registry.
 
