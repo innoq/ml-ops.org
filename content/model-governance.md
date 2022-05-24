@@ -8,7 +8,7 @@ layout: article
 # MLOps and Model Governance
 
 
-MLOps and Model Governance are often perceived as separate processes, but they are strongly interrelated. Therefore, we introduce the integration of these frameworks and explain the most important principles and technical components of MLOps and ML model governance.
+MLOps and Model Governance are often perceived as separate processes. However, they are tightly interwoven. This chapter introduces the integration of these frameworks and explains essential principles and technical components of MLOps and ML model governance.
 
 Recently, [Machine Learning Operations (MLOPs)](https://www.innoq.com/de/articles/2020/10/mlops-operations-fuer-machine-learning/) has received a lot of attention as it promises to bring machine learning (ML) models into production quickly, effectively, and for the long term. MLOps is equivalent to DevOps in software engineering: it is an extension of DevOps for the design, development, and sustainable deployment of ML models in software systems. Model Governance encompasses a set of processes and frameworks that help in the deployment of ML. Setting up automatized and reproducible data and ML pipelines reduces the amount of time required to bring models into production (time-to-market). There are six interactive phases in the ML development process:
 
