@@ -10,14 +10,6 @@ layout: article
 
 MLOps and Model Governance are often perceived as separate processes, but they are strongly interrelated. Therefore, we introduce the integration of these frameworks and explain the most important principles and technical components of MLOps and ML model governance.
 
-
-1. Model Governance- A New Challenge
-2. AI in Germany
-3. Model Governance Will Not Be Optional
-4. The Integration of Model Governance and MLOps
-5. Summary – The Main Components of Model Governance
-
-
 Recently, [Machine Learning Operations (MLOPs)](https://www.innoq.com/de/articles/2020/10/mlops-operations-fuer-machine-learning/) has received a lot of attention as it promises to bring machine learning (ML) models into production quickly, effectively, and for the long term. MLOps is equivalent to DevOps in software engineering: it is an extension of DevOps for the design, development, and sustainable deployment of ML models in software systems. Model Governance encompasses a set of processes and frameworks that help in the deployment of ML. Setting up automatized and reproducible data and ML pipelines reduces the amount of time required to bring models into production (time-to-market). There are six interactive phases in the ML development process:
 
 - Business and Data Understanding
@@ -48,11 +40,6 @@ Collectively, these processes are referred to as *[Model Governance](https://www
 
 Organizations often don’t recognize the importance of Model Governance until models are supposed to be deployed. Many companies have automatized  ML pipelines but fail to bring models into compliance with legal requirements. [According to an *Algorithmia*-Study](https://www.artificialintelligence-news.com) from 2021, 56 percent of respondents considered the implementation of model governance to be one of the biggest challenges for successfully bringing ML applications into production. In Germany, this [*IDG Research Services ML 2021 study*](https://www.lufthansa-industry-solutions.com/de-de/studien/idg-studie-machine-learning-2021) found that 26.2 percent of companies believe that compliance risks pose the biggest challenge, while  35.8 percent consider legal considerations (such as transparency of algorithmic decision-making) to be a remaining difficulty. 
 
-
-## AI in Germany
-
-
-According to this [*2021 Machine Learning study*](https://www.lufthansa-industry-solutions.com/de-en/studies/idg-study-machine-learning-2021), 73 percent of organizations with more than 10,000 employees and 59 percent of smaller companies use ML. ML is used in industries like IT (76%), production (57%), research and development (54.1%), logistics (52.9%), and sales (50.6%). Examples of use cases are quality assurance in production (53.8%), error reduction (43.8%), the automation of processes (40.2%), automatized case management (36.7%), optimization of the supply chain (34.9%), chatbots (30.2%), route optimization (30.2%), predictive maintenance (29.6%), customer self-service (29.6%), and intelligent product development (29.6%). For all of these domains and applications, organizations must implement MLOps to deploy ML models and build model governance frameworks to ensure models comply with regulations. 
 
 
 ## Model Governance Will Not Be Optional

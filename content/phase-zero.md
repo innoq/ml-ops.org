@@ -185,6 +185,9 @@ Another question would be *when to deploy ML/AI?* The following Figure shows the
 
 <img src="../img/When-to-deploy-ai.jpg" alt="When to Deploy AI?" width="800"/>
 
+##### Training
++ [Domain-driven Design for Machine Learning products](https://www.socreatory.com/en/trainings/ddd4ml)
+
 ##### Further reading
 
  + ["What is THE main reason most ML projects fail?"](https://towardsdatascience.com/what-is-the-main-reason-most-ml-projects-fail-515d409a161f)
