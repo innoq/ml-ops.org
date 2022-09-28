@@ -11,7 +11,7 @@ layout: article
 
 According to the [current surveys](https://info.algorithmia.com/tt-state-of-ml-2021), 49% of organizations experience challenges with integrating their ML tooling, frameworks, and languages technology stack. The reason for this challenge is that ML technology is still evolving and is in its early stages. Additionally, the development of MLOps tooling is happening at a fast pace, making the adoption of such a fast-developing infrastructure difficult for getting ML-system into production sustainably.  
 
-**To specify an architecture and infrastructure stack for Machine Learning Operations, we suggest a general MLOps Stack Canvas framework designed to be application- and industry-neutral.** We align to the [CRISP-ML(Q) model](https://ml-ops.org/content/crisp-ml) and describe the eleven components of the MLOps stack and line them up along with the ML Lifecycle and the [“AI Readiness”](https://services.google.com/fh/files/misc/ai_adoption_framework_whitepaper.pdf) level to select the right amount of MLOps processes and technlogy components. 
+**To specify an architecture and infrastructure stack for Machine Learning Operations, we suggest a general MLOps Stack Canvas framework designed to be application- and industry-neutral.** We align to the [CRISP-ML(Q) model](https://ml-ops.org/content/crisp-ml) and describe the eleven components of the MLOps stack and line them up along with the ML Lifecycle and the [“AI Readiness”](https://services.google.com/fh/files/misc/ai_adoption_framework_whitepaper.pdf) level to select the right amount of MLOps processes and technology components. 
 
 
 
