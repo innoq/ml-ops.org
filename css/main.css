@@ -416,7 +416,14 @@ a.button:hover {
   padding-bottom: 1rem;
 }
 
+.notification-banner {
+  
+}
 
+.notification-banner__image {
+  min-height: 2.5rem;
+  object-fit: cover;
+}
 
 /* Media Queries */
 /* On screens that are 1070px wide or less, go from four columns to two columns */
