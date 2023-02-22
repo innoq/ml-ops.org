@@ -416,7 +416,8 @@ a.button:hover {
   padding-bottom: 1rem;
 }
 
-.notification-banner__image {
+.notification-banner {
+  display: block;
   min-height: 3rem;
   object-fit: cover;
 }
