@@ -5,4 +5,8 @@ author:
   name: INNOQ
   url: https://www.innoq.com
 
-markdown: kramdown
+safe: true
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
