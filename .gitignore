@@ -1,6 +1,16 @@
-_site
-.DS_Store
-.jekyll-cache
+# Bundler
+.bundle/
+vendor/
+
+# IntelliJ
+*.iml
+.idea/
+
+# Jekyll
+.jekyll-cache/
 .jekyll-metadata
-.sass-cache
-vendor
+.sass-cache/
+_site/
+
+# Mac
+.DS_Store
