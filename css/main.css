@@ -416,12 +416,6 @@ a.button:hover {
   padding-bottom: 1rem;
 }
 
-.notification-banner {
-  display: block;
-  min-height: 3rem;
-  object-fit: cover;
-}
-
 /* Media Queries */
 /* On screens that are 1070px wide or less, go from four columns to two columns */
 @media screen and (max-width: 1070px) {
